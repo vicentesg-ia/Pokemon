@@ -29,6 +29,17 @@ Si piden varios Pokémon ("fichas del 2 al 4"), haz cada uno completo y por orde
 | Precios en EUR (canal ES) | Cardmarket | — |
 | Ventas récord y cartas graduadas | PSA (`www.psacard.com`), Heritage (`www.ha.com`), Goldin (`goldin.co`), PriceCharting | Noticias fiables si la venta fue mediática |
 
+### Cómo acceder desde el entorno cloud (aprendido con #001)
+Bulbapedia, WikiDex, Cardmarket y PSA **bloquean el acceso automático** (403 o comprobación anti-bots), aunque estén permitidos en la red. Usa esto:
+- **Datos de juego** (altura, peso, categoría, estadísticas, evoluciones, entradas de la Pokédex en español): CSV de PokeAPI en `https://raw.githubusercontent.com/PokeAPI/pokeapi/master/data/v2/csv/` (`pokemon`, `pokemon_species_names` con idioma 7=es y 9=en, `pokemon_species_flavor_text`, `pokemon_evolution`, `pokemon_stats`).
+- **Diseño, anime, trivia y fandom:** la herramienta `WebSearch`, que resume Bulbapedia, Wikipedia, Serebii, etc. y devuelve URLs citables. Lanza varias búsquedas en paralelo, una por tema.
+- **Cartas e imágenes oficiales:** `https://api.pokemontcg.io/v2/cards?q=name:<nombre>&pageSize=100`. Incluye la imagen (`images.large`) y precios de TCGplayer (USD, por variante) y Cardmarket (EUR, `trendPrice`, `reverseHoloTrend`…). Solo tiene cartas en inglés.
+- **Precios graduados y cartas japonesas:** PriceCharting.
+  - Búsqueda: `https://www.pricecharting.com/search-products?q=<nombre>&type=prices`. Las columnas son *Ungraded*, *Grade 7* y *Grade 8*, **no** PSA 10.
+  - Ficha de cada carta (`/game/<set>/<carta>`): la tabla `full-prices` trae Ungraded, Grade 9, PSA 10, etc.
+  - Los valores de *BGS 10 Black* son estimaciones: no usarlos.
+- **Ventas récord:** `WebSearch` en modo `extended`. Una venta solo se da por buena si aparece en PSA Auction Prices, en una casa de subastas o en dos fuentes independientes.
+
 ### Reglas de verificación
 - **Cada dato lleva su fuente** (URL) en la ficha. Si un dato no se puede verificar, no entra, o entra marcado como `⚠️ sin confirmar` para que Vicente decida.
 - Los datos curiosos y de diseño (inspiración, diseñador, origen del nombre) deben aparecer en **dos fuentes**, o en una fuente oficial o una entrevista citada.
