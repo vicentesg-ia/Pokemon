@@ -5,9 +5,10 @@
 > ⚠️ Bulbapedia, WikiDex, Cardmarket y PSA bloquean el acceso automático desde el entorno. Por eso los datos salen de PokeAPI (datos oficiales de los juegos), PriceCharting, TCGplayer (vía pokemontcg.io), Wikipedia y búsquedas web. Los datos que dependen de una sola fuente no oficial van marcados.
 
 ## Ángulo del vídeo
-**El número 1 de todo.** Pokémon cumple 30 años en 2026, y la historia empieza con un Pokémon que ni siquiera la ciencia del juego sabe clasificar (¿planta o animal?). Es el inicial más leal del anime y tiene una carta "de relleno" que hoy vale más que un coche.
+**El número 1 de todo.** Pokémon cumple 30 años en 2026, y la historia empieza con un Pokémon que ni en su propio mundo saben clasificar (¿planta o animal?). Es el inicial más leal del anime, y en agosto de 2026 **una foto suya hecha en un videojuego se vendió por 809.943 $**.
 
 ## Ganchos propuestos (0:00–0:30)
+0. ⭐ **Récord (recomendado):** "En 1999, alguien sacó una foto a un Bulbasaur dentro de un videojuego. En agosto de 2026, esa foto, convertida en carta, se vendió por 809.943 dólares. Es la carta de Bulbasaur más cara de la historia… y hoy te cuento por qué."
 1. **30 años:** "Hace 30 años, la primera página de la Pokédex se abrió con este Pokémon. Y todavía nadie sabe si es una planta o un animal."
 2. **Carta:** "Esta carta de Bulbasaur salía en sobres de 2002 como una carta común más. Hoy, en perfecto estado, se vende por más de 16.000 dólares." *(Legendary Collection reverse holo, ver Cartas.)*
 3. **Lealtad:** "El Bulbasaur de Ash se negó a evolucionar, se quedó a vivir en el laboratorio del Profesor Oak… y se convirtió en el pacificador de 100 Pokémon."
@@ -67,6 +68,7 @@
 ### Más icónicas
 | Carta | Set / año | Por qué es icónica | Imagen | Fuente |
 |---|---|---|---|---|
+| ⭐ Snap Bulbasaur, CoroCoro Best Photo #1 | Promo japonesa, 1999 | Premio de un concurso de fotos de **Pokémon Snap** (N64): la ilustración es una foto hecha por un jugador dentro del juego. Muy pocas copias (unas 20 por ganador según una carta de Media Factory de 1999; ⚠️ cifra sin confirmar) | foto de la venta en Goldin/130point | [Pokumon](https://pokumon.com/1999-pokemon-snap-photo-contests/), [Bulbapedia](https://bulbapedia.bulbagarden.net/wiki/CoroCoro_Pok%C3%A9mon_Snap_Contest) |
 | Bulbasaur #44 (1ª edición) | Base Set, 1999 | Primer Bulbasaur en inglés, el nº 1 de cualquier colección clásica | [img](https://images.pokemontcg.io/base1/44_hires.png) | [PriceCharting](https://www.pricecharting.com/game/pokemon-base-set/bulbasaur-1st-edition-44) |
 | Bulbasaur "No Rarity" #1 (japonesa) | Expansion Pack, 1996 | La **primera carta de Bulbasaur de la historia**: primera tirada japonesa, sin símbolo de rareza | — | [PriceCharting](https://www.pricecharting.com/game/pokemon-japanese-expansion-pack/bulbasaur-no-rarity-1) |
 | Erika's Bulbasaur (Glossy CoroCoro) #1 | Promo japonesa | Promo de la revista CoroCoro, muy buscada por los coleccionistas | — | [PriceCharting](https://www.pricecharting.com/game/pokemon-japanese-promo/erika%27s-bulbasaur-glossy-corocoro-1) |
@@ -86,23 +88,28 @@
 Dato de contraste: el Bulbasaur #44 normal (sin 1ª edición) vale unos **3 $ sin graduar y 367 $ en PSA 10**. La misma ilustración multiplica su precio por más de 100 según la edición y el estado.
 
 ### Ventas récord
+> Fuente principal: [130point.com](https://130point.com), que reúne ventas reales de eBay, Goldin, Fanatics, Heritage y otras. La encontró Vicente.
+
 | Carta | Grado | Precio | Dónde | Fecha | Fuente |
 |---|---|---|---|---|---|
+| ⭐ **1999 CoroCoro Best Photo #1 "Snap Bulbasaur"** (promo japonesa) | PSA 8 | **809.943 $** (subasta, 49 pujas) | Goldin, Summer TCG Auction | 09/10-08-2026 | 130point (captura de Vicente), [Sports Illustrated](https://www.si.com/collectibles/vintage-pokemon-promo-most-valuable-bulbasaur-card-ever), [Comics Beat](https://www.comicsbeat.com/goldins-summer-tcg-auction-generates-18-million-plus-in-total-sales/), [Sports Card Portal](https://sportscardportal.com/news/the-most-expensive-bulbasaur-card-ever-sold) · **récord absoluto de Bulbasaur, más de 600.000 $ por encima del anterior** |
+| Snap Bulbasaur (la misma carta) | PSA 9 | 200.000 $ (precio fijo) | Fanatics Collect | 05-07-2025 | 130point (captura de Vicente) |
+| Snap Bulbasaur (la misma carta) | PSA 9 | 80.520 $ (precio fijo) | Goldin | 17-11-2023 | 130point (captura de Vicente) |
+| 2000 Topps Chrome Series 2 Tekno Bulbasaur #1 | PSA 10 | 50.400 $ (subasta, 81 pujas) | Fanatics Collect | 12-10-2026 | 130point (captura de Vicente) |
 | Bulbasaur Base Set 1999 | PSA 10 | 4.350 $ | eBay (registro de PSA) | 23-09-2025 | [PSA Auction Prices](https://www.psacard.com/auctionprices/tcg-cards/1999-pokemon-game/BULBASAUR/544071) ⚠️ falta confirmar si es 1ª edición o ilimitada (PSA bloquea el acceso directo) |
-| "Snap Bulbasaur" | Desconocido | 200.000 $ | Desconocido | 07-2025 | [Collider](https://collider.com/rarest-pokemon-cards-ranked/) ⚠️ **sin confirmar, fuente única. Propongo NO usarlo** salvo que aparezca una segunda fuente fiable |
 
 ## Estructura propuesta
 | Bloque | Peso | Por qué |
 |---|---|---|
-| 1. Gancho | 5% | 30 años y la Pokédex abre con él, o la carta de 16.000 $ |
+| 1. Gancho | 5% | La foto de un videojuego que se vendió por 809.943 $ |
 | 2. Presentación | 10% | Ficha rápida: #001, Planta/Veneno, Semilla, evoluciones |
 | 3. Diseño y origen | 20% | ↑ Tiene mucha chicha: Nishida y Sugimori, diseño "al revés", cebolla y rana toro, Fushigi da ne, ¿planta o animal? |
-| 4. Juegos, anime y películas | 25% | Amarillo y el cariño de Pikachu; el Bulbasaur de Ash (aldea oculta, no evolucionar, pacificador) |
-| 5. Por qué lo adora el fandom | 15% | ↓ Encuesta 2020 (3º de Kanto, por delante de Pikachu), el nº 1 simbólico, memes |
-| 6. Las cartas | 20% | La primera carta japonesa, el 1ª edición y la reverse holo de 16.000 $ |
+| 4. Juegos, anime y películas | 22% | Amarillo y el cariño de Pikachu; el Bulbasaur de Ash (aldea oculta, no evolucionar, pacificador) |
+| 5. Por qué lo adora el fandom | 13% | ↓ Encuesta 2020 (3º de Kanto, por delante de Pikachu), el nº 1 simbólico, memes |
+| 6. Las cartas | 25% | ↑ **El Snap Bulbasaur de 809.943 $** (historia del concurso de fotos de Pokémon Snap), la primera carta japonesa, la 1ª edición y la reverse holo de 16.000 $ |
 | 7. Cierre | 5% | Adelanto: Ivysaur, "el Pokémon del que nadie habla" |
 
-**Duración estimada: 9-11 minutos.**
+**Duración estimada: 10-12 minutos.**
 
 ## Momentos para clips realistas (MAGI-2)
 1. **Apertura (5-10 s):** amanecer en un claro del bosque. Bulbasaur dormido al sol; el bulbo se abre un poco y absorbe la luz (basado en la Pokédex de Rubí Omega). Plano macro de las gotas sobre las hojas, se despierta y mira a cámara.
@@ -117,7 +124,7 @@ Dato de contraste: el Bulbasaur #44 normal (sin 1ª edición) vale unos **3 $ si
 - Escena de "¿planta o animal?": cuaderno de científico con bocetos de Bulbasaur
 
 ## Dudas y datos sin confirmar
-1. **"Snap Bulbasaur" de 200.000 $:** propongo no usarlo.
+1. ~~"Snap Bulbasaur" de 200.000 $~~ → **resuelto**: es la misma carta, vendida en PSA 9. El récord es de **809.943 $** (PSA 8, Goldin, agosto de 2026).
 2. **Venta PSA 10 de 4.350 $:** ¿1ª edición o ilimitada? Si no se confirma, se dice "un Bulbasaur del Base Set en PSA 10 se ha vendido por más de 4.000 $".
 3. **Euros:** Cardmarket bloquea el acceso directo y solo tengo EUR de algunas cartas inglesas sin graduar. **¿Muestro en el canal ES los precios en dólares convertidos a euros** (indicando que es una conversión), o solo los EUR de Cardmarket cuando existan?
 4. **Doblaje latino:** no he podido entrar en WikiDex para los títulos de episodios en latino.
@@ -129,4 +136,5 @@ Dato de contraste: el Bulbasaur #44 normal (sin 1ª edición) vale unos **3 $ si
 - [pokemondb.net](https://pokemondb.net/pokedex/bulbasaur) · [Giant Bomb](https://giantbomb.com/wiki/Concepts/Bulbasaur) · [Serebii](https://serebii.net/yellow/gift.shtml)
 - [Bulbapedia](https://bulbapedia.bulbagarden.net) (vía búsqueda): Fushigidane, Episodio 10, Ash's Bulbasaur, Melanie, EP225
 - [Nintendo Wire: Pokémon of the Year 2020](https://nintendowire.com/news/2020/02/27/greninja-tops-googles-2020-pokemon-of-the-year-list/) · [Anime News Network](https://www.animenewsnetwork.com/interest/2020-02-28/greninja-wins-pokemon-of-the-year-in-official-fan-vote/.156332)
+- [130point.com](https://130point.com) (ventas reales, aportado por Vicente) · [Sports Illustrated](https://www.si.com/collectibles/vintage-pokemon-promo-most-valuable-bulbasaur-card-ever) · [Pokumon](https://pokumon.com/1999-pokemon-snap-photo-contests/)
 - [PriceCharting](https://www.pricecharting.com) · [pokemontcg.io](https://pokemontcg.io) (TCGplayer y Cardmarket) · [PSA Auction Prices](https://www.psacard.com/auctionprices/tcg-cards/1999-pokemon-game/BULBASAUR/544071) · [Collider](https://collider.com/rarest-pokemon-cards-ranked/)

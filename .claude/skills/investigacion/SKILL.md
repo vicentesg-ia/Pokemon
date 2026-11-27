@@ -27,7 +27,7 @@ Si piden varios Pokémon ("fichas del 2 al 4"), haz cada uno completo y por orde
 | Cartas: listado e imágenes | `api.pokemontcg.io` (datos e imágenes oficiales de las cartas) | Bulbapedia (`<Name>_(TCG)`) |
 | Precios en USD (canal EN) | TCGplayer y PriceCharting | — |
 | Precios en EUR (canal ES) | Cardmarket | — |
-| Ventas récord y cartas graduadas | PSA (`www.psacard.com`), Heritage (`www.ha.com`), Goldin (`goldin.co`), PriceCharting | Noticias fiables si la venta fue mediática |
+| Ventas récord y cartas graduadas | **130point.com** (agrega eBay, Goldin, Fanatics, Heritage…) | PSA, Goldin, Heritage, PriceCharting y noticias fiables si la venta fue mediática |
 
 ### Cómo acceder desde el entorno cloud (aprendido con #001)
 Bulbapedia, WikiDex, Cardmarket y PSA **bloquean el acceso automático** (403 o comprobación anti-bots), aunque estén permitidos en la red. Usa esto:
@@ -38,7 +38,9 @@ Bulbapedia, WikiDex, Cardmarket y PSA **bloquean el acceso automático** (403 o 
   - Búsqueda: `https://www.pricecharting.com/search-products?q=<nombre>&type=prices`. Las columnas son *Ungraded*, *Grade 7* y *Grade 8*, **no** PSA 10.
   - Ficha de cada carta (`/game/<set>/<carta>`): la tabla `full-prices` trae Ungraded, Grade 9, PSA 10, etc.
   - Los valores de *BGS 10 Black* son estimaciones: no usarlos.
-- **Ventas récord:** `WebSearch` en modo `extended`. Una venta solo se da por buena si aparece en PSA Auction Prices, en una casa de subastas o en dos fuentes independientes.
+- **Ventas récord:** ⭐ **[130point.com](https://130point.com)** es la fuente principal. Reúne ventas reales de eBay, Goldin, Fanatics Collect, Heritage, PWCC, etc.: busca el nombre, filtra *Sold* y ordena por *Price: High to Low*. Puede que no cargue automáticamente; en ese caso pide a Vicente una captura de las ventas más altas, o usa `WebSearch` en modo `extended` (p. ej. "<nombre> card record sale Goldin PSA").
+  - **Lección de #001:** las cartas más caras suelen ser **promos japonesas raras** (concursos, revistas CoroCoro, Snap…), no las de los sets normales. PriceCharting y pokemontcg.io no las recogen bien. Búscalas siempre aparte.
+  - Si una venta aparece en una sola web, búscala en otras antes de descartarla: el "Snap Bulbasaur de 200.000 $" parecía dudoso y era real. Una venta solo se da por buena si aparece en PSA Auction Prices, en una casa de subastas o en dos fuentes independientes.
 
 ### Reglas de verificación
 - **Cada dato lleva su fuente** (URL) en la ficha. Si un dato no se puede verificar, no entra, o entra marcado como `⚠️ sin confirmar` para que Vicente decida.
