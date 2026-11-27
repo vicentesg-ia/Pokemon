@@ -80,6 +80,7 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
   - Los precios se indican con su fecha de consulta: son datos que cambian.
   - **Canal ES, precios en dólares:** cuando la fuente da el precio en USD (ventas récord, PriceCharting, TCGplayer), se **convierte a euros** con el tipo de cambio del día del guion. Se redondea y se presenta como aproximado ("809.943 $, unos 700.000 €"). En las ventas récord se puede dar la cifra original en dólares y la conversión.
   - **Formato de cifras en ES (rótulos, miniaturas, títulos):** el símbolo va **pegado** al número: "809.943$", "700.000€". En EN, el formato americano: "$809,943".
+  - **Miniaturas y títulos ES: siempre en euros** ("700.000€"). Los dólares solo aparecen en ES dentro de la narración y los rótulos de ventas récord, junto a su conversión.
   - **Fuente de ventas reales:** 130point.com (reúne eBay, Goldin, Fanatics, Heritage…).
   - **Doblaje:** en el canal ES no se citan títulos de episodios del anime si no se pueden confirmar en el doblaje latino.
 - **Flujo de aprobación:**

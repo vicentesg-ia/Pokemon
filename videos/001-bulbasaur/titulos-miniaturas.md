@@ -1,6 +1,6 @@
 # Títulos y miniaturas · #001 Bulbasaur
 
-> **Estado: pendiente de elección** · 2026-11-27
+> **Estado: miniatura elegida: M4** · título pendiente · 2026-11-27
 
 ## Títulos (gancho variable)
 
@@ -18,7 +18,7 @@
 | M2 | Realista | ¿PLANTA O ANIMAL? | PLANT OR ANIMAL? | `miniaturas/r2_es.jpg`, `r2_en.jpg` | `9c835680-3884-478d-a3b2-02b5b5ee8df8` |
 | M3 | Mixta (crayón + realista) | LA FOTO DE 800.000$ | A $800K PHOTO | `miniaturas/m3_es.jpg`, `m3_en.jpg` | `0b3204f8-f573-4594-81b6-217a4027b983` |
 
-| ⭐⭐ **M4** | Realista: **carta real grande a la izquierda** con brillo, **Bulbasaur realista a la derecha**, precio con **flecha** que señala la carta (inspirada en la referencia de Vicente) | 809.943$ | $809,943 | `miniaturas/m4_es.jpg`, `m4_en.jpg` | Fondo: `22ca8a92…` + carta real · `herramientas/miniatura-carta.js` |
+| ⭐⭐ **M4** | Realista: **carta real grande a la izquierda** con brillo, **Bulbasaur realista a la derecha**, precio con **flecha** que señala la carta (inspirada en la referencia de Vicente) | 700.000€ | $809,943 | `miniaturas/m4_es.jpg`, `m4_en.jpg` | Fondo: `22ca8a92…` + carta real · `herramientas/miniatura-carta.js` |
 | M3-carta | Realista + **foto real de la carta** (pedida por Vicente) | POR ESTA CARTA · 809.943$ | FOR THIS CARD · $809,943 | `miniaturas/m3card_es.jpg`, `m3card_en.jpg` | Fondo: `22ca8a92…` + carta real |
 
 **Foto de la carta:** recortada de la captura de 130point de Vicente (foto de la venta en Goldin, PSA 8, cert. 165286175), guardada en `cartas/snap-bulbasaur-psa8.png`. Tiene poca resolución (200×330 px, ampliada ×2). ⚠️ Si se consigue una foto en alta resolución de Goldin, se vuelve a renderizar con `herramientas/miniatura-carta.js`.

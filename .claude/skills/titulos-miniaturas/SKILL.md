@@ -22,7 +22,7 @@ Requisito: `guion.md` aprobado. Lee BIBLIA §12 y `canal/ESTILO_VISUAL.md`.
 ### Composición preferida (decidida en #001)
 - Cuando la carta más cara es el gancho: **foto real de la carta grande a la izquierda** (girada, con borde y brillo dorado), **Pokémon realista grande a la derecha** y **el precio con una flecha que señala la carta**. Es `herramientas/miniatura-carta.js`.
 - **No hace falta poner el nombre del Pokémon** en la miniatura: va en el título.
-- Cifras en ES con el símbolo pegado ("809.943$"); en EN, "$809,943".
+- **ES siempre en euros** y con el símbolo pegado ("700.000€"); EN en dólares, "$809,943".
 
 ### Proceso
 1. **Imágenes base sin texto**, con Nano Banana 2 (16:9, 2k, unos 1,5 créditos cada una).
