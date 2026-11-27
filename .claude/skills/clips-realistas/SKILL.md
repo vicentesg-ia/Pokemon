@@ -14,6 +14,7 @@ Requisitos: guion aprobado. Lee `canal/ESTILO_VISUAL.md` (sección de clips real
   - MAGI-2 cuesta **2,5 créditos por segundo**, sea cual sea la duración (5 s = 12,5; 10 s = 25; 15 s = 37,5).
 - En el montaje, el clip largo se puede usar entero o cortado en 2-3 planos, pero la acción tiene que leerse completa.
 - Usa movimientos característicos del Pokémon (sus ataques emblemáticos de los juegos o del anime) para dar acción y espectáculo.
+- ⭐ **Combates contra rivales:** a Vicente le gustan las animaciones largas en las que el Pokémon **ataca a otro Pokémon y lo deja KO**, sobre todo en **rivalidades importantes** (p. ej. un inicial contra su debilidad clásica, un rival del anime o del juego). Propón al menos uno por vídeo cuando encaje con la historia. Clip largo (10-15 s): presentación de los dos → ataque emblemático → impacto → el rival cae derrotado. Sin sangre ni violencia gráfica: KO de estilo Pokémon (cae agotado).
 - Cada clip es un **plano distinto**.
 - Escribe el plan en `videos/<NNN>/clips/README.md`: escena → clip → descripción del fotograma → secuencia de acción → duración.
 

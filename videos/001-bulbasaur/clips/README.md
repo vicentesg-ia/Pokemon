@@ -14,3 +14,8 @@ Extra: clip de prueba del bosque dorado (`44b879c0-ccc8-4d0f-b962-fd004744c614`)
 
 - **Coste:** 5 fotogramas × 1,5 + 5 clips × 12,5 = **70 créditos** de Higgsfield.
 - Revisión: `hoja-fotogramas.jpg` (fotogramas 0, 60 y 115 de cada clip).
+
+## Uso en el montaje (decidido por Vicente)
+- **6.1 Entrada a las cartas:** el clip largo del **Rayo Solar** (10 s; carga → se agacha → dispara) hace de transición a las cartas.
+- **`6.1-1.mp4` (carga de energía):** se aprovecha en otro momento: **escena 4.1** ("sus ataques de tipo Planta son muy eficaces…"), como inserto realista de 2-3 s.
+- `6.1-2` y `6.1-3`: de reserva para planos de apoyo.

@@ -127,7 +127,7 @@
 ## 4 · Juegos y anime (4:00–6:30)
 
 ### 4.1 · La elección inteligente
-- **Visual:** `ILU`: Bulbasaur con pose valiente ante la entrada de un gimnasio de piedra (genérico); sombra larga de atardecer.
+- **Visual:** `ILU`: Bulbasaur con pose valiente ante la entrada de un gimnasio de piedra (genérico); sombra larga de atardecer. **+ inserto `CLIP` de 2-3 s** (`clips/6.1-1.mp4`, carga de energía) al decir "sus ataques de tipo Planta".
 - **Cámara:** recorrido de abajo arriba hacia el gimnasio.
 - **Sonido:** música de aventura algo más animada; pasos pequeños.
 
