@@ -36,7 +36,7 @@ Panel de seguimiento de los dos canales (**Crónicas del Entrenador** / **Traine
 
 | Nº | Pokémon | EN | Tipo | Categoría | Estado | Vídeo |
 |---|---|---|---|---|---|---|
-| 001 | Bulbasaur |  | Planta / Veneno |  | 🔎 | [carpeta](001-bulbasaur/) |
+| 001 | Bulbasaur |  | Planta / Veneno |  | ✍️ | [carpeta](001-bulbasaur/) |
 | 002 | Ivysaur |  | Planta / Veneno |  | ⬜ | |
 | 003 | Venusaur |  | Planta / Veneno |  | ⬜ | |
 | 004 | Charmander |  | Fuego |  | ⬜ | |

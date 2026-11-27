@@ -77,6 +77,9 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
   - Canal español: **euros**, de **Cardmarket**.
   - Siempre se incluyen las **cartas más caras** y las **ventas récord en subastas** (PSA 10, cartas graduadas), porque es lo que más llama la atención.
   - Los precios se indican con su fecha de consulta: son datos que cambian.
+  - **Canal ES, precios en dólares:** cuando la fuente da el precio en USD (ventas récord, PriceCharting, TCGplayer), se **convierte a euros** con el tipo de cambio del día del guion. Se redondea y se presenta como aproximado ("809.943 $, unos 700.000 €"). En las ventas récord se puede dar la cifra original en dólares y la conversión.
+  - **Fuente de ventas reales:** 130point.com (reúne eBay, Goldin, Fanatics, Heritage…).
+  - **Doblaje:** en el canal ES no se citan títulos de episodios del anime si no se pueden confirmar en el doblaje latino.
 - **Flujo de aprobación:**
   - **Primeros vídeos (opción A):** se presenta una **ficha del Pokémon** (datos, curiosidades, ángulo del vídeo y peso de cada bloque) y Vicente la aprueba antes de pasar al guion.
   - **Cuando el flujo esté afinado (opción B):** se pasa directamente de la investigación al guion, y solo se revisa el guion.

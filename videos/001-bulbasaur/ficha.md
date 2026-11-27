@@ -1,6 +1,6 @@
 # Ficha · #001 Bulbasaur (Bulbasaur)
 
-> **Estado: pendiente de aprobación** · Investigado el 2026-11-27
+> **Estado: ✅ aprobada por Vicente el 2026-11-27** · Investigado el 2026-11-27
 >
 > ⚠️ Bulbapedia, WikiDex, Cardmarket y PSA bloquean el acceso automático desde el entorno. Por eso los datos salen de PokeAPI (datos oficiales de los juegos), PriceCharting, TCGplayer (vía pokemontcg.io), Wikipedia y búsquedas web. Los datos que dependen de una sola fuente no oficial van marcados.
 
@@ -96,7 +96,6 @@ Dato de contraste: el Bulbasaur #44 normal (sin 1ª edición) vale unos **3 $ si
 | Snap Bulbasaur (la misma carta) | PSA 9 | 200.000 $ (precio fijo) | Fanatics Collect | 05-07-2025 | 130point (captura de Vicente) |
 | Snap Bulbasaur (la misma carta) | PSA 9 | 80.520 $ (precio fijo) | Goldin | 17-11-2023 | 130point (captura de Vicente) |
 | 2000 Topps Chrome Series 2 Tekno Bulbasaur #1 | PSA 10 | 50.400 $ (subasta, 81 pujas) | Fanatics Collect | 12-10-2026 | 130point (captura de Vicente) |
-| Bulbasaur Base Set 1999 | PSA 10 | 4.350 $ | eBay (registro de PSA) | 23-09-2025 | [PSA Auction Prices](https://www.psacard.com/auctionprices/tcg-cards/1999-pokemon-game/BULBASAUR/544071) ⚠️ falta confirmar si es 1ª edición o ilimitada (PSA bloquea el acceso directo) |
 
 ## Estructura propuesta
 | Bloque | Peso | Por qué |
@@ -123,12 +122,12 @@ Dato de contraste: el Bulbasaur #44 normal (sin 1ª edición) vale unos **3 $ si
 - Pueblo después de la lluvia *(referencia aprobada)*
 - Escena de "¿planta o animal?": cuaderno de científico con bocetos de Bulbasaur
 
-## Dudas y datos sin confirmar
-1. ~~"Snap Bulbasaur" de 200.000 $~~ → **resuelto**: es la misma carta, vendida en PSA 9. El récord es de **809.943 $** (PSA 8, Goldin, agosto de 2026).
-2. **Venta PSA 10 de 4.350 $:** ¿1ª edición o ilimitada? Si no se confirma, se dice "un Bulbasaur del Base Set en PSA 10 se ha vendido por más de 4.000 $".
-3. **Euros:** Cardmarket bloquea el acceso directo y solo tengo EUR de algunas cartas inglesas sin graduar. **¿Muestro en el canal ES los precios en dólares convertidos a euros** (indicando que es una conversión), o solo los EUR de Cardmarket cuando existan?
-4. **Doblaje latino:** no he podido entrar en WikiDex para los títulos de episodios en latino.
-5. **13º puesto general** en la encuesta 2020: propongo decir solo "3º de Kanto, por delante de Pikachu", que está confirmado.
+## Decisiones de Vicente (2026-11-27)
+1. **Snap Bulbasaur:** confirmado. El récord es de 809.943 $ (PSA 8, Goldin, agosto de 2026). Es el gancho principal.
+2. **Venta PSA 10 de 4.350 $:** se quita.
+3. **Euros (canal ES):** todos los precios en dólares se **convierten a euros** con el tipo de cambio del día del guion, redondeados y presentados como aproximados ("unos 700.000 €").
+4. **Doblaje latino:** no se citan títulos de episodios en el guion ES.
+5. **Encuesta 2020:** solo "3º de Kanto, por delante de Pikachu". No se menciona el 13º puesto general.
 
 ## Fuentes consultadas
 - PokeAPI, datos CSV en GitHub: estadísticas, entradas de la Pokédex y evoluciones.
