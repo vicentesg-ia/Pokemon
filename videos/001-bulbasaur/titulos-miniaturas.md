@@ -1,8 +1,12 @@
 # Títulos y miniaturas · #001 Bulbasaur
 
-> **Estado: miniatura elegida: M4** · título pendiente · 2026-11-27
+> **Estado: ✅ elegidos: título T1 + miniatura M4** · 2026-11-27
+>
+> **Título final ES:** Bulbasaur: una foto suya se vendió por 700.000€ · Nº 001
+> **Título final EN:** Bulbasaur: Someone Paid $809,943 for a Photo of It · No. 001
+> **Miniatura:** `miniaturas/m4_es.jpg` (700.000€) / `miniaturas/m4_en.jpg` ($809,943)
 
-## Títulos (formato `<Nombre>: <gancho>`)
+## Títulos propuestos (formato final: `<Nombre>: <gancho> · Nº <NNN>`)
 
 | # | ES | EN |
 |---|---|---|
