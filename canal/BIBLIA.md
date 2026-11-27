@@ -107,7 +107,21 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 - **Efectos de sonido: sí.** Pasos, viento, agua, hojas, ambiente y transiciones ("whoosh"). Sirven para dar vida a las ilustraciones animadas.
 - La música va por debajo de la voz: la voz siempre es lo que más se oye.
 
-## 11. Riesgos a vigilar
+## 11. Montaje (Remotion)
+
+- **Subtítulos:** no van grabados en el vídeo. Se sube un archivo de subtítulos aparte a YouTube (ES y EN), que el espectador activa si quiere y que además ayuda al SEO.
+- **Rótulos clave en pantalla:** solo los datos importantes (nº de Pokédex, tipo, cifras, precios, fechas). La ilustración debe quedar limpia. *(El estilo del rótulo, crayón o limpio, está pendiente de elegir.)*
+- **Transiciones:** cortes directos en los tramos rápidos (clips realistas, montaje de ritmo) y transiciones suaves (fundidos, barridos lentos) entre bloques de la narración. Lo decide el montaje según la escena.
+- **Movimiento:** zooms, recorridos de cámara, parallax y partículas sobre las ilustraciones (ver `ESTILO_VISUAL.md`).
+
+### Sección de cartas
+- La carta aparece en grande con un pequeño giro 3D y brillo holográfico, el precio sube como un contador y lleva una etiqueta del tipo "PSA 10 · Récord en subasta". Se irá puliendo.
+- **Las cartas se muestran siempre con fotos reales sacadas de internet. Nunca se generan con IA.**
+  - Fuentes de imagen: fichas de TCGplayer, Cardmarket, PriceCharting y anuncios de casas de subastas (PSA, Heritage, Goldin) para las ventas récord.
+  - Se muestran como parte del análisis: la imagen siempre va con su precio, la fuente y el comentario del narrador.
+  - Se guarda de dónde sale cada imagen (URL y fecha) en la carpeta del vídeo.
+
+## 12. Riesgos a vigilar
 
 - **Política de contenido "no auténtico" de YouTube**: hay que evitar los vídeos repetitivos o de poco valor. El valor lo aportan un buen guion, un estilo propio y una revisión de calidad.
 - **Propiedad intelectual de Pokémon**: no usar material oficial (arte, capturas o fragmentos del anime) sin criterio. Hay que cuidar que los diseños generados no sean copias de los oficiales.
