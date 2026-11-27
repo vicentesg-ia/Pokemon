@@ -7,9 +7,9 @@
 | 3. Títulos y miniaturas | ✅ Elegidos | 2026-11-27 | T1 + M4 (carta real + flecha) |
 | 4. Ilustraciones | ✅ Aprobadas | 2026-11-27 | 17 escenas, 1 repetida (4.5) |
 | 5. Clips realistas | ✅ Aprobados | 2026-11-27 | 5 clips cortos + Rayo Solar de 10 s |
-| 6. Audio | ⏳ Pendiente de escucha | 2026-11-27 | Voz ES (Mario) 9,1 min + EN 9,0 min, 2 músicas, 12 efectos |
-| 7. Montaje | | | |
-| 8. Revisión | | | |
+| 6. Audio | ✅ Aprobado | 2026-11-27 | Voz ES (Mario) 9,1 min + EN 9,0 min, 2 músicas, 12 efectos |
+| 7. Montaje | ✅ Renderizado | 2026-11-27 | ES 9:18 · EN 9:14 · 1080p · -16 LUFS |
+| 8. Revisión | 👀 Pendiente de Vicente | 2026-11-27 | Revisor: 9 puntos corregidos y re-render (carta ilimitada, música, volumen EN…) |
 | 9. Publicado | | | |
 
 ## Créditos gastados
