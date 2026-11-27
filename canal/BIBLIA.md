@@ -99,7 +99,15 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 - **Voz elegida ES:** Jose – Narrativo y Natural (`voice_id: C12mZePhNoo0RoTXhSFV`)
 - **Voz elegida EN:** Christian – Warm Documentary Narrator (`voice_id: KMLpM4tgKxYUlv81Ue0p`). Se usa en su registro natural, sin etiquetas de energía añadidas.
 
-## 10. Riesgos a vigilar
+## 10. Música y efectos de sonido
+
+- **Música de fondo ambiental** por defecto: acompaña sin distraer.
+- **Música épica en las escenas top**: clips realistas, evoluciones, momentos espectaculares y récords de cartas.
+- **Guiño a Pokémon:** composiciones **originales** que recuerden al ambiente de aventura (orquesta de fantasía, toques chiptune). **Nunca música oficial**: Content ID la detecta.
+- **Efectos de sonido: sí.** Pasos, viento, agua, hojas, ambiente y transiciones ("whoosh"). Sirven para dar vida a las ilustraciones animadas.
+- La música va por debajo de la voz: la voz siempre es lo que más se oye.
+
+## 11. Riesgos a vigilar
 
 - **Política de contenido "no auténtico" de YouTube**: hay que evitar los vídeos repetitivos o de poco valor. El valor lo aportan un buen guion, un estilo propio y una revisión de calidad.
 - **Propiedad intelectual de Pokémon**: no usar material oficial (arte, capturas o fragmentos del anime) sin criterio. Hay que cuidar que los diseños generados no sean copias de los oficiales.
@@ -114,7 +122,7 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 - [x] Estilo de las ilustraciones 2D (estilo C)
 - [ ] Referencia del estilo realista de Higgsfield
 - [x] Voces (ES y EN)
-- [ ] Música y efectos
+- [x] Música y efectos (criterios)
 - [ ] Estilo de montaje en Remotion (textos, subtítulos, transiciones)
 - [ ] Miniaturas y títulos
 - [ ] Nombres de los canales
