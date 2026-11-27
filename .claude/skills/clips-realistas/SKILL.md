@@ -7,11 +7,15 @@ description: Fase 5 de producción del canal Crónicas del Entrenador / Trainer 
 
 Requisitos: guion aprobado. Lee `canal/ESTILO_VISUAL.md` (sección de clips realistas: referencia, plantillas, costes).
 
-## Planificación
-- En el guion, cada escena `CLIP` dura en pantalla unos **8 s** (gancho) o **12-15 s** (momento épico).
-- El montaje usa **planos de 0,5 a 3 s** (como la referencia): de cada clip de 5 s salen 2-3 planos. Necesitas **2 clips para ~8 s y 3 clips para ~12-15 s**.
-- Cada clip es un **plano distinto** (macro, cara, plano general, acción, destello final), no el mismo plano repetido.
-- Escribe el plan en `videos/<NNN>/clips/README.md`: escena → clip → descripción del fotograma → movimiento.
+## Planificación (preferencia de Vicente desde #001)
+- **3 clips por vídeo, más largos y con acción completa**, mejor que 5 clips cortos sueltos.
+  - Cada clip cuenta **una acción de principio a fin**, por ejemplo el **Rayo Solar**: absorbe energía → se agacha y se inclina hacia delante → dispara el rayo → el rayo llena la pantalla y da paso a la siguiente sección.
+  - Duraciones orientativas: **gancho 8-10 s**, **momento épico 10-15 s**, **cierre o transición 5-10 s**.
+  - MAGI-2 cuesta **2,5 créditos por segundo**, sea cual sea la duración (5 s = 12,5; 10 s = 25; 15 s = 37,5).
+- En el montaje, el clip largo se puede usar entero o cortado en 2-3 planos, pero la acción tiene que leerse completa.
+- Usa movimientos característicos del Pokémon (sus ataques emblemáticos de los juegos o del anime) para dar acción y espectáculo.
+- Cada clip es un **plano distinto**.
+- Escribe el plan en `videos/<NNN>/clips/README.md`: escena → clip → descripción del fotograma → secuencia de acción → duración.
 
 ## Proceso
 1. **Fotogramas iniciales** (Nano Banana 2, 16:9, 2k, unos 1,5 créditos cada uno), con la referencia realista aprobada `4bbabd0d-c598-4b72-a197-10ecc69469c1` como `image_references`.

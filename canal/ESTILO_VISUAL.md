@@ -66,6 +66,9 @@ Es un vídeo vertical de unos 100 segundos sobre la línea evolutiva Squirtle �
 
 ## Uso en nuestros vídeos
 
+> **Actualizado tras #001:** Vicente prefiere **3 clips más largos con una acción completa** (p. ej. el Rayo Solar: carga → se agacha → dispara → el rayo da paso a las cartas) en lugar de 5 clips cortos sueltos. MAGI-2 cuesta 2,5 créditos/s, así que el coste es el mismo por segundo.
+
+
 - **1 o 2 momentos por vídeo:** uno de 5 a 10 segundos y otro de 10 a 15 segundos.
 - Un clip realista sirve muy bien como **gancho de apertura** para retener al espectador.
 - Formato **16:9** (nuestros vídeos son horizontales), sin audio generado: el sonido lo pone ElevenLabs.
