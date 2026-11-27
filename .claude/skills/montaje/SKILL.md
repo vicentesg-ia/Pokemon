@@ -48,6 +48,15 @@ Requisitos: guion, ilustraciones, clips y audio aprobados. Lee BIBLIA §5 (estil
    - Unos 7 minutos por tramo con 4 CPU: unos 60 minutos por idioma para un vídeo de 9 minutos.
    - Lección de #001: las fuentes **tienen que ir incrustadas** (`src/fuentes-b64.ts`). Cargarlas por URL se colgaba a mitad de render.
    - `videos/*/render/` no se sube a git (pesa mucho).
+   - Lecciones de #001 (revisor):
+     - **No uses `<Audio loop>`**: al renderizar por tramos dejaba huecos de música en cada vuelta. `preparar-montaje.py` crea `musica/ambiental-larga.mp3` (15 min) y `Video.tsx` la usa sin bucle.
+     - **Las voces se igualan** en `preparar-montaje.py` (ganancia fija por idioma hasta -18 LUFS). Christian salía unos 6 dB más bajo que Mario.
+     - El render normaliza la mezcla final a -16 LUFS.
+     - Los gráficos llevan un zoom lento (`ZoomLento`) para no quedarse quietos.
+     - Los destellos en blanco duran como mucho 0,6 s (`"dur": 0.6`); después va `fondo-cartas` u otro plano.
+     - Los rótulos de ventas récord en ES llevan los dólares y la conversión ("80.520$ ≈ 70.000€").
+     - El rótulo `precio` acepta `"lado": "izq"` si tapa al Pokémon.
+     - Los números de los Pokémon en los rótulos van como "Nº 002" / "No. 002", nunca con "#".
 6. `python3 herramientas/subtitulos.py <video>` y escribe `publicacion/descripcion-ES.txt` y `-EN.txt` con capítulos (inicio de cada bloque), fuentes, aviso de contenido generado con IA y aviso de canal de fans.
 7. Revisa los MP4: duración, audio (ffprobe) y fotogramas sueltos. Después pasa a la fase 8 (agente `revisor`).
 8. Envía a Vicente el vídeo (o una versión comprimida si pesa mucho) y actualiza `estado.md` y `PLAN.md`.

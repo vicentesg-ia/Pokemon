@@ -142,3 +142,8 @@ Duración estimada: <min>
 
 ## Notas
 ```
+
+## Lección de #001: comprueba la edición de cada foto de carta
+- Las imágenes de pokemontcg.io del Base Set (`base1/<n>_hires.png`) pueden ser de **1ª edición** aunque se usen como "ilimitada".
+- Antes de usar una foto, mírala: la 1ª edición lleva el sello "Edition 1" a la izquierda, bajo la ilustración.
+- Para la ilimitada usa la ficha de PriceCharting del set normal (`pokemon-base-set/<carta>-<n>`).
