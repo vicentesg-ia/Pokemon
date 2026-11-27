@@ -61,7 +61,20 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 | ElevenLabs | Voz en off (ES y EN), efectos de sonido y música |
 | Remotion | Montaje: composición, textos, subtítulos, transiciones, gráficos y render final |
 
-## 7. Riesgos a vigilar
+## 7. Investigación y datos
+
+- **Fuentes principales:** Bulbapedia (EN) y WikiDex (ES). Se contrastan con la web oficial de Pokémon.
+- **Precios de cartas:**
+  - Canal inglés: **dólares**, de **TCGplayer**.
+  - Canal español: **euros**, de **Cardmarket**.
+  - Siempre se incluyen las **cartas más caras** y las **ventas récord en subastas** (PSA 10, cartas graduadas), porque es lo que más llama la atención.
+  - Los precios se indican con su fecha de consulta: son datos que cambian.
+- **Flujo de aprobación:**
+  - **Primeros vídeos (opción A):** se presenta una **ficha del Pokémon** (datos, curiosidades, ángulo del vídeo y peso de cada bloque) y Vicente la aprueba antes de pasar al guion.
+  - **Cuando el flujo esté afinado (opción B):** se pasa directamente de la investigación al guion, y solo se revisa el guion.
+  - ⏰ **Recordatorio:** proponer el paso de A a B cuando los vídeos salgan con pocas correcciones de forma constante.
+
+## 8. Riesgos a vigilar
 
 - **Política de contenido "no auténtico" de YouTube**: hay que evitar los vídeos repetitivos o de poco valor. El valor lo aportan un buen guion, un estilo propio y una revisión de calidad.
 - **Propiedad intelectual de Pokémon**: no usar material oficial (arte, capturas o fragmentos del anime) sin criterio. Hay que cuidar que los diseños generados no sean copias de los oficiales.
@@ -70,8 +83,9 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 
 ## Pendiente de definir
 
-- [ ] Fuentes de información y verificación de datos
-- [ ] Fuente de precios de cartas
+- [x] Fuentes de información y verificación de datos
+- [x] Fuente de precios de cartas
+- [ ] Estilo del guion y del narrador
 - [ ] Diseño de las plantillas 2D estilo crayón
 - [ ] Referencia del estilo realista de Higgsfield
 - [ ] Voces (ES y EN), música y efectos
