@@ -43,8 +43,10 @@ Requisitos: guion, ilustraciones, clips y audio aprobados. Lee BIBLIA §5 (estil
    - `npx remotion bundle src/index.ts --out-dir <scratch>/bundle`;
    - `npx remotion still <scratch>/bundle V<NNN>-ES <scratch>/<id>.jpg --frame=<n> --scale=0.5` en unas 12 escenas clave;
    - una hoja de contactos con Read. Corrige textos cortados, solapes y precios. Lección de #001: los textos largos de los gráficos se salen; usa `whiteSpace: nowrap` y tamaños prudentes.
-5. **Render** (largo: unos 80 min por idioma de 9 min con 4 CPU; lánzalo en segundo plano y no lo esperes en primer plano):
-   `npx remotion render src/index.ts V<NNN>-ES ../videos/<NNN>/render/<video>-ES.mp4 --concurrency=4 --crf=20 --timeout=180000`, y lo mismo para EN.
+5. **Render**: usa siempre `herramientas/render-por-tramos.sh V<NNN>-ES videos/<NNN>/render/<video>-ES.mp4` (y lo mismo para EN), **en segundo plano** (`run_in_background`).
+   - Renderiza en tramos de 2000 fotogramas con reintentos. Si se corta, se relanza y continúa donde lo dejó. El audio se renderiza aparte y se une sin recomprimir.
+   - Unos 7 minutos por tramo con 4 CPU: unos 60 minutos por idioma para un vídeo de 9 minutos.
+   - Lección de #001: las fuentes **tienen que ir incrustadas** (`src/fuentes-b64.ts`). Cargarlas por URL se colgaba a mitad de render.
    - `videos/*/render/` no se sube a git (pesa mucho).
 6. `python3 herramientas/subtitulos.py <video>` y escribe `publicacion/descripcion-ES.txt` y `-EN.txt` con capítulos (inicio de cada bloque), fuentes, aviso de contenido generado con IA y aviso de canal de fans.
 7. Revisa los MP4: duración, audio (ffprobe) y fotogramas sueltos. Después pasa a la fase 8 (agente `revisor`).
