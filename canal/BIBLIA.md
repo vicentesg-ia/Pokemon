@@ -110,7 +110,12 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 ## 11. Montaje (Remotion)
 
 - **Subtítulos:** no van grabados en el vídeo. Se sube un archivo de subtítulos aparte a YouTube (ES y EN), que el espectador activa si quiere y que además ayuda al SEO.
-- **Rótulos clave en pantalla:** solo los datos importantes (nº de Pokédex, tipo, cifras, precios, fechas). La ilustración debe quedar limpia. *(El estilo del rótulo, crayón o limpio, está pendiente de elegir.)*
+- **Rótulos clave en pantalla:** solo los datos importantes (nº de Pokédex, tipo, cifras, precios, fechas). La ilustración debe quedar limpia. **Estilo elegido: crayón (opción A)** para todos los rótulos, cifras y precios incluidos:
+  - trozos de papel con el borde irregular y una ligera inclinación;
+  - letra de cera (Cabin Sketch para títulos, Gochi Hand para etiquetas) con textura de crayón;
+  - colores de crayón: tinta verde oscuro, rojo para destacar y el color del tipo del Pokémon en las etiquetas;
+  - animación de entrada como si se dibujara a mano.
+  - Prototipo de referencia: https://claude.ai/artifact/B87iwT4WryZBAqD4sy9wGE
 - **Transiciones:** cortes directos en los tramos rápidos (clips realistas, montaje de ritmo) y transiciones suaves (fundidos, barridos lentos) entre bloques de la narración. Lo decide el montaje según la escena.
 - **Movimiento:** zooms, recorridos de cámara, parallax y partículas sobre las ilustraciones (ver `ESTILO_VISUAL.md`).
 
@@ -137,6 +142,6 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 - [x] Estilo realista de Higgsfield (MAGI-2)
 - [x] Voces (ES y EN)
 - [x] Música y efectos (criterios)
-- [ ] Estilo de montaje en Remotion (textos, subtítulos, transiciones)
+- [x] Estilo de montaje en Remotion (rótulos en crayón, subtítulos aparte, transiciones)
 - [ ] Miniaturas y títulos
 - [ ] Nombres de los canales
