@@ -8,7 +8,7 @@ description: Fase 3 de producción del canal Crónicas del Entrenador / Trainer 
 Requisito: `guion.md` aprobado. Lee BIBLIA §12 y `canal/ESTILO_VISUAL.md`.
 
 ## Títulos
-- **Formato obligatorio: `<Nombre>: <gancho> #<Nº>`**, con el nombre del Pokémon como primera palabra y el número de Pokédex con almohadilla al final (BIBLIA §12).
+- **Formato obligatorio: `<Nombre>: <gancho>`**, con el nombre del Pokémon como primera palabra. **Sin número ni hashtags** (BIBLIA §12).
 - **3 opciones** con gancho variable, cada una en ES y EN. Se adaptan a cada idioma, no se traducen.
 - Ganchos que funcionan: la cifra más llamativa (precio récord), el misterio del Pokémon y la historia emocional.
 - Hasta unos 70 caracteres. Sin clickbait falso: todo lo que promete el título tiene que estar en el vídeo.
