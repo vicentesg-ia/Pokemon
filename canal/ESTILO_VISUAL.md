@@ -81,4 +81,34 @@ Es un vídeo vertical de unos 100 segundos sobre la línea evolutiva Squirtle �
 | Cinema Studio 3.0 | 1080p | 65 |
 | Seedance 2.5 | 1080p | 80 |
 
-*(El modelo final está pendiente de elegir tras una prueba comparativa.)*
+## Modelo elegido: MAGI-2 (decidido el 27-11-2026)
+
+Se probó el mismo fotograma con MAGI-2 (1080p, 12,5 créditos) y con Seedance 2.5 (720p, 35 créditos). Vicente no vio diferencias importantes y eligió **MAGI-2 para todos los clips**: cuesta casi un tercio y da más resolución, así que permite meter más metraje realista por vídeo.
+
+### Flujo de cada clip
+1. **Fotograma inicial realista** con Nano Banana 2 (16:9, 2k, unos 1,5 créditos). Así se controla cómo se ve el Pokémon antes de animarlo.
+2. **Animación con MAGI-2** usando ese fotograma como `start_image`: 5 s, 16:9, `generate_audio: false`, 12,5 créditos.
+3. **Montaje en Remotion:** de cada clip se sacan planos cortos de 0,5 a 3 s, como en la referencia.
+
+Coste aproximado de los momentos realistas de un vídeo (4-6 clips): **unos 55-85 créditos**.
+
+### Plantilla de prompt del fotograma realista
+```
+Photorealistic nature documentary still, {POKÉMON} as a real living creature in {HÁBITAT} at {LUZ}.
+Realistic {textura de piel, escamas, pelo o caparazón} with fine detail{, water droplets / dust...}.
+{Tipo de plano: macro / low-angle close / wide}, shallow depth of field, soft bokeh background.
+{Luz y dirección}, creating rim light and a {long/short} shadow on the ground.
+{Interacción física: footprints, splashes, sand, bubbles...}.
+Shot on a cinema camera, {85mm macro / 35mm} lens, National Geographic style, ultra detailed, no text.
+```
+
+### Plantilla de prompt de la animación
+```
+Nature documentary shot. {Acción concreta y física del Pokémon}. {Detalles de movimiento secundario}.
+{Luz y ambiente}. {Movimiento de cámara: slow dolly / orbit / static macro}, shallow depth of field,
+realistic natural motion.
+```
+
+### Prueba de referencia
+- Fotograma: `4bbabd0d-c598-4b72-a197-10ecc69469c1`
+- Clip MAGI-2: `44b879c0-ccc8-4d0f-b962-fd004744c614`

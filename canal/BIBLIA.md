@@ -120,7 +120,7 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 - [x] Fuente de precios de cartas
 - [x] Estilo del guion y del narrador
 - [x] Estilo de las ilustraciones 2D (estilo C)
-- [ ] Referencia del estilo realista de Higgsfield
+- [x] Estilo realista de Higgsfield (MAGI-2)
 - [x] Voces (ES y EN)
 - [x] Música y efectos (criterios)
 - [ ] Estilo de montaje en Remotion (textos, subtítulos, transiciones)
