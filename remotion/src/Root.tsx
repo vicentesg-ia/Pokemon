@@ -1,5 +1,26 @@
-import {Composition, AbsoluteFill} from 'remotion';
-const Prueba: React.FC = () => <AbsoluteFill style={{background:'#1f3a26',color:'white',fontSize:80,justifyContent:'center',alignItems:'center'}}>Crónicas del Entrenador</AbsoluteFill>;
-export const RemotionRoot: React.FC = () => (<>
-  <Composition id="Prueba" component={Prueba} durationInFrames={30} fps={30} width={1920} height={1080} />
-</>);
+import React from 'react';
+import {Composition} from 'remotion';
+import {VideoCronica, Plan, duracionTotal} from './Video';
+import plan001 from './data/001-bulbasaur.json';
+
+// Un vídeo = dos composiciones (ES y EN) con las mismas imágenes y distinta voz/rótulos.
+const videos: Record<string, Plan> = {'001': plan001 as unknown as Plan};
+
+export const RemotionRoot: React.FC = () => (
+	<>
+		{Object.entries(videos).flatMap(([num, plan]) =>
+			(['es', 'en'] as const).map((lang) => (
+				<Composition
+					key={`${num}-${lang}`}
+					id={`V${num}-${lang.toUpperCase()}`}
+					component={VideoCronica}
+					durationInFrames={duracionTotal(plan, lang)}
+					fps={plan.fps}
+					width={1920}
+					height={1080}
+					defaultProps={{plan, lang}}
+				/>
+			)),
+		)}
+	</>
+);
