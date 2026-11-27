@@ -1,68 +1,797 @@
 {
-  "video": "001-bulbasaur",
-  "fps": 30,
-  "padding": 0.45,
-  "notas": "Plan de montaje para Remotion. Cada escena dura lo que su voz (audio/duraciones.json) + padding. 'shots' reparte el visual; 'rotulo' aparece en 'at' segundos; 'sfx' suenan en 'at' segundos. 'musica' marca qué pista suena en la escena.",
-  "escenas": [
-    {"id": "1.1", "musica": "epica", "shots": [
-      {"tipo": "clip", "src": "clips/1.1-1.mp4", "desde": 0, "peso": 0.55},
-      {"tipo": "clip", "src": "clips/1.1-2.mp4", "desde": 0, "peso": 0.45}],
-      "sfx": [{"src": "sfx/bosque.mp3", "at": 0, "vol": 0.35}, {"src": "sfx/camara.mp3", "at": -0.9, "vol": 0.9}]},
-    {"id": "1.2", "musica": "epica", "shots": [{"tipo": "carta", "cartas": ["cartas/snap-bulbasaur-psa8.png"], "precio": {"es": 809943, "en": 809943, "moneda_es": "$", "nota_es": "≈ 700.000€", "exacto": true}, "etiqueta": {"es": "Snap Bulbasaur · PSA 8 · Goldin 2026", "en": "Snap Bulbasaur · PSA 8 · Goldin 2026"}}],
-      "sfx": [{"src": "sfx/contador.mp3", "at": 0.6, "vol": 0.6}, {"src": "sfx/impacto.mp3", "at": 2.6, "vol": 0.9}]},
-
-    {"id": "2.1", "musica": "ambiental", "bloque": true, "shots": [{"tipo": "ilu", "src": "ilustraciones/2.1.jpg", "mov": "in"}],
-      "rotulo": {"tipo": "ficha", "at": 0.6, "es": ["Nº 001", "Bulbasaur", "Planta · Veneno", "Pokémon Semilla"], "en": ["No. 001", "Bulbasaur", "Grass · Poison", "Seed Pokémon"]},
-      "sfx": [{"src": "sfx/whoosh.mp3", "at": 0, "vol": 0.5}, {"src": "sfx/crayon.mp3", "at": 0.6, "vol": 0.6}]},
-    {"id": "2.2", "musica": "ambiental", "shots": [{"tipo": "ilu", "src": "ilustraciones/2.2.jpg", "mov": "right"}],
-      "rotulo": {"tipo": "dato", "at": 0.8, "es": ["Japón", "27-02-1996"], "en": ["Japan", "Feb 27, 1996"]}, "sfx": [{"src": "sfx/crayon.mp3", "at": 0.8, "vol": 0.5}]},
-    {"id": "2.3", "musica": "ambiental", "shots": [{"tipo": "grafico", "grafico": "pokedex001"}], "sfx": [{"src": "sfx/pagina.mp3", "at": 0.2, "vol": 0.7}, {"src": "sfx/crayon.mp3", "at": 1.0, "vol": 0.6}]},
-    {"id": "2.4", "musica": "ambiental", "shots": [{"tipo": "ilu", "src": "ilustraciones/2.4.jpg", "mov": "in", "particulas": true}], "sfx": [{"src": "sfx/bosque.mp3", "at": 0, "vol": 0.25}]},
-
-    {"id": "3.1", "musica": "ambiental", "bloque": true, "shots": [{"tipo": "ilu", "src": "ilustraciones/3.1.jpg", "mov": "left"}],
-      "rotulo": {"tipo": "dato", "at": 3.0, "es": ["Diseño: Atsuko Nishida", "Diseño final: Ken Sugimori"], "en": ["Design: Atsuko Nishida", "Final design: Ken Sugimori"]},
-      "sfx": [{"src": "sfx/whoosh.mp3", "at": 0, "vol": 0.5}, {"src": "sfx/crayon.mp3", "at": 3.0, "vol": 0.5}]},
-    {"id": "3.2", "musica": "ambiental", "shots": [{"tipo": "grafico", "grafico": "alreves"}], "sfx": [{"src": "sfx/crayon.mp3", "at": 1.0, "vol": 0.5}, {"src": "sfx/crayon.mp3", "at": 4.0, "vol": 0.5}, {"src": "sfx/crayon.mp3", "at": 7.0, "vol": 0.5}]},
-    {"id": "3.3", "musica": "ambiental", "shots": [{"tipo": "ilu", "src": "ilustraciones/3.3.jpg", "mov": "in"}],
-      "rotulo": {"tipo": "dato", "at": 2.0, "es": ["Inspiración:", "cebolla + rana toro"], "en": ["Inspiration:", "onion + bullfrog"]}, "sfx": [{"src": "sfx/rana.mp3", "at": 2.6, "vol": 0.8}]},
-    {"id": "3.4", "musica": "ambiental", "shots": [{"tipo": "grafico", "grafico": "nombre"}], "sfx": [{"src": "sfx/crayon.mp3", "at": 0.5, "vol": 0.5}]},
-    {"id": "3.5", "musica": "ambiental", "shots": [{"tipo": "ilu", "src": "ilustraciones/3.5.jpg", "mov": "in"}],
-      "rotulo": {"tipo": "titular", "at": 2.5, "es": ["¿Planta o animal?"], "en": ["Plant or animal?"]}, "sfx": [{"src": "sfx/pagina.mp3", "at": 0.3, "vol": 0.6}]},
-
-    {"id": "4.1", "musica": "ambiental", "bloque": true, "shots": [
-      {"tipo": "ilu", "src": "ilustraciones/4.1.jpg", "mov": "up", "peso": 0.2},
-      {"tipo": "clip", "src": "clips/6.1-1.mp4", "desde": 0.5, "dur": 3.0},
-      {"tipo": "ilu", "src": "ilustraciones/4.1.jpg", "mov": "in", "peso": 0.8}],
-      "sfx": [{"src": "sfx/whoosh.mp3", "at": 0, "vol": 0.5}]},
-    {"id": "4.2", "musica": "ambiental", "shots": [{"tipo": "ilu", "src": "ilustraciones/4.2.jpg", "mov": "in"}],
-      "rotulo": {"tipo": "dato", "at": 0.8, "es": ["Pokémon Amarillo", "Ciudad Celeste"], "en": ["Pokémon Yellow", "Cerulean City"]}, "sfx": [{"src": "sfx/crayon.mp3", "at": 0.8, "vol": 0.5}]},
-    {"id": "4.3", "musica": "ambiental", "shots": [{"tipo": "ilu", "src": "ilustraciones/4.3.jpg", "mov": "left"}]},
-    {"id": "4.4", "musica": "ambiental", "shots": [{"tipo": "ilu", "src": "ilustraciones/4.4.jpg", "mov": "right"}], "sfx": [{"src": "sfx/bosque.mp3", "at": 0, "vol": 0.25}]},
-    {"id": "4.5", "musica": "ambiental", "shots": [{"tipo": "ilu", "src": "ilustraciones/4.5.jpg", "mov": "in"}], "sfx": [{"src": "sfx/evolucion-corte.mp3", "at": 2.2, "vol": 0.8}]},
-    {"id": "4.6", "musica": "ambiental", "shots": [{"tipo": "ilu", "src": "ilustraciones/4.6.jpg", "mov": "in"}],
-      "rotulo": {"tipo": "dato", "at": 0.45, "relativo": true, "es": ["Movimiento sorpresa:", "Excavar"], "en": ["Surprise move:", "Dig"]}, "sfx": [{"src": "sfx/latigo.mp3", "at": 5.5, "vol": 0.7}]},
-
-    {"id": "5.1", "musica": "ambiental", "bloque": true, "shots": [{"tipo": "grafico", "grafico": "podio"}], "sfx": [{"src": "sfx/whoosh.mp3", "at": 0, "vol": 0.5}, {"src": "sfx/redoble.mp3", "at": 8.0, "vol": 0.7}]},
-    {"id": "5.2", "musica": "ambiental", "shots": [{"tipo": "ilu", "src": "ilustraciones/5.2.jpg", "mov": "out"}]},
-
-    {"id": "6.1", "musica": "epica", "bloque": true, "shots": [
-      {"tipo": "clip", "src": "clips/6.1-rayo-solar.mp4", "desde": 0, "dur": 3.4},
-      {"tipo": "clip", "src": "clips/6.1-rayo-solar.mp4", "desde": 6.3, "dur": 3.7},
-      {"tipo": "blanco"}],
-      "rotulo": {"tipo": "dato", "at": 7.4, "es": ["Precios a", "noviembre de 2026"], "en": ["Prices as of", "November 2026"]},
-      "sfx": [{"src": "sfx/rayo-solar.mp3", "at": 4.6, "vol": 0.9}]},
-    {"id": "6.2", "musica": "ambiental", "shots": [{"tipo": "carta", "cartas": ["cartas/jp-1996-no-rarity.jpg"], "precio": {"es": 3000, "en": 3500, "moneda_es": "€"}, "etiqueta": {"es": "Japón 1996 · \"No Rarity\" · PSA 10", "en": "Japan 1996 · \"No Rarity\" · PSA 10"}}], "sfx": [{"src": "sfx/whoosh.mp3", "at": 0, "vol": 0.5}, {"src": "sfx/contador.mp3", "at": 13.0, "vol": 0.5}]},
-    {"id": "6.3", "musica": "ambiental", "shots": [{"tipo": "carta", "cartas": ["cartas/base-44-normal.png", "cartas/base-44-1a-edicion.jpg"], "precio": {"es": 7500, "en": 8700, "moneda_es": "€"}, "precio_izq": {"es": "≈ 3€", "en": "≈ $3"}, "etiqueta": {"es": "Base Set #44 · normal → 1ª edición PSA 10", "en": "Base Set #44 · unlimited → 1st Edition PSA 10"}}], "sfx": [{"src": "sfx/contador.mp3", "at": 15.0, "vol": 0.5}]},
-    {"id": "6.4", "musica": "ambiental", "shots": [{"tipo": "carta", "cartas": ["cartas/legendary-68-reverse.jpg"], "precio": {"es": 14500, "en": 16700, "moneda_es": "€"}, "brillo": true, "etiqueta": {"es": "Legendary Collection 2002 · reverse holo · PSA 10", "en": "Legendary Collection 2002 · reverse holo · PSA 10"}}], "sfx": [{"src": "sfx/contador.mp3", "at": 14.0, "vol": 0.5}]},
-    {"id": "6.5", "musica": "ambiental", "shots": [{"tipo": "carta", "cartas": ["cartas/erika-corocoro.jpg"], "precio": {"es": 7500, "en": 8500, "moneda_es": "€"}, "etiqueta": {"es": "Promo CoroCoro · PSA 10", "en": "CoroCoro promo · PSA 10"}}], "sfx": [{"src": "sfx/whoosh.mp3", "at": 0, "vol": 0.4}]},
-    {"id": "6.6", "musica": "ambiental", "shots": [{"tipo": "ilu", "src": "ilustraciones/6.6.jpg", "mov": "in"}],
-      "rotulo": {"tipo": "dato", "at": 1.0, "es": ["Pokémon Snap", "Nintendo 64 · 1999"], "en": ["Pokémon Snap", "Nintendo 64 · 1999"]}, "sfx": [{"src": "sfx/camara.mp3", "at": -0.6, "vol": 0.9}]},
-    {"id": "6.7", "musica": "epica", "shots": [{"tipo": "record", "carta": "cartas/snap-bulbasaur-psa8.png"}], "sfx": [{"src": "sfx/impacto.mp3", "at": 0.5, "vol": 0.5}, {"src": "sfx/impacto.mp3", "at": 0.33, "relativo": true, "vol": 0.6}, {"src": "sfx/impacto.mp3", "at": 0.72, "relativo": true, "vol": 1.0}]},
-    {"id": "6.8", "musica": "ambiental", "shots": [{"tipo": "ilu", "src": "ilustraciones/6.8.jpg", "mov": "out"}],
-      "rotulo": {"tipo": "precio", "at": 0.55, "relativo": true, "es": ["Topps Chrome 2000 · PSA 10", "≈ 44.000€"], "en": ["Topps Chrome 2000 · PSA 10", "$50,400"]}},
-
-    {"id": "7.1", "musica": "ambiental", "bloque": true, "shots": [{"tipo": "ilu", "src": "ilustraciones/7.1.jpg", "mov": "out"}], "sfx": [{"src": "sfx/whoosh.mp3", "at": 0, "vol": 0.4}]},
-    {"id": "7.2", "musica": "ambiental", "shots": [{"tipo": "ilu", "src": "ilustraciones/7.2.jpg", "mov": "in"}],
-      "rotulo": {"tipo": "titular", "at": 1.0, "es": ["Próxima crónica:", "#002 Ivysaur"], "en": ["Next chronicle:", "#002 Ivysaur"]}, "sfx": [{"src": "sfx/crayon.mp3", "at": 1.0, "vol": 0.6}]}
-  ]
+ "video": "001-bulbasaur",
+ "fps": 30,
+ "padding": 0.45,
+ "notas": "Plan de montaje para Remotion. Cada escena dura lo que su voz (audio/duraciones.json) + padding. 'shots' reparte el visual; 'rotulo' aparece en 'at' segundos; 'sfx' suenan en 'at' segundos. 'musica' marca qué pista suena en la escena.",
+ "escenas": [
+  {
+   "id": "1.1",
+   "musica": "epica",
+   "shots": [
+    {
+     "tipo": "clip",
+     "src": "clips/1.1-1.mp4",
+     "desde": 0,
+     "peso": 0.55
+    },
+    {
+     "tipo": "clip",
+     "src": "clips/1.1-2.mp4",
+     "desde": 0,
+     "peso": 0.45
+    }
+   ],
+   "sfx": [
+    {
+     "src": "sfx/bosque.mp3",
+     "at": 0,
+     "vol": 0.35
+    },
+    {
+     "src": "sfx/camara.mp3",
+     "at": -0.9,
+     "vol": 0.9
+    }
+   ]
+  },
+  {
+   "id": "1.2",
+   "musica": "epica",
+   "shots": [
+    {
+     "tipo": "carta",
+     "cartas": [
+      "cartas/snap-bulbasaur-psa8.png"
+     ],
+     "precio": {
+      "es": 809943,
+      "en": 809943,
+      "moneda_es": "$",
+      "nota_es": "≈ 700.000€",
+      "exacto": true
+     },
+     "etiqueta": {
+      "es": "Snap Bulbasaur · PSA 8 · Goldin 2026",
+      "en": "Snap Bulbasaur · PSA 8 · Goldin 2026"
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "src": "sfx/contador.mp3",
+     "at": 0.6,
+     "vol": 0.6
+    },
+    {
+     "src": "sfx/impacto.mp3",
+     "at": 2.6,
+     "vol": 0.9
+    }
+   ]
+  },
+  {
+   "id": "2.1",
+   "musica": "ambiental",
+   "bloque": true,
+   "shots": [
+    {
+     "tipo": "ilu",
+     "src": "ilustraciones/2.1.jpg",
+     "mov": "in"
+    }
+   ],
+   "rotulo": {
+    "tipo": "ficha",
+    "at": 0.6,
+    "es": [
+     "Nº 001",
+     "Bulbasaur",
+     "Planta · Veneno",
+     "Pokémon Semilla"
+    ],
+    "en": [
+     "No. 001",
+     "Bulbasaur",
+     "Grass · Poison",
+     "Seed Pokémon"
+    ]
+   },
+   "sfx": [
+    {
+     "src": "sfx/whoosh.mp3",
+     "at": 0,
+     "vol": 0.5
+    },
+    {
+     "src": "sfx/crayon.mp3",
+     "at": 0.6,
+     "vol": 0.6
+    }
+   ]
+  },
+  {
+   "id": "2.2",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "ilu",
+     "src": "ilustraciones/2.2.jpg",
+     "mov": "right"
+    }
+   ],
+   "rotulo": {
+    "tipo": "dato",
+    "at": 0.8,
+    "es": [
+     "Japón",
+     "27-02-1996"
+    ],
+    "en": [
+     "Japan",
+     "Feb 27, 1996"
+    ]
+   },
+   "sfx": [
+    {
+     "src": "sfx/crayon.mp3",
+     "at": 0.8,
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "id": "2.3",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "grafico",
+     "grafico": "pokedex001"
+    }
+   ],
+   "sfx": [
+    {
+     "src": "sfx/pagina.mp3",
+     "at": 0.2,
+     "vol": 0.7
+    },
+    {
+     "src": "sfx/crayon.mp3",
+     "at": 1.0,
+     "vol": 0.6
+    }
+   ]
+  },
+  {
+   "id": "2.4",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "ilu",
+     "src": "ilustraciones/2.4.jpg",
+     "mov": "in",
+     "particulas": true
+    }
+   ],
+   "sfx": [
+    {
+     "src": "sfx/bosque.mp3",
+     "at": 0,
+     "vol": 0.25
+    }
+   ]
+  },
+  {
+   "id": "3.1",
+   "musica": "ambiental",
+   "bloque": true,
+   "shots": [
+    {
+     "tipo": "ilu",
+     "src": "ilustraciones/3.1.jpg",
+     "mov": "left"
+    }
+   ],
+   "rotulo": {
+    "tipo": "dato",
+    "at": 3.0,
+    "es": [
+     "Diseño: Atsuko Nishida",
+     "Diseño final: Ken Sugimori"
+    ],
+    "en": [
+     "Design: Atsuko Nishida",
+     "Final design: Ken Sugimori"
+    ]
+   },
+   "sfx": [
+    {
+     "src": "sfx/whoosh.mp3",
+     "at": 0,
+     "vol": 0.5
+    },
+    {
+     "src": "sfx/crayon.mp3",
+     "at": 3.0,
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "id": "3.2",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "grafico",
+     "grafico": "alreves"
+    }
+   ],
+   "sfx": [
+    {
+     "src": "sfx/crayon.mp3",
+     "at": 1.0,
+     "vol": 0.5
+    },
+    {
+     "src": "sfx/crayon.mp3",
+     "at": 4.0,
+     "vol": 0.5
+    },
+    {
+     "src": "sfx/crayon.mp3",
+     "at": 7.0,
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "id": "3.3",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "ilu",
+     "src": "ilustraciones/3.3.jpg",
+     "mov": "in"
+    }
+   ],
+   "rotulo": {
+    "tipo": "dato",
+    "at": 2.0,
+    "es": [
+     "Inspiración:",
+     "cebolla + rana toro"
+    ],
+    "en": [
+     "Inspiration:",
+     "onion + bullfrog"
+    ]
+   },
+   "sfx": [
+    {
+     "src": "sfx/rana.mp3",
+     "at": 2.6,
+     "vol": 0.8
+    }
+   ]
+  },
+  {
+   "id": "3.4",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "grafico",
+     "grafico": "nombre"
+    }
+   ],
+   "sfx": [
+    {
+     "src": "sfx/crayon.mp3",
+     "at": 0.5,
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "id": "3.5",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "ilu",
+     "src": "ilustraciones/3.5.jpg",
+     "mov": "in"
+    }
+   ],
+   "rotulo": {
+    "tipo": "titular",
+    "at": 2.5,
+    "es": [
+     "¿Planta o animal?"
+    ],
+    "en": [
+     "Plant or animal?"
+    ]
+   },
+   "sfx": [
+    {
+     "src": "sfx/pagina.mp3",
+     "at": 0.3,
+     "vol": 0.6
+    }
+   ]
+  },
+  {
+   "id": "4.1",
+   "musica": "ambiental",
+   "bloque": true,
+   "shots": [
+    {
+     "tipo": "ilu",
+     "src": "ilustraciones/4.1.jpg",
+     "mov": "up",
+     "peso": 0.2
+    },
+    {
+     "tipo": "clip",
+     "src": "clips/6.1-1.mp4",
+     "desde": 0.5,
+     "dur": 3.0
+    },
+    {
+     "tipo": "ilu",
+     "src": "ilustraciones/4.1.jpg",
+     "mov": "in",
+     "peso": 0.8
+    }
+   ],
+   "sfx": [
+    {
+     "src": "sfx/whoosh.mp3",
+     "at": 0,
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "id": "4.2",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "ilu",
+     "src": "ilustraciones/4.2.jpg",
+     "mov": "in"
+    }
+   ],
+   "rotulo": {
+    "tipo": "dato",
+    "at": 0.8,
+    "es": [
+     "Pokémon Amarillo",
+     "Ciudad Celeste"
+    ],
+    "en": [
+     "Pokémon Yellow",
+     "Cerulean City"
+    ]
+   },
+   "sfx": [
+    {
+     "src": "sfx/crayon.mp3",
+     "at": 0.8,
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "id": "4.3",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "ilu",
+     "src": "ilustraciones/4.3.jpg",
+     "mov": "left"
+    }
+   ]
+  },
+  {
+   "id": "4.4",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "ilu",
+     "src": "ilustraciones/4.4.jpg",
+     "mov": "right"
+    }
+   ],
+   "sfx": [
+    {
+     "src": "sfx/bosque.mp3",
+     "at": 0,
+     "vol": 0.25
+    }
+   ]
+  },
+  {
+   "id": "4.5",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "ilu",
+     "src": "ilustraciones/4.5.jpg",
+     "mov": "in"
+    }
+   ],
+   "sfx": [
+    {
+     "src": "sfx/evolucion-corte.mp3",
+     "at": 2.2,
+     "vol": 0.8
+    }
+   ]
+  },
+  {
+   "id": "4.6",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "ilu",
+     "src": "ilustraciones/4.6.jpg",
+     "mov": "in"
+    }
+   ],
+   "rotulo": {
+    "tipo": "dato",
+    "at": 0.45,
+    "relativo": true,
+    "es": [
+     "Movimiento sorpresa:",
+     "Excavar"
+    ],
+    "en": [
+     "Surprise move:",
+     "Dig"
+    ]
+   },
+   "sfx": [
+    {
+     "src": "sfx/latigo.mp3",
+     "at": 5.5,
+     "vol": 0.7
+    }
+   ]
+  },
+  {
+   "id": "5.1",
+   "musica": "ambiental",
+   "bloque": true,
+   "shots": [
+    {
+     "tipo": "grafico",
+     "grafico": "podio"
+    }
+   ],
+   "sfx": [
+    {
+     "src": "sfx/whoosh.mp3",
+     "at": 0,
+     "vol": 0.5
+    },
+    {
+     "src": "sfx/redoble.mp3",
+     "at": 8.0,
+     "vol": 0.7
+    }
+   ]
+  },
+  {
+   "id": "5.2",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "ilu",
+     "src": "ilustraciones/5.2.jpg",
+     "mov": "out"
+    }
+   ]
+  },
+  {
+   "id": "6.1",
+   "musica": "epica",
+   "bloque": true,
+   "shots": [
+    {
+     "tipo": "clip",
+     "src": "clips/6.1-rayo-solar.mp4",
+     "desde": 0,
+     "dur": 3.4
+    },
+    {
+     "tipo": "clip",
+     "src": "clips/6.1-rayo-solar.mp4",
+     "desde": 6.3,
+     "dur": 3.7
+    },
+    {
+     "tipo": "blanco",
+     "dur": 0.6
+    },
+    {
+     "tipo": "fondo-cartas"
+    }
+   ],
+   "rotulo": {
+    "tipo": "dato",
+    "at": 7.5,
+    "es": [
+     "Precios a",
+     "noviembre de 2026"
+    ],
+    "en": [
+     "Prices as of",
+     "November 2026"
+    ]
+   },
+   "sfx": [
+    {
+     "src": "sfx/rayo-solar.mp3",
+     "at": 4.6,
+     "vol": 0.9
+    }
+   ]
+  },
+  {
+   "id": "6.2",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "carta",
+     "cartas": [
+      "cartas/jp-1996-no-rarity.jpg"
+     ],
+     "precio": {
+      "es": 3000,
+      "en": 3500,
+      "moneda_es": "€"
+     },
+     "etiqueta": {
+      "es": "Japón 1996 · \"No Rarity\" · PSA 10",
+      "en": "Japan 1996 · \"No Rarity\" · PSA 10"
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "src": "sfx/whoosh.mp3",
+     "at": 0,
+     "vol": 0.5
+    },
+    {
+     "src": "sfx/contador.mp3",
+     "at": 13.0,
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "id": "6.3",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "carta",
+     "cartas": [
+      "cartas/base-44-normal.jpg",
+      "cartas/base-44-1a-edicion.jpg"
+     ],
+     "precio": {
+      "es": 7500,
+      "en": 8700,
+      "moneda_es": "€"
+     },
+     "precio_izq": {
+      "es": "≈ 3€",
+      "en": "≈ $3"
+     },
+     "etiqueta": {
+      "es": "Base Set #44 · normal → 1ª edición PSA 10",
+      "en": "Base Set #44 · unlimited → 1st Edition PSA 10"
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "src": "sfx/contador.mp3",
+     "at": 15.0,
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "id": "6.4",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "carta",
+     "cartas": [
+      "cartas/legendary-68-reverse.jpg"
+     ],
+     "precio": {
+      "es": 14500,
+      "en": 16700,
+      "moneda_es": "€"
+     },
+     "brillo": true,
+     "etiqueta": {
+      "es": "Legendary Collection 2002 · reverse holo · PSA 10",
+      "en": "Legendary Collection 2002 · reverse holo · PSA 10"
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "src": "sfx/contador.mp3",
+     "at": 14.0,
+     "vol": 0.5
+    }
+   ]
+  },
+  {
+   "id": "6.5",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "carta",
+     "cartas": [
+      "cartas/erika-corocoro.jpg"
+     ],
+     "precio": {
+      "es": 7500,
+      "en": 8500,
+      "moneda_es": "€"
+     },
+     "etiqueta": {
+      "es": "Promo CoroCoro · PSA 10",
+      "en": "CoroCoro promo · PSA 10"
+     }
+    }
+   ],
+   "sfx": [
+    {
+     "src": "sfx/whoosh.mp3",
+     "at": 0,
+     "vol": 0.4
+    }
+   ]
+  },
+  {
+   "id": "6.6",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "ilu",
+     "src": "ilustraciones/6.6.jpg",
+     "mov": "in"
+    }
+   ],
+   "rotulo": {
+    "tipo": "dato",
+    "at": 1.0,
+    "es": [
+     "Pokémon Snap",
+     "Nintendo 64 · 1999"
+    ],
+    "en": [
+     "Pokémon Snap",
+     "Nintendo 64 · 1999"
+    ]
+   },
+   "sfx": [
+    {
+     "src": "sfx/camara.mp3",
+     "at": -0.6,
+     "vol": 0.9
+    }
+   ]
+  },
+  {
+   "id": "6.7",
+   "musica": "epica",
+   "shots": [
+    {
+     "tipo": "record",
+     "carta": "cartas/snap-bulbasaur-psa8.png"
+    }
+   ],
+   "sfx": [
+    {
+     "src": "sfx/impacto.mp3",
+     "at": 0.5,
+     "vol": 0.5
+    },
+    {
+     "src": "sfx/impacto.mp3",
+     "at": 0.33,
+     "relativo": true,
+     "vol": 0.6
+    },
+    {
+     "src": "sfx/impacto.mp3",
+     "at": 0.72,
+     "relativo": true,
+     "vol": 1.0
+    }
+   ]
+  },
+  {
+   "id": "6.8",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "ilu",
+     "src": "ilustraciones/6.8.jpg",
+     "mov": "out"
+    }
+   ],
+   "rotulo": {
+    "tipo": "precio",
+    "at": 0.55,
+    "relativo": true,
+    "es": [
+     "Topps Chrome 2000 · PSA 10",
+     "50.400$ ≈ 44.000€"
+    ],
+    "en": [
+     "Topps Chrome 2000 · PSA 10",
+     "$50,400"
+    ],
+    "lado": "izq"
+   }
+  },
+  {
+   "id": "7.1",
+   "musica": "ambiental",
+   "bloque": true,
+   "shots": [
+    {
+     "tipo": "ilu",
+     "src": "ilustraciones/7.1.jpg",
+     "mov": "out"
+    }
+   ],
+   "sfx": [
+    {
+     "src": "sfx/whoosh.mp3",
+     "at": 0,
+     "vol": 0.4
+    }
+   ]
+  },
+  {
+   "id": "7.2",
+   "musica": "ambiental",
+   "shots": [
+    {
+     "tipo": "ilu",
+     "src": "ilustraciones/7.2.jpg",
+     "mov": "in"
+    }
+   ],
+   "rotulo": {
+    "tipo": "titular",
+    "at": 1.0,
+    "es": [
+     "Próxima crónica:",
+     "Nº 002 Ivysaur"
+    ],
+    "en": [
+     "Next chronicle:",
+     "No. 002 Ivysaur"
+    ]
+   },
+   "sfx": [
+    {
+     "src": "sfx/crayon.mp3",
+     "at": 1.0,
+     "vol": 0.6
+    }
+   ]
+  }
+ ]
 }

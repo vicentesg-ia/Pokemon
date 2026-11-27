@@ -700,12 +700,16 @@
      "dur": 3.7
     },
     {
-     "tipo": "blanco"
+     "tipo": "blanco",
+     "dur": 0.6
+    },
+    {
+     "tipo": "fondo-cartas"
     }
    ],
    "rotulo": {
     "tipo": "dato",
-    "at": 7.4,
+    "at": 7.5,
     "es": [
      "Precios a",
      "noviembre de 2026"
@@ -783,7 +787,7 @@
     {
      "tipo": "carta",
      "cartas": [
-      "cartas/base-44-normal.png",
+      "cartas/base-44-normal.jpg",
       "cartas/base-44-1a-edicion.jpg"
      ],
      "precio": {
@@ -991,12 +995,13 @@
     "relativo": true,
     "es": [
      "Topps Chrome 2000 · PSA 10",
-     "≈ 44.000€"
+     "50.400$ ≈ 44.000€"
     ],
     "en": [
      "Topps Chrome 2000 · PSA 10",
      "$50,400"
-    ]
+    ],
+    "lado": "izq"
    },
    "voz": {
     "es": {
@@ -1053,11 +1058,11 @@
     "at": 1.0,
     "es": [
      "Próxima crónica:",
-     "#002 Ivysaur"
+     "Nº 002 Ivysaur"
     ],
     "en": [
      "Next chronicle:",
-     "#002 Ivysaur"
+     "No. 002 Ivysaur"
     ]
    },
    "sfx": [

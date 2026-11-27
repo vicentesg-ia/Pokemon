@@ -27,7 +27,14 @@ def trozos(texto: str):
             f = f[corte + 1:].strip()
         if f:
             out.append(f)
-    return out
+    # Une los trozos muy cortos ("Yep.", "verdad.") a su vecino para que no duren menos de ~0,7 s
+    unidos = []
+    for p in out:
+        if unidos and (len(p) < 22 or len(unidos[-1]) < 22) and len(unidos[-1]) + len(p) + 1 <= (MAX + 16 if min(len(p), len(unidos[-1])) < 10 else MAX):
+            unidos[-1] += ' ' + p
+        else:
+            unidos.append(p)
+    return unidos
 
 
 def dos_lineas(t: str) -> str:

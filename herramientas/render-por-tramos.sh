@@ -38,7 +38,9 @@ for ((ini=0; ini<TOTAL; ini+=TRAMO)); do
 done
 
 echo "== Audio"
-npx remotion render "$TMP/bundle" "$COMP" "$TMP/audio.aac" --codec=aac > "$TMP/audio.log" 2>&1
+npx remotion render "$TMP/bundle" "$COMP" "$TMP/audio-bruto.aac" --codec=aac > "$TMP/audio.log" 2>&1
+# Mezcla final a -16 LUFS (estándar para YouTube) sin pasar de -1,5 dBTP
+ffmpeg -v error -y -i "$TMP/audio-bruto.aac" -af loudnorm=I=-16:TP=-1.5:LRA=11 -ar 48000 -c:a aac -b:a 192k "$TMP/audio.aac"
 
 echo "== Uniendo"
 ffmpeg -v error -y -f concat -safe 0 -i "$TMP/lista.txt" -i "$TMP/audio.aac" -map 0:v -map 1:a -c copy -movflags +faststart "$SALIDA"

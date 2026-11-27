@@ -89,7 +89,7 @@ const useDibujo = (inicio: number, durFrames = 14) => {
 };
 
 // ---------- Rótulos en crayón ----------
-export const Rotulo: React.FC<{tipo: string; lineas: string[]; inicio: number}> = ({tipo, lineas, inicio}) => {
+export const Rotulo: React.FC<{tipo: string; lineas: string[]; inicio: number; lado?: string}> = ({tipo, lineas, inicio, lado}) => {
 	const {clipPath, visible} = useDibujo(inicio);
 	if (!visible) return null;
 	const base: React.CSSProperties = {position: 'absolute', background: C.papel, color: C.tinta, filter: 'url(#rough)', boxShadow: '8px 12px 0 rgba(0,0,0,0.28)', clipPath};
@@ -106,7 +106,7 @@ export const Rotulo: React.FC<{tipo: string; lineas: string[]; inicio: number}> 
 	}
 	if (tipo === 'precio') {
 		return (
-			<div style={{...base, right: 80, top: 80, padding: '20px 40px', transform: 'rotate(2.5deg)', textAlign: 'center'}}>
+			<div style={{...base, ...(lado === 'izq' ? {left: 80} : {right: 80}), top: 80, padding: '20px 40px', transform: `rotate(${lado === 'izq' ? -2.5 : 2.5}deg)`, textAlign: 'center'}}>
 				<div style={{fontFamily: FUENTE_MANO, fontSize: 40}}>{lineas[0]}</div>
 				<div style={{fontFamily: FUENTE_CRAYON, fontWeight: 700, fontSize: 96, color: C.rojo, filter: 'url(#wax)'}}>{lineas[1]}</div>
 			</div>
@@ -137,7 +137,7 @@ const usePrecio = (objetivo: number, inicio: number, dur: number) => {
 	return objetivo * p;
 };
 
-const FondoCartas: React.FC = () => (
+export const FondoCartas: React.FC = () => (
 	<AbsoluteFill style={{background: 'radial-gradient(ellipse at 50% 45%, #2c4a33 0%, #142218 55%, #070d09 100%)'}}>
 		<AbsoluteFill style={{background: 'radial-gradient(circle at 35% 50%, rgba(242,181,28,0.30), transparent 45%)'}} />
 	</AbsoluteFill>
@@ -171,7 +171,7 @@ export const EscenaCarta: React.FC<{lang: Lang; cartas: string[]; precio: {es: n
 				{cartas.map((c, i) => (
 					<div key={c} style={{display: 'flex', flexDirection: 'column', alignItems: 'center', gap: 30}}>
 						<CartaImg src={c} alto={dos ? 700 : 820} delay={i * 30} brillo={brillo || (dos && i === 1)} inclinacion={dos ? (i === 0 ? -4 : 4) : -6} />
-						{dos && i === 0 && precioIzq ? <div style={{fontFamily: FUENTE_CRAYON, fontWeight: 700, fontSize: 64, color: C.papel}}>{precioIzq[lang]}</div> : null}
+						{dos && i === 0 && precioIzq ? <div style={{fontFamily: FUENTE_CRAYON, fontWeight: 700, fontSize: 64, color: C.tinta, background: C.papel, padding: '6px 30px 10px', filter: 'url(#rough)', transform: 'rotate(-2deg)', boxShadow: '8px 10px 0 rgba(0,0,0,0.35)'}}>{precioIzq[lang]}</div> : null}
 					</div>
 				))}
 			</AbsoluteFill>
@@ -191,8 +191,8 @@ export const EscenaCarta: React.FC<{lang: Lang; cartas: string[]; precio: {es: n
 // ---------- Escena del récord (6.7): línea de tiempo de 3 ventas ----------
 export const EscenaRecord: React.FC<{lang: Lang; carta: string}> = ({lang, carta}) => {
 	const {durationInFrames} = useVideoConfig();
-	const ventas = lang === 'es'
-		? [{a: '2023 · PSA 9', p: '≈ 70.000€'}, {a: '2025 · PSA 9', p: '≈ 175.000€'}, {a: '2026 · PSA 8', p: '809.943$', n: '≈ 700.000€'}]
+	const ventas: {a: string; p: string; n?: string}[] = lang === 'es'
+		? [{a: '2023 · PSA 9', p: '80.520$', n: '≈ 70.000€'}, {a: '2025 · PSA 9', p: '200.000$', n: '≈ 175.000€'}, {a: '2026 · PSA 8', p: '809.943$', n: '≈ 700.000€'}]
 		: [{a: '2023 · PSA 9', p: '$80,520'}, {a: '2025 · PSA 9', p: '$200,000'}, {a: '2026 · PSA 8', p: '$809,943'}];
 	const marcas = [0.08, 0.33, 0.72].map((x) => Math.round(x * durationInFrames));
 	return (
@@ -217,7 +217,7 @@ const Venta: React.FC<{inicio: number; anio: string; precio: string; nota?: stri
 		<div style={{background: C.papel, padding: grande ? '22px 50px 28px' : '14px 36px 18px', filter: 'url(#rough)', clipPath, transform: `rotate(${grande ? -2 : 1}deg)`, boxShadow: '10px 14px 0 rgba(0,0,0,0.35)', alignSelf: 'flex-start'}}>
 			<div style={{fontFamily: FUENTE_MANO, fontSize: grande ? 48 : 38, color: C.tinta}}>{anio}</div>
 			<div style={{fontFamily: FUENTE_CRAYON, fontWeight: 700, fontSize: grande ? 150 : 76, color: grande ? C.rojo : C.tinta, lineHeight: 1, filter: 'url(#wax)'}}>{precio}</div>
-			{nota ? <div style={{fontFamily: FUENTE_MANO, fontSize: 50, color: C.tinta}}>{nota}</div> : null}
+			{nota ? <div style={{fontFamily: FUENTE_MANO, fontSize: grande ? 50 : 36, color: C.tinta}}>{nota}</div> : null}
 		</div>
 	);
 };
@@ -246,16 +246,19 @@ export const Grafico: React.FC<{nombre: string; lang: Lang}> = ({nombre, lang}) 
 		);
 	}
 	if (nombre === 'alreves') {
-		const pasos = ['Venusaur', 'Ivysaur', 'Bulbasaur'];
+		const pasos = lang === 'es' ? [['Venusaur', 'primero'], ['Bulbasaur', 'al final']] : [['Venusaur', 'first'], ['Bulbasaur', 'last']];
 		return (
 			<Papel>
 				<AbsoluteFill style={{alignItems: 'center', justifyContent: 'center', flexDirection: 'column', gap: 40}}>
-					<Trazo inicio={s(0.3)} style={{...mano, fontSize: 64}}>{lang === 'es' ? 'Diseñado al revés' : 'Designed backwards'}</Trazo>
-					<div style={{display: 'flex', alignItems: 'center', gap: 30}}>
-						{pasos.map((p, i) => (
+					<Trazo inicio={s(0.3)} style={{...mano, fontSize: 64}}>{lang === 'es' ? 'Diseñado al revés, según Nishida' : 'Designed backwards, according to Nishida'}</Trazo>
+					<div style={{display: 'flex', alignItems: 'center', gap: 50}}>
+						{pasos.map(([p, nota], i) => (
 							<React.Fragment key={p}>
-								<Trazo inicio={s(1.0 + i * 3.0)} style={{...grande, fontSize: 96 - i * 8, color: i === 2 ? C.verde : C.tinta, whiteSpace: 'nowrap'}}>{i + 1}. {p}</Trazo>
-								{i < 2 ? <Trazo inicio={s(2.4 + i * 3.0)} style={{...grande, fontSize: 90, color: C.rojo}}>→</Trazo> : null}
+								<Trazo inicio={s(1.0 + i * 3.0)} style={{display: 'flex', flexDirection: 'column', alignItems: 'center'}}>
+									<div style={{...grande, fontSize: 120, color: i === 1 ? C.verde : C.tinta, whiteSpace: 'nowrap'}}>{p}</div>
+									<div style={{...mano, fontSize: 56, color: C.tinta}}>{nota}</div>
+								</Trazo>
+								{i === 0 ? <Trazo inicio={s(2.4)} style={{...grande, fontSize: 110, color: C.rojo}}>←</Trazo> : null}
 							</React.Fragment>
 						))}
 					</div>
@@ -295,8 +298,8 @@ export const Grafico: React.FC<{nombre: string; lang: Lang}> = ({nombre, lang}) 
 						{col(340, 'Charizard', '1º', t(0.45), '#d9662b')}
 						{col(200, 'Bulbasaur', '3º', t(0.35), C.verde)}
 						<Trazo inicio={t(0.62)} style={{display: 'flex', flexDirection: 'column', alignItems: 'center', marginLeft: 40}}>
-							<div style={{...grande, fontSize: 60, color: '#c9a300'}}>Pikachu</div>
-							<div style={{...mano, fontSize: 90, color: C.rojo}}>4º</div>
+							<div style={{...grande, fontSize: 64, color: '#8a6d00'}}>Pikachu</div>
+							<div style={{...mano, fontSize: 56, color: C.rojo}}>{lang === 'es' ? 'por detrás' : 'behind'}</div>
 						</Trazo>
 					</div>
 				</AbsoluteFill>

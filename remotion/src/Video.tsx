@@ -1,11 +1,11 @@
 import React from 'react';
-import {AbsoluteFill, Audio, Sequence, interpolate, staticFile, useVideoConfig} from 'remotion';
+import {AbsoluteFill, Audio, Sequence, interpolate, staticFile, useCurrentFrame, useVideoConfig} from 'remotion';
 import {FiltrosCrayon, FuentesCrayon} from './estilo';
-import {Blanco, Clip, EscenaCarta, EscenaRecord, Grafico, Ilustracion, Lang, Rotulo} from './componentes';
+import {Blanco, Clip, EscenaCarta, FondoCartas, EscenaRecord, Grafico, Ilustracion, Lang, Rotulo} from './componentes';
 
 // ---------- Tipos del plan (videos/<NNN>/montaje/plan.json + duraciones) ----------
 type Shot = {tipo: string; src?: string; desde?: number; dur?: number; peso?: number; mov?: string; particulas?: boolean; grafico?: string; cartas?: string[]; carta?: string; precio?: any; precio_izq?: any; etiqueta?: any; brillo?: boolean};
-type Escena = {id: string; musica: string; bloque?: boolean; shots: Shot[]; rotulo?: {tipo: string; at: number; relativo?: boolean; es: string[]; en: string[]}; sfx?: {src: string; at: number; relativo?: boolean; vol: number}[]; voz: Record<Lang, {src: string; dur: number}>};
+type Escena = {id: string; musica: string; bloque?: boolean; shots: Shot[]; rotulo?: {tipo: string; at: number; relativo?: boolean; lado?: string; es: string[]; en: string[]}; sfx?: {src: string; at: number; relativo?: boolean; vol: number}[]; voz: Record<Lang, {src: string; dur: number}>};
 export type Plan = {raiz: string; fps: number; padding: number; escenas: Escena[]};
 
 const VOL = {voz: 1, ambiental: 0.09, epica: 0.16};
@@ -40,13 +40,22 @@ const RenderShot: React.FC<{s: Shot; lang: Lang}> = ({s, lang}) => {
 	if (s.tipo === 'ilu') return <Ilustracion src={`${RAIZ.v}/${s.src}`} mov={s.mov} particulas={s.particulas} />;
 	if (s.tipo === 'clip') return <Clip src={`${RAIZ.v}/${s.src}`} desde={s.desde} />;
 	if (s.tipo === 'blanco') return <Blanco />;
-	if (s.tipo === 'grafico') return <Grafico nombre={s.grafico!} lang={lang} />;
+	if (s.tipo === 'grafico') return <ZoomLento><Grafico nombre={s.grafico!} lang={lang} /></ZoomLento>;
+	if (s.tipo === 'fondo-cartas') return <FondoCartas />;
 	if (s.tipo === 'carta') return <EscenaCarta lang={lang} cartas={s.cartas!.map((c) => `${RAIZ.v}/${c}`)} precio={s.precio} precioIzq={s.precio_izq} etiqueta={s.etiqueta} brillo={s.brillo} />;
 	if (s.tipo === 'record') return <EscenaRecord lang={lang} carta={`${RAIZ.v}/${s.carta}`} />;
 	return null;
 };
 
 const RAIZ = {v: ''};
+
+// Zoom muy lento para que los gráficos no se queden quietos
+const ZoomLento: React.FC<{children: React.ReactNode}> = ({children}) => {
+	const f = useCurrentFrame();
+	const {durationInFrames} = useVideoConfig();
+	const k = interpolate(f, [0, durationInFrames], [1, 1.07], {extrapolateRight: 'clamp'});
+	return <AbsoluteFill style={{transform: `scale(${k})`}}>{children}</AbsoluteFill>;
+};
 
 export const VideoCronica: React.FC<{plan: Plan; lang: Lang}> = ({plan, lang}) => {
 	const {fps} = useVideoConfig();
@@ -82,7 +91,7 @@ export const VideoCronica: React.FC<{plan: Plan; lang: Lang}> = ({plan, lang}) =
 							<RenderShot s={shot} lang={lang} />
 						</Sequence>
 					))}
-					{e.rotulo ? <Rotulo tipo={e.rotulo.tipo} lineas={e.rotulo[lang]} inicio={segAFrames(e.rotulo.at, e.rotulo.relativo, dur, fps)} /> : null}
+					{e.rotulo ? <Rotulo tipo={e.rotulo.tipo} lineas={e.rotulo[lang]} inicio={segAFrames(e.rotulo.at, e.rotulo.relativo, dur, fps)} lado={e.rotulo.lado} /> : null}
 					<Audio src={staticFile(`${plan.raiz}/${e.voz[lang].src}`)} volume={VOL.voz} />
 					{(e.sfx ?? []).map((x, i) => (
 						<Sequence key={`sfx${i}`} from={segAFrames(x.at, x.relativo, dur, fps)}>
@@ -94,8 +103,7 @@ export const VideoCronica: React.FC<{plan: Plan; lang: Lang}> = ({plan, lang}) =
 
 			{/* Música ambiental en bucle; se apaga cuando suena la épica */}
 			<Audio
-				src={staticFile(`${plan.raiz}/musica/ambiental.mp3`)}
-				loop
+				src={staticFile(`${plan.raiz}/musica/ambiental-larga.mp3`)}
 				volume={(f) => (enEpica(f) ? 0 : VOL.ambiental) * interpolate(f, [total - 90, total], [1, 0], {extrapolateLeft: 'clamp', extrapolateRight: 'clamp'})}
 			/>
 			{epicas.map((x, i) => (

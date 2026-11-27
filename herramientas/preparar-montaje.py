@@ -9,10 +9,45 @@ Uso: python3 herramientas/preparar-montaje.py 001-bulbasaur
 """
 import json
 import os
+import re
 import shutil
+import subprocess
 import sys
 
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+VOZ_LUFS = -18.0  # las voces de los dos idiomas se igualan a este nivel
+AMBIENTAL_SEG = 900  # la pista ambiental se alarga a 15 min (sin <Audio loop>, que dejaba huecos al renderizar por tramos)
+
+
+def lufs(rutas):
+    """Sonoridad integrada (LUFS) del conjunto de archivos, como si fueran uno."""
+    lista = os.path.join(os.path.dirname(rutas[0]), '_lista.txt')
+    open(lista, 'w').write(''.join(f"file '{r}'\n" for r in rutas))
+    out = subprocess.run(['ffmpeg', '-hide_banner', '-f', 'concat', '-safe', '0', '-i', lista,
+                          '-af', 'ebur128', '-f', 'null', '-'], capture_output=True, text=True).stderr
+    os.remove(lista)
+    return float(re.findall(r'I:\s+(-?[\d.]+) LUFS', out)[-1])
+
+
+def igualar_voces(pub):
+    """Aplica a cada idioma una ganancia fija para dejar su voz en VOZ_LUFS (respeta la dinámica)."""
+    for lang in ('es', 'en'):
+        d = os.path.join(pub, lang)
+        rutas = sorted(os.path.join(d, f) for f in os.listdir(d) if f.endswith('.mp3'))
+        ganancia = VOZ_LUFS - lufs(rutas)
+        for r in rutas:
+            tmp = r + '.tmp.mp3'
+            subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', r, '-af', f'volume={ganancia:.2f}dB',
+                            '-c:a', 'libmp3lame', '-b:a', '192k', tmp], check=True)
+            os.replace(tmp, r)
+        print(f'voz {lang}: {ganancia:+.1f} dB')
+
+
+def alargar_ambiental(pub):
+    m = os.path.join(pub, 'musica')
+    subprocess.run(['ffmpeg', '-v', 'error', '-y', '-stream_loop', '-1', '-i', os.path.join(m, 'ambiental.mp3'),
+                    '-t', str(AMBIENTAL_SEG), '-c:a', 'libmp3lame', '-b:a', '192k',
+                    os.path.join(m, 'ambiental-larga.mp3')], check=True)
 
 
 def main(video: str) -> None:
@@ -29,6 +64,8 @@ def main(video: str) -> None:
         if os.path.isdir(dst):
             shutil.rmtree(dst)
         shutil.copytree(src, dst)
+    igualar_voces(pub)
+    alargar_ambiental(pub)
 
     for e in plan['escenas']:
         for lang in ('es', 'en'):
