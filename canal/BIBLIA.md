@@ -102,7 +102,7 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 - **Las dos voces son masculinas y maduras** (35-45 años): cálidas, como un fan veterano.
 - **No es la misma persona** en los dos idiomas. Se elige la mejor voz para cada uno.
 - Modelo: `eleven_v4`.
-- **Voz elegida ES:** Jose – Narrativo y Natural (`voice_id: C12mZePhNoo0RoTXhSFV`)
+- **Voz elegida ES: Mario – Animated and chatty** (`voice_id: tomkxGQGz4b1kE0EM722`), latino. La eligió Vicente tras escuchar el primer vídeo; sustituye a Jose (`C12mZePhNoo0RoTXhSFV`). Es más joven y animada que el criterio inicial de "voz madura".
 - **Voz elegida EN:** Christian – Warm Documentary Narrator (`voice_id: KMLpM4tgKxYUlv81Ue0p`). Se usa en su registro natural, sin etiquetas de energía añadidas.
 
 ## 10. Música y efectos de sonido

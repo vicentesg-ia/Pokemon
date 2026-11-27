@@ -5,7 +5,7 @@ Lienzo de ElevenLabs: flow `jfG4JUL634oYdf0LvGUj` (los session_id están en `ses
 ## Voz (eleven_v4, 1 toma por escena)
 | Idioma | Voz | Archivos | Duración |
 |---|---|---|---|
-| ES | Jose (`C12mZePhNoo0RoTXhSFV`) | `es/<escena>.mp3` (29) | 9,4 min |
+| ES | **Mario** (`tomkxGQGz4b1kE0EM722`), elegido por Vicente en lugar de Jose | `es/<escena>.mp3` (29) | 9,1 min |
 | EN | Christian (`KMLpM4tgKxYUlv81Ue0p`) | `en/<escena>.mp3` (29) | 9,0 min |
 
 - Los textos que se han enviado a la voz están en `textos.json`. En ES, las cifras van escritas en palabras y "PSA" como "pe ese a".
@@ -23,4 +23,4 @@ Lienzo de ElevenLabs: flow `jfG4JUL634oYdf0LvGUj` (los session_id están en `ses
 `sfx/`: camara (1.1, 6.6), crayon (rótulos), whoosh (transiciones), impacto (1.2, 6.7), contador (precios), pagina (2.3, 3.5), bosque (ambiente 1.1, 2.4, 4.4), rana (3.3), evolucion-corte (4.5), latigo (4.6, 6.1), redoble (5.1), rayo-solar (6.1).
 
 ## Créditos de ElevenLabs
-Voz ES ~9.000 + EN ~8.200 + música 1.800 + efectos 200 = **~19.200**.
+Voz ES Jose ~9.000 (descartada) + ES Mario ~9.000 + EN ~8.200 + música 1.800 + efectos 200 = **~28.200**.
