@@ -49,3 +49,36 @@ Vibrant saturated colors. Wide cinematic composition, 16:9, no text.
    - cambios sutiles de luz o color sobre la imagen.
 
    Una imagen bien aprovechada cubre entre 15 y 20 segundos de vídeo.
+
+---
+
+# Estilo visual: clips realistas (Higgsfield vídeo)
+
+## Análisis del vídeo de referencia (aportado por Vicente)
+
+Es un vídeo vertical de unos 100 segundos sobre la línea evolutiva Squirtle → Wartortle → Blastoise.
+- **Realismo tipo documental de naturaleza con momentos épicos:** el Pokémon parece un animal real, con piel húmeda, textura del caparazón y gotas de agua.
+- **Muchos planos macro y de detalle:** pata pisando la arena, ojo, caparazón. **Profundidad de campo corta**, con el fondo desenfocado.
+- **Luz natural cinematográfica:** hora dorada en la playa, rayos de sol bajo el agua y escenas oscuras y dramáticas en las profundidades.
+- **Mucha interacción física:** huellas en la arena, espuma, salpicaduras, burbujas, sombras sobre el fondo marino.
+- **Hay una pequeña historia:** cría en la playa, después explora el mar, aparece una amenaza (Gyarados) y llega la evolución épica.
+- **Montaje muy rápido:** 62 cortes en 100 segundos, con planos de **0,5 a 3 segundos** (unos 1,6 segundos de media).
+
+## Uso en nuestros vídeos
+
+- **1 o 2 momentos por vídeo:** uno de 5 a 10 segundos y otro de 10 a 15 segundos.
+- Un clip realista sirve muy bien como **gancho de apertura** para retener al espectador.
+- Formato **16:9** (nuestros vídeos son horizontales), sin audio generado: el sonido lo pone ElevenLabs.
+- **Imitar el montaje rápido:** de cada clip generado de 5 segundos se sacan 2 o 3 planos cortos en Remotion. Un momento de 15 segundos necesita unos 3 a 5 clips generados.
+
+## Costes en Higgsfield (consultados el 27-11-2026, clip de 5 s, 16:9, sin audio)
+
+| Modelo | Resolución | Créditos |
+|---|---|---|
+| MAGI-2 | 1080p | 12,5 |
+| Seedance 2.5 (borrador) | 480p | 15 (después hay que pagar la versión final) |
+| Seedance 2.5 | 720p | 35 |
+| Cinema Studio 3.0 | 1080p | 65 |
+| Seedance 2.5 | 1080p | 80 |
+
+*(El modelo final está pendiente de elegir tras una prueba comparativa.)*
