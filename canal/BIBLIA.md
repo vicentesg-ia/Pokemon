@@ -49,7 +49,7 @@ Se mezclan dos estilos:
 
 1. **Ilustraciones 2D estilo crayón**: son la base de la narración. Unas son estáticas y otras tienen movimientos sutiles.
    - **No hay plantillas fijas.** Cada Pokémon tiene escenas propias según su historia y su hábitat: un bosque si vive en el bosque, el mar si es acuático, etc.
-   - **Estilo:** crayón o pastel de ilustrador, con textura pero dibujo cuidado (opción B), o mezcla de Pokémon cuidado con fondo más suelto (opción C). Nunca un dibujo infantil. *(Estilo final pendiente de elegir.)*
+   - **Estilo:** crayón o pastel de ilustrador, con textura pero dibujo cuidado (opción B), o mezcla de Pokémon cuidado con fondo más suelto (opción C). Nunca un dibujo infantil. **Elegido: estilo C** (ver `canal/ESTILO_VISUAL.md`: referencias, plantilla de prompt y estrategia de ahorro).
    - **Requisitos de calidad en todas las imágenes:**
      - **Sombras coherentes** del Pokémon y de los objetos, según la fuente de luz.
      - **Huellas y rastros** cuando el Pokémon camina o pisa: barro, tierra, nieve, arena…
@@ -67,7 +67,7 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 |---|---|
 | Higgsfield | Imágenes 2D y clips realistas |
 | ElevenLabs | Voz en off (ES y EN), efectos de sonido y música |
-| Remotion | Montaje: composición, textos, subtítulos, transiciones, gráficos y render final |
+| Remotion | Montaje: composición, textos, subtítulos, transiciones, gráficos y render final. También los **movimientos de cámara** (zoom, recorridos, parallax) y las **partículas**, para sacar varios planos de cada imagen sin gastar créditos |
 
 ## 7. Investigación y datos
 
@@ -111,7 +111,7 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 - [x] Fuentes de información y verificación de datos
 - [x] Fuente de precios de cartas
 - [x] Estilo del guion y del narrador
-- [ ] Diseño de las plantillas 2D estilo crayón
+- [x] Estilo de las ilustraciones 2D (estilo C)
 - [ ] Referencia del estilo realista de Higgsfield
 - [x] Voces (ES y EN)
 - [ ] Música y efectos
