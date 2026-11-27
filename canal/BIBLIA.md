@@ -142,6 +142,7 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 - Cada miniatura se hace **en los dos idiomas**: misma imagen, texto traducido o adaptado.
 
 ### Títulos
+- **Formato fijo: `<Nombre>: <gancho> #<Nº>`**. El nombre del Pokémon va siempre primero y el número de Pokédex al final con almohadilla, por ejemplo "Bulbasaur: una foto suya se vendió por 700.000€ #001". YouTube convierte "#001" en hashtag, y eso refuerza la idea de colección.
 - **Gancho variable:** cada título busca la curiosidad más potente de ese Pokémon ("El Pokémon que casi fue la mascota de Pokémon").
 - Se proponen **3 opciones** por vídeo y Vicente elige. Se adaptan a cada idioma, no se traducen palabra por palabra.
 

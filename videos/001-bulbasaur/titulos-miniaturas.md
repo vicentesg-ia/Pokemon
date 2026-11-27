@@ -2,13 +2,13 @@
 
 > **Estado: miniatura elegida: M4** · título pendiente · 2026-11-27
 
-## Títulos (gancho variable)
+## Títulos (formato `<Nombre>: <gancho> #<Nº>`)
 
 | # | ES | EN |
 |---|---|---|
-| T1 | Una foto de este Pokémon se vendió por 809.943 dólares | Someone Paid $809,943 for a Photo of This Pokémon |
-| T2 | Bulbasaur: el Pokémon nº 1 que nadie sabe si es planta o animal | Pokémon #1 Is Still a Mystery After 30 Years |
-| T3 | El Pokémon que se negó a evolucionar… y su carta de 800.000$ | The Pokémon That Refused to Evolve… and Its $800,000 Card |
+| T1 | Bulbasaur: una foto suya se vendió por 700.000€ #001 | Bulbasaur: Someone Paid $809,943 for a Photo of It #001 |
+| T2 | Bulbasaur: el Pokémon nº 1 que nadie sabe si es planta o animal #001 | Bulbasaur: Still a Mystery After 30 Years #001 |
+| T3 | Bulbasaur: el Pokémon que se negó a evolucionar… y su carta de 700.000€ #001 | Bulbasaur: The Pokémon That Refused to Evolve… and Its $800,000 Card #001 |
 
 ## Miniaturas
 
