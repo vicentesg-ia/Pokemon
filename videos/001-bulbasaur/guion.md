@@ -1,6 +1,6 @@
 # Guion · #001 Bulbasaur
 
-> **Estado: pendiente de aprobación** · Escrito el 2026-11-27
+> **Estado: ✅ aprobado por Vicente el 2026-11-27** (con el cambio de la escena 6.6: sin personas, todo centrado en Pokémon) · Escrito el 2026-11-27
 > Tipo de cambio usado: **1 € ≈ 1,15 $** (orientativo: las fuentes del 27-11-2026 dan entre 1,12 y 1,16; ⚠️ repasar antes de grabar la voz)
 > Duración estimada: **ES ~10-11 min** (~1.530 palabras) · **EN ~9,5-10 min** (~1.440 palabras). Las pausas, la música y los clips añaden ~30-60 s.
 
@@ -260,8 +260,8 @@
 **EN:** Then there are the Japanese promos, like Erika's Bulbasaur, given away by CoroCoro magazine, which goes for around eight and a half thousand dollars in PSA 10. And then… there's the card I told you about at the start.
 
 ### 6.6 · Pokémon Snap
-- **Visual:** `ILU`: niño de espaldas en una habitación de los 90 jugando a una consola en una tele de tubo; en la pantalla, un Bulbasaur en un paisaje con el marco de una cámara de fotos. Luz de la tele en la cara del niño y en la pared.
-- **Cámara:** zoom lento hacia la pantalla de la tele.
+- **Visual:** `ILU`: Bulbasaur en una pradera junto a un río, visto a través del visor de una cámara de fotos dibujado en crayón (esquinas del encuadre y punto de enfoque). Mira a cámara con curiosidad; luz de media mañana con una sombra corta y nítida.
+- **Cámara:** el visor enfoca poco a poco; flash blanco al final.
 - **Rótulo:** ES "Pokémon Snap · Nintendo 64 · 1999" / EN "Pokémon Snap · Nintendo 64 · 1999"
 - **Sonido:** zumbido de tele antigua; obturador de cámara.
 
@@ -280,8 +280,8 @@
 **EN:** In November 2023, a PSA 9 copy sold for about eighty thousand dollars. In July 2025, another PSA 9 went for two hundred thousand. And in August 2026, at Goldin's summer auction, a PSA 8 copy, not even the top grade, sold for eight hundred nine thousand, nine hundred forty-three dollars after forty-nine bids. It's the all-time record for a Bulbasaur card, more than six hundred thousand dollars above the previous high.
 
 ### 6.8 · Piénsalo
-- **Visual:** `ILU`: vuelta a la habitación de los 90; el niño sostiene una foto impresa del Bulbasaur y su sombra se proyecta en la pared con la luz de la tele.
-- **Cámara:** zoom lento a la foto.
+- **Visual:** `ILU`: la foto instantánea de Bulbasaur (la misma escena del visor) tirada sobre la hierba al sol, con una esquina doblada. El Bulbasaur de verdad se acerca a mirarla y su sombra cae sobre la foto.
+- **Cámara:** zoom lento hacia atrás, de la foto a Bulbasaur.
 - **Sonido:** la música épica baja; vuelve el tono nostálgico.
 
 **ES:** Piénsalo un momento: una foto que alguien hizo jugando a la Nintendo 64, en 1999… hoy vale más que muchas casas. Y no es la única rareza: un Bulbasaur de Topps Chrome del año 2000, en PSA 10, se vendió en octubre de 2026 por unos 44.000 euros.
@@ -331,10 +331,10 @@
 | 4.5 Rechaza la evolución | ILU | Nueva |
 | 4.6 Jardín del laboratorio | ILU | Nueva (jardín reutilizable) |
 | 5.2 Colina al atardecer | ILU | Parte de la propuesta 5 de estilo |
-| 6.6 / 6.8 Habitación de los 90 con la tele | ILU | Nueva, reutilizable ("nostalgia") |
+| 6.6 / 6.8 Bulbasaur en el visor de una cámara + la foto en la hierba | ILU | Nuevas (2) |
 | 7.2 Silueta de Ivysaur | ILU | Nueva |
 
-**Total: unas 16 ilustraciones** (~24 créditos de Higgsfield).
+**Total: unas 17 ilustraciones** (~26 créditos de Higgsfield).
 **Gráficos en Remotion (sin créditos):** 2.3 Pokédex, 3.2 siluetas, 3.4 nombre, 5.1 podio.
 
 ### Clips realistas (fase 5)

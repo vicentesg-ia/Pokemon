@@ -24,6 +24,7 @@ Sirve a la vez de texto para la voz (ElevenLabs) y de plan de escenas para las f
 5. **Terminología oficial de cada idioma:** movimientos, lugares, personajes (Ciudad Celeste / Cerulean City, Excavar / Dig). En ES no se citan títulos de episodios del anime si no están confirmados en el doblaje latino.
 
 ## Reglas de estilo (narrador, BIBLIA §8)
+- **Visuales sin personas:** nada de niños ni jugadores; las escenas se centran en Pokémon (BIBLIA §5).
 - Narrador **cercano**: habla al espectador ("¿sabías que…?", "si alguna vez…"). Es un fan adulto que sabe mucho y lo cuenta con ganas.
 - **Humor puntual**: 1 o 2 guiños por bloque como mucho, nunca forzados.
 - **Sin frases fijas** de saludo ni despedida. Se empieza directamente con el gancho.
@@ -71,5 +72,5 @@ Al final del guion va un **resumen de producción**:
 
 ## Al terminar
 1. Guarda el guion, actualiza `estado.md` y haz commit y push.
-2. Presenta en el chat: la duración, el gancho, un fragmento del inicio (ES y EN) y los puntos en los que necesitas su opinión. Incluye el enlace al archivo.
+2. **Pega el guion completo en la conversación** (ES y EN, con todas las escenas), además de dejarlo en GitHub: Vicente lo revisa en el propio chat. Antes del guion, pon un resumen corto: duración, coste estimado de producción y los puntos en los que necesitas su opinión.
 3. **Para y espera la aprobación.** Cuando la dé, marca `Estado: ✅ aprobado` y ofrece pasar a títulos y miniaturas.

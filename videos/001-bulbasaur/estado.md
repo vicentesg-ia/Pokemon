@@ -3,7 +3,7 @@
 | Fase | Estado | Fecha | Notas |
 |---|---|---|---|
 | 1. Ficha | ✅ Aprobada | 2026-11-27 | Gancho: Snap Bulbasaur 809.943 $ |
-| 2. Guion | ⏳ Pendiente de aprobación | 2026-11-27 | ES ~10-11 min, EN ~10 min · 1 € ≈ 1,15 $ (repasar antes de la voz) |
+| 2. Guion | ✅ Aprobado | 2026-11-27 | ES ~10-11 min, EN ~10 min · 1 € ≈ 1,15 $ (repasar antes de la voz) |
 | 3. Títulos y miniaturas | | | |
 | 4. Ilustraciones | | | Referencias de estilo ya generadas (ver `canal/ESTILO_VISUAL.md`) |
 | 5. Clips realistas | | | Prueba de MAGI-2 ya hecha con Bulbasaur (fotograma `4bbabd0d…`, clip `44b879c0…`) |

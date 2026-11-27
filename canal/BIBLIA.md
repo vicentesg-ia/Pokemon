@@ -55,6 +55,7 @@ Se mezclan dos estilos:
      - **Huellas y rastros** cuando el Pokémon camina o pisa: barro, tierra, nieve, arena…
      - **La iluminación cambia según la escena:** sol alto, sol bajo, atardecer, nublado, luz filtrada por los árboles… La dirección y la longitud de las sombras tienen que coincidir con esa luz.
      - **Colores vivos y saturados** que llamen la atención.
+   - **Sin personas:** las ilustraciones y los clips se centran siempre en los Pokémon. No salen niños, jugadores ni personas reconocibles. Si hace falta evocar algo humano (un juego, una foto, un concurso), se hace con objetos o con el propio Pokémon.
    - **Modelo de imagen:** Nano Banana 2 (Higgsfield). GPT Image bloquea a los personajes de Pokémon por propiedad intelectual.
 2. **Clips realistas generados con Higgsfield**: Pokémon con aspecto realista en momentos clave (evoluciones, planos espectaculares). *(Referencia visual pendiente: capturas o descripción.)*
 
