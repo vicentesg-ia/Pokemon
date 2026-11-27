@@ -81,7 +81,17 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 - **Sin frases fijas:** no hay saludo ni despedida repetidos. Cada vídeo empieza directamente con su gancho y termina con un cierre propio.
 - **Sin intro ni pantalla final fijas:** no hay cabecera con logo ni end screen predefinida. El adelanto del siguiente Pokémon y la llamada a suscribirse van dentro de la narración del cierre.
 
-## 9. Riesgos a vigilar
+## 9. Voces (ElevenLabs)
+
+- **Español: latino neutro**, porque es la audiencia más grande. Los términos de los juegos son iguales en todo el español. En lo que venga del anime se usa el doblaje latino.
+- **Inglés: acento americano.**
+- **Las dos voces son masculinas y maduras** (35-45 años): cálidas, como un fan veterano.
+- **No es la misma persona** en los dos idiomas. Se elige la mejor voz para cada uno.
+- Modelo: `eleven_v4`.
+- Voz elegida ES: *(pendiente de elegir entre las muestras)*
+- Voz elegida EN: *(pendiente de elegir entre las muestras)*
+
+## 10. Riesgos a vigilar
 
 - **Política de contenido "no auténtico" de YouTube**: hay que evitar los vídeos repetitivos o de poco valor. El valor lo aportan un buen guion, un estilo propio y una revisión de calidad.
 - **Propiedad intelectual de Pokémon**: no usar material oficial (arte, capturas o fragmentos del anime) sin criterio. Hay que cuidar que los diseños generados no sean copias de los oficiales.
