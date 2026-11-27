@@ -1,17 +1,26 @@
 import React from 'react';
-import {continueRender, delayRender, staticFile} from 'remotion';
+import {continueRender, delayRender} from 'remotion';
+import {CABIN_SKETCH_B64, GOCHI_HAND_B64} from './fuentes-b64';
 
 // Estilo del canal: rótulos en crayón (BIBLIA §11).
-// Las fuentes se cargan en local (public/fuentes) porque el navegador de render no puede bajarlas de Google Fonts.
+// El navegador de render no puede bajar las fuentes de Google Fonts: van incrustadas en el código.
 export const FUENTE_CRAYON = 'CabinSketchLocal';
 export const FUENTE_MANO = 'GochiHandLocal';
+const b64ABuffer = (b64: string) => {
+	const bin = atob(b64);
+	const out = new Uint8Array(bin.length);
+	for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
+	return out.buffer;
+};
 if (typeof window !== 'undefined' && typeof FontFace !== 'undefined') {
-	const h = delayRender('Cargando fuentes', {timeoutInMilliseconds: 180000});
-	Promise.all([
-		new FontFace(FUENTE_CRAYON, `url(${staticFile('fuentes/CabinSketch-Bold.woff2')}) format('woff2')`, {weight: '700'}).load(),
-		new FontFace(FUENTE_MANO, `url(${staticFile('fuentes/GochiHand.woff2')}) format('woff2')`).load(),
-	])
-		.then((fs) => fs.forEach((f) => (document as any).fonts.add(f)))
+	// Las fuentes van incrustadas (fuentes-b64.ts): se cargan desde memoria, sin peticiones de red.
+	const fuentes = [
+		new FontFace(FUENTE_CRAYON, b64ABuffer(CABIN_SKETCH_B64), {weight: '700'}),
+		new FontFace(FUENTE_MANO, b64ABuffer(GOCHI_HAND_B64)),
+	];
+	fuentes.forEach((f) => (document as any).fonts.add(f));
+	const h = delayRender('Cargando fuentes', {timeoutInMilliseconds: 60000});
+	Promise.all(fuentes.map((f) => f.load()))
 		.catch((e) => console.error('Fuentes', e))
 		.finally(() => continueRender(h));
 }
