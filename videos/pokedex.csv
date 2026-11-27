@@ -1,0 +1,1026 @@
+num,nombre_es,nombre_en,generacion,region,tipos,categoria,evoluciona_de
+001,Bulbasaur,Bulbasaur,1,Kanto,Planta / Veneno,,
+002,Ivysaur,Ivysaur,1,Kanto,Planta / Veneno,,Bulbasaur
+003,Venusaur,Venusaur,1,Kanto,Planta / Veneno,,Ivysaur
+004,Charmander,Charmander,1,Kanto,Fuego,,
+005,Charmeleon,Charmeleon,1,Kanto,Fuego,,Charmander
+006,Charizard,Charizard,1,Kanto,Fuego / Volador,,Charmeleon
+007,Squirtle,Squirtle,1,Kanto,Agua,,
+008,Wartortle,Wartortle,1,Kanto,Agua,,Squirtle
+009,Blastoise,Blastoise,1,Kanto,Agua,,Wartortle
+010,Caterpie,Caterpie,1,Kanto,Bicho,,
+011,Metapod,Metapod,1,Kanto,Bicho,,Caterpie
+012,Butterfree,Butterfree,1,Kanto,Bicho / Volador,,Metapod
+013,Weedle,Weedle,1,Kanto,Bicho / Veneno,,
+014,Kakuna,Kakuna,1,Kanto,Bicho / Veneno,,Weedle
+015,Beedrill,Beedrill,1,Kanto,Bicho / Veneno,,Kakuna
+016,Pidgey,Pidgey,1,Kanto,Normal / Volador,,
+017,Pidgeotto,Pidgeotto,1,Kanto,Normal / Volador,,Pidgey
+018,Pidgeot,Pidgeot,1,Kanto,Normal / Volador,,Pidgeotto
+019,Rattata,Rattata,1,Kanto,Normal,,
+020,Raticate,Raticate,1,Kanto,Normal,,Rattata
+021,Spearow,Spearow,1,Kanto,Normal / Volador,,
+022,Fearow,Fearow,1,Kanto,Normal / Volador,,Spearow
+023,Ekans,Ekans,1,Kanto,Veneno,,
+024,Arbok,Arbok,1,Kanto,Veneno,,Ekans
+025,Pikachu,Pikachu,1,Kanto,Eléctrico,,Pichu
+026,Raichu,Raichu,1,Kanto,Eléctrico,,Pikachu
+027,Sandshrew,Sandshrew,1,Kanto,Tierra,,
+028,Sandslash,Sandslash,1,Kanto,Tierra,,Sandshrew
+029,Nidoran♀,Nidoran♀,1,Kanto,Veneno,,
+030,Nidorina,Nidorina,1,Kanto,Veneno,,Nidoran♀
+031,Nidoqueen,Nidoqueen,1,Kanto,Veneno / Tierra,,Nidorina
+032,Nidoran♂,Nidoran♂,1,Kanto,Veneno,,
+033,Nidorino,Nidorino,1,Kanto,Veneno,,Nidoran♂
+034,Nidoking,Nidoking,1,Kanto,Veneno / Tierra,,Nidorino
+035,Clefairy,Clefairy,1,Kanto,Hada,,Cleffa
+036,Clefable,Clefable,1,Kanto,Hada,,Clefairy
+037,Vulpix,Vulpix,1,Kanto,Fuego,,
+038,Ninetales,Ninetales,1,Kanto,Fuego,,Vulpix
+039,Jigglypuff,Jigglypuff,1,Kanto,Normal / Hada,,Igglybuff
+040,Wigglytuff,Wigglytuff,1,Kanto,Normal / Hada,,Jigglypuff
+041,Zubat,Zubat,1,Kanto,Veneno / Volador,,
+042,Golbat,Golbat,1,Kanto,Veneno / Volador,,Zubat
+043,Oddish,Oddish,1,Kanto,Planta / Veneno,,
+044,Gloom,Gloom,1,Kanto,Planta / Veneno,,Oddish
+045,Vileplume,Vileplume,1,Kanto,Planta / Veneno,,Gloom
+046,Paras,Paras,1,Kanto,Bicho / Planta,,
+047,Parasect,Parasect,1,Kanto,Bicho / Planta,,Paras
+048,Venonat,Venonat,1,Kanto,Bicho / Veneno,,
+049,Venomoth,Venomoth,1,Kanto,Bicho / Veneno,,Venonat
+050,Diglett,Diglett,1,Kanto,Tierra,,
+051,Dugtrio,Dugtrio,1,Kanto,Tierra,,Diglett
+052,Meowth,Meowth,1,Kanto,Normal,,
+053,Persian,Persian,1,Kanto,Normal,,Meowth
+054,Psyduck,Psyduck,1,Kanto,Agua,,
+055,Golduck,Golduck,1,Kanto,Agua,,Psyduck
+056,Mankey,Mankey,1,Kanto,Lucha,,
+057,Primeape,Primeape,1,Kanto,Lucha,,Mankey
+058,Growlithe,Growlithe,1,Kanto,Fuego,,
+059,Arcanine,Arcanine,1,Kanto,Fuego,,Growlithe
+060,Poliwag,Poliwag,1,Kanto,Agua,,
+061,Poliwhirl,Poliwhirl,1,Kanto,Agua,,Poliwag
+062,Poliwrath,Poliwrath,1,Kanto,Agua / Lucha,,Poliwhirl
+063,Abra,Abra,1,Kanto,Psíquico,,
+064,Kadabra,Kadabra,1,Kanto,Psíquico,,Abra
+065,Alakazam,Alakazam,1,Kanto,Psíquico,,Kadabra
+066,Machop,Machop,1,Kanto,Lucha,,
+067,Machoke,Machoke,1,Kanto,Lucha,,Machop
+068,Machamp,Machamp,1,Kanto,Lucha,,Machoke
+069,Bellsprout,Bellsprout,1,Kanto,Planta / Veneno,,
+070,Weepinbell,Weepinbell,1,Kanto,Planta / Veneno,,Bellsprout
+071,Victreebel,Victreebel,1,Kanto,Planta / Veneno,,Weepinbell
+072,Tentacool,Tentacool,1,Kanto,Agua / Veneno,,
+073,Tentacruel,Tentacruel,1,Kanto,Agua / Veneno,,Tentacool
+074,Geodude,Geodude,1,Kanto,Roca / Tierra,,
+075,Graveler,Graveler,1,Kanto,Roca / Tierra,,Geodude
+076,Golem,Golem,1,Kanto,Roca / Tierra,,Graveler
+077,Ponyta,Ponyta,1,Kanto,Fuego,,
+078,Rapidash,Rapidash,1,Kanto,Fuego,,Ponyta
+079,Slowpoke,Slowpoke,1,Kanto,Agua / Psíquico,,
+080,Slowbro,Slowbro,1,Kanto,Agua / Psíquico,,Slowpoke
+081,Magnemite,Magnemite,1,Kanto,Eléctrico / Acero,,
+082,Magneton,Magneton,1,Kanto,Eléctrico / Acero,,Magnemite
+083,Farfetch’d,Farfetch’d,1,Kanto,Normal / Volador,,
+084,Doduo,Doduo,1,Kanto,Normal / Volador,,
+085,Dodrio,Dodrio,1,Kanto,Normal / Volador,,Doduo
+086,Seel,Seel,1,Kanto,Agua,,
+087,Dewgong,Dewgong,1,Kanto,Agua / Hielo,,Seel
+088,Grimer,Grimer,1,Kanto,Veneno,,
+089,Muk,Muk,1,Kanto,Veneno,,Grimer
+090,Shellder,Shellder,1,Kanto,Agua,,
+091,Cloyster,Cloyster,1,Kanto,Agua / Hielo,,Shellder
+092,Gastly,Gastly,1,Kanto,Fantasma / Veneno,,
+093,Haunter,Haunter,1,Kanto,Fantasma / Veneno,,Gastly
+094,Gengar,Gengar,1,Kanto,Fantasma / Veneno,,Haunter
+095,Onix,Onix,1,Kanto,Roca / Tierra,,
+096,Drowzee,Drowzee,1,Kanto,Psíquico,,
+097,Hypno,Hypno,1,Kanto,Psíquico,,Drowzee
+098,Krabby,Krabby,1,Kanto,Agua,,
+099,Kingler,Kingler,1,Kanto,Agua,,Krabby
+100,Voltorb,Voltorb,1,Kanto,Eléctrico,,
+101,Electrode,Electrode,1,Kanto,Eléctrico,,Voltorb
+102,Exeggcute,Exeggcute,1,Kanto,Planta / Psíquico,,
+103,Exeggutor,Exeggutor,1,Kanto,Planta / Psíquico,,Exeggcute
+104,Cubone,Cubone,1,Kanto,Tierra,,
+105,Marowak,Marowak,1,Kanto,Tierra,,Cubone
+106,Hitmonlee,Hitmonlee,1,Kanto,Lucha,,Tyrogue
+107,Hitmonchan,Hitmonchan,1,Kanto,Lucha,,Tyrogue
+108,Lickitung,Lickitung,1,Kanto,Normal,,
+109,Koffing,Koffing,1,Kanto,Veneno,,
+110,Weezing,Weezing,1,Kanto,Veneno,,Koffing
+111,Rhyhorn,Rhyhorn,1,Kanto,Tierra / Roca,,
+112,Rhydon,Rhydon,1,Kanto,Tierra / Roca,,Rhyhorn
+113,Chansey,Chansey,1,Kanto,Normal,,Happiny
+114,Tangela,Tangela,1,Kanto,Planta,,
+115,Kangaskhan,Kangaskhan,1,Kanto,Normal,,
+116,Horsea,Horsea,1,Kanto,Agua,,
+117,Seadra,Seadra,1,Kanto,Agua,,Horsea
+118,Goldeen,Goldeen,1,Kanto,Agua,,
+119,Seaking,Seaking,1,Kanto,Agua,,Goldeen
+120,Staryu,Staryu,1,Kanto,Agua,,
+121,Starmie,Starmie,1,Kanto,Agua / Psíquico,,Staryu
+122,Mr. Mime,Mr. Mime,1,Kanto,Psíquico / Hada,,Mime Jr.
+123,Scyther,Scyther,1,Kanto,Bicho / Volador,,
+124,Jynx,Jynx,1,Kanto,Hielo / Psíquico,,Smoochum
+125,Electabuzz,Electabuzz,1,Kanto,Eléctrico,,Elekid
+126,Magmar,Magmar,1,Kanto,Fuego,,Magby
+127,Pinsir,Pinsir,1,Kanto,Bicho,,
+128,Tauros,Tauros,1,Kanto,Normal,,
+129,Magikarp,Magikarp,1,Kanto,Agua,,
+130,Gyarados,Gyarados,1,Kanto,Agua / Volador,,Magikarp
+131,Lapras,Lapras,1,Kanto,Agua / Hielo,,
+132,Ditto,Ditto,1,Kanto,Normal,,
+133,Eevee,Eevee,1,Kanto,Normal,,
+134,Vaporeon,Vaporeon,1,Kanto,Agua,,Eevee
+135,Jolteon,Jolteon,1,Kanto,Eléctrico,,Eevee
+136,Flareon,Flareon,1,Kanto,Fuego,,Eevee
+137,Porygon,Porygon,1,Kanto,Normal,,
+138,Omanyte,Omanyte,1,Kanto,Roca / Agua,,
+139,Omastar,Omastar,1,Kanto,Roca / Agua,,Omanyte
+140,Kabuto,Kabuto,1,Kanto,Roca / Agua,,
+141,Kabutops,Kabutops,1,Kanto,Roca / Agua,,Kabuto
+142,Aerodactyl,Aerodactyl,1,Kanto,Roca / Volador,,
+143,Snorlax,Snorlax,1,Kanto,Normal,,Munchlax
+144,Articuno,Articuno,1,Kanto,Hielo / Volador,Legendario,
+145,Zapdos,Zapdos,1,Kanto,Eléctrico / Volador,Legendario,
+146,Moltres,Moltres,1,Kanto,Fuego / Volador,Legendario,
+147,Dratini,Dratini,1,Kanto,Dragón,,
+148,Dragonair,Dragonair,1,Kanto,Dragón,,Dratini
+149,Dragonite,Dragonite,1,Kanto,Dragón / Volador,,Dragonair
+150,Mewtwo,Mewtwo,1,Kanto,Psíquico,Legendario,
+151,Mew,Mew,1,Kanto,Psíquico,Mítico,
+152,Chikorita,Chikorita,2,Johto,Planta,,
+153,Bayleef,Bayleef,2,Johto,Planta,,Chikorita
+154,Meganium,Meganium,2,Johto,Planta,,Bayleef
+155,Cyndaquil,Cyndaquil,2,Johto,Fuego,,
+156,Quilava,Quilava,2,Johto,Fuego,,Cyndaquil
+157,Typhlosion,Typhlosion,2,Johto,Fuego,,Quilava
+158,Totodile,Totodile,2,Johto,Agua,,
+159,Croconaw,Croconaw,2,Johto,Agua,,Totodile
+160,Feraligatr,Feraligatr,2,Johto,Agua,,Croconaw
+161,Sentret,Sentret,2,Johto,Normal,,
+162,Furret,Furret,2,Johto,Normal,,Sentret
+163,Hoothoot,Hoothoot,2,Johto,Normal / Volador,,
+164,Noctowl,Noctowl,2,Johto,Normal / Volador,,Hoothoot
+165,Ledyba,Ledyba,2,Johto,Bicho / Volador,,
+166,Ledian,Ledian,2,Johto,Bicho / Volador,,Ledyba
+167,Spinarak,Spinarak,2,Johto,Bicho / Veneno,,
+168,Ariados,Ariados,2,Johto,Bicho / Veneno,,Spinarak
+169,Crobat,Crobat,2,Johto,Veneno / Volador,,Golbat
+170,Chinchou,Chinchou,2,Johto,Agua / Eléctrico,,
+171,Lanturn,Lanturn,2,Johto,Agua / Eléctrico,,Chinchou
+172,Pichu,Pichu,2,Johto,Eléctrico,,
+173,Cleffa,Cleffa,2,Johto,Hada,,
+174,Igglybuff,Igglybuff,2,Johto,Normal / Hada,,
+175,Togepi,Togepi,2,Johto,Hada,,
+176,Togetic,Togetic,2,Johto,Hada / Volador,,Togepi
+177,Natu,Natu,2,Johto,Psíquico / Volador,,
+178,Xatu,Xatu,2,Johto,Psíquico / Volador,,Natu
+179,Mareep,Mareep,2,Johto,Eléctrico,,
+180,Flaaffy,Flaaffy,2,Johto,Eléctrico,,Mareep
+181,Ampharos,Ampharos,2,Johto,Eléctrico,,Flaaffy
+182,Bellossom,Bellossom,2,Johto,Planta,,Gloom
+183,Marill,Marill,2,Johto,Agua / Hada,,Azurill
+184,Azumarill,Azumarill,2,Johto,Agua / Hada,,Marill
+185,Sudowoodo,Sudowoodo,2,Johto,Roca,,Bonsly
+186,Politoed,Politoed,2,Johto,Agua,,Poliwhirl
+187,Hoppip,Hoppip,2,Johto,Planta / Volador,,
+188,Skiploom,Skiploom,2,Johto,Planta / Volador,,Hoppip
+189,Jumpluff,Jumpluff,2,Johto,Planta / Volador,,Skiploom
+190,Aipom,Aipom,2,Johto,Normal,,
+191,Sunkern,Sunkern,2,Johto,Planta,,
+192,Sunflora,Sunflora,2,Johto,Planta,,Sunkern
+193,Yanma,Yanma,2,Johto,Bicho / Volador,,
+194,Wooper,Wooper,2,Johto,Agua / Tierra,,
+195,Quagsire,Quagsire,2,Johto,Agua / Tierra,,Wooper
+196,Espeon,Espeon,2,Johto,Psíquico,,Eevee
+197,Umbreon,Umbreon,2,Johto,Siniestro,,Eevee
+198,Murkrow,Murkrow,2,Johto,Siniestro / Volador,,
+199,Slowking,Slowking,2,Johto,Agua / Psíquico,,Slowpoke
+200,Misdreavus,Misdreavus,2,Johto,Fantasma,,
+201,Unown,Unown,2,Johto,Psíquico,,
+202,Wobbuffet,Wobbuffet,2,Johto,Psíquico,,Wynaut
+203,Girafarig,Girafarig,2,Johto,Normal / Psíquico,,
+204,Pineco,Pineco,2,Johto,Bicho,,
+205,Forretress,Forretress,2,Johto,Bicho / Acero,,Pineco
+206,Dunsparce,Dunsparce,2,Johto,Normal,,
+207,Gligar,Gligar,2,Johto,Tierra / Volador,,
+208,Steelix,Steelix,2,Johto,Acero / Tierra,,Onix
+209,Snubbull,Snubbull,2,Johto,Hada,,
+210,Granbull,Granbull,2,Johto,Hada,,Snubbull
+211,Qwilfish,Qwilfish,2,Johto,Agua / Veneno,,
+212,Scizor,Scizor,2,Johto,Bicho / Acero,,Scyther
+213,Shuckle,Shuckle,2,Johto,Bicho / Roca,,
+214,Heracross,Heracross,2,Johto,Bicho / Lucha,,
+215,Sneasel,Sneasel,2,Johto,Siniestro / Hielo,,
+216,Teddiursa,Teddiursa,2,Johto,Normal,,
+217,Ursaring,Ursaring,2,Johto,Normal,,Teddiursa
+218,Slugma,Slugma,2,Johto,Fuego,,
+219,Magcargo,Magcargo,2,Johto,Fuego / Roca,,Slugma
+220,Swinub,Swinub,2,Johto,Hielo / Tierra,,
+221,Piloswine,Piloswine,2,Johto,Hielo / Tierra,,Swinub
+222,Corsola,Corsola,2,Johto,Agua / Roca,,
+223,Remoraid,Remoraid,2,Johto,Agua,,
+224,Octillery,Octillery,2,Johto,Agua,,Remoraid
+225,Delibird,Delibird,2,Johto,Hielo / Volador,,
+226,Mantine,Mantine,2,Johto,Agua / Volador,,Mantyke
+227,Skarmory,Skarmory,2,Johto,Acero / Volador,,
+228,Houndour,Houndour,2,Johto,Siniestro / Fuego,,
+229,Houndoom,Houndoom,2,Johto,Siniestro / Fuego,,Houndour
+230,Kingdra,Kingdra,2,Johto,Agua / Dragón,,Seadra
+231,Phanpy,Phanpy,2,Johto,Tierra,,
+232,Donphan,Donphan,2,Johto,Tierra,,Phanpy
+233,Porygon2,Porygon2,2,Johto,Normal,,Porygon
+234,Stantler,Stantler,2,Johto,Normal,,
+235,Smeargle,Smeargle,2,Johto,Normal,,
+236,Tyrogue,Tyrogue,2,Johto,Lucha,,
+237,Hitmontop,Hitmontop,2,Johto,Lucha,,Tyrogue
+238,Smoochum,Smoochum,2,Johto,Hielo / Psíquico,,
+239,Elekid,Elekid,2,Johto,Eléctrico,,
+240,Magby,Magby,2,Johto,Fuego,,
+241,Miltank,Miltank,2,Johto,Normal,,
+242,Blissey,Blissey,2,Johto,Normal,,Chansey
+243,Raikou,Raikou,2,Johto,Eléctrico,Legendario,
+244,Entei,Entei,2,Johto,Fuego,Legendario,
+245,Suicune,Suicune,2,Johto,Agua,Legendario,
+246,Larvitar,Larvitar,2,Johto,Roca / Tierra,,
+247,Pupitar,Pupitar,2,Johto,Roca / Tierra,,Larvitar
+248,Tyranitar,Tyranitar,2,Johto,Roca / Siniestro,,Pupitar
+249,Lugia,Lugia,2,Johto,Psíquico / Volador,Legendario,
+250,Ho-Oh,Ho-Oh,2,Johto,Fuego / Volador,Legendario,
+251,Celebi,Celebi,2,Johto,Psíquico / Planta,Mítico,
+252,Treecko,Treecko,3,Hoenn,Planta,,
+253,Grovyle,Grovyle,3,Hoenn,Planta,,Treecko
+254,Sceptile,Sceptile,3,Hoenn,Planta,,Grovyle
+255,Torchic,Torchic,3,Hoenn,Fuego,,
+256,Combusken,Combusken,3,Hoenn,Fuego / Lucha,,Torchic
+257,Blaziken,Blaziken,3,Hoenn,Fuego / Lucha,,Combusken
+258,Mudkip,Mudkip,3,Hoenn,Agua,,
+259,Marshtomp,Marshtomp,3,Hoenn,Agua / Tierra,,Mudkip
+260,Swampert,Swampert,3,Hoenn,Agua / Tierra,,Marshtomp
+261,Poochyena,Poochyena,3,Hoenn,Siniestro,,
+262,Mightyena,Mightyena,3,Hoenn,Siniestro,,Poochyena
+263,Zigzagoon,Zigzagoon,3,Hoenn,Normal,,
+264,Linoone,Linoone,3,Hoenn,Normal,,Zigzagoon
+265,Wurmple,Wurmple,3,Hoenn,Bicho,,
+266,Silcoon,Silcoon,3,Hoenn,Bicho,,Wurmple
+267,Beautifly,Beautifly,3,Hoenn,Bicho / Volador,,Silcoon
+268,Cascoon,Cascoon,3,Hoenn,Bicho,,Wurmple
+269,Dustox,Dustox,3,Hoenn,Bicho / Veneno,,Cascoon
+270,Lotad,Lotad,3,Hoenn,Agua / Planta,,
+271,Lombre,Lombre,3,Hoenn,Agua / Planta,,Lotad
+272,Ludicolo,Ludicolo,3,Hoenn,Agua / Planta,,Lombre
+273,Seedot,Seedot,3,Hoenn,Planta,,
+274,Nuzleaf,Nuzleaf,3,Hoenn,Planta / Siniestro,,Seedot
+275,Shiftry,Shiftry,3,Hoenn,Planta / Siniestro,,Nuzleaf
+276,Taillow,Taillow,3,Hoenn,Normal / Volador,,
+277,Swellow,Swellow,3,Hoenn,Normal / Volador,,Taillow
+278,Wingull,Wingull,3,Hoenn,Agua / Volador,,
+279,Pelipper,Pelipper,3,Hoenn,Agua / Volador,,Wingull
+280,Ralts,Ralts,3,Hoenn,Psíquico / Hada,,
+281,Kirlia,Kirlia,3,Hoenn,Psíquico / Hada,,Ralts
+282,Gardevoir,Gardevoir,3,Hoenn,Psíquico / Hada,,Kirlia
+283,Surskit,Surskit,3,Hoenn,Bicho / Agua,,
+284,Masquerain,Masquerain,3,Hoenn,Bicho / Volador,,Surskit
+285,Shroomish,Shroomish,3,Hoenn,Planta,,
+286,Breloom,Breloom,3,Hoenn,Planta / Lucha,,Shroomish
+287,Slakoth,Slakoth,3,Hoenn,Normal,,
+288,Vigoroth,Vigoroth,3,Hoenn,Normal,,Slakoth
+289,Slaking,Slaking,3,Hoenn,Normal,,Vigoroth
+290,Nincada,Nincada,3,Hoenn,Bicho / Tierra,,
+291,Ninjask,Ninjask,3,Hoenn,Bicho / Volador,,Nincada
+292,Shedinja,Shedinja,3,Hoenn,Bicho / Fantasma,,Nincada
+293,Whismur,Whismur,3,Hoenn,Normal,,
+294,Loudred,Loudred,3,Hoenn,Normal,,Whismur
+295,Exploud,Exploud,3,Hoenn,Normal,,Loudred
+296,Makuhita,Makuhita,3,Hoenn,Lucha,,
+297,Hariyama,Hariyama,3,Hoenn,Lucha,,Makuhita
+298,Azurill,Azurill,3,Hoenn,Normal / Hada,,
+299,Nosepass,Nosepass,3,Hoenn,Roca,,
+300,Skitty,Skitty,3,Hoenn,Normal,,
+301,Delcatty,Delcatty,3,Hoenn,Normal,,Skitty
+302,Sableye,Sableye,3,Hoenn,Siniestro / Fantasma,,
+303,Mawile,Mawile,3,Hoenn,Acero / Hada,,
+304,Aron,Aron,3,Hoenn,Acero / Roca,,
+305,Lairon,Lairon,3,Hoenn,Acero / Roca,,Aron
+306,Aggron,Aggron,3,Hoenn,Acero / Roca,,Lairon
+307,Meditite,Meditite,3,Hoenn,Lucha / Psíquico,,
+308,Medicham,Medicham,3,Hoenn,Lucha / Psíquico,,Meditite
+309,Electrike,Electrike,3,Hoenn,Eléctrico,,
+310,Manectric,Manectric,3,Hoenn,Eléctrico,,Electrike
+311,Plusle,Plusle,3,Hoenn,Eléctrico,,
+312,Minun,Minun,3,Hoenn,Eléctrico,,
+313,Volbeat,Volbeat,3,Hoenn,Bicho,,
+314,Illumise,Illumise,3,Hoenn,Bicho,,
+315,Roselia,Roselia,3,Hoenn,Planta / Veneno,,Budew
+316,Gulpin,Gulpin,3,Hoenn,Veneno,,
+317,Swalot,Swalot,3,Hoenn,Veneno,,Gulpin
+318,Carvanha,Carvanha,3,Hoenn,Agua / Siniestro,,
+319,Sharpedo,Sharpedo,3,Hoenn,Agua / Siniestro,,Carvanha
+320,Wailmer,Wailmer,3,Hoenn,Agua,,
+321,Wailord,Wailord,3,Hoenn,Agua,,Wailmer
+322,Numel,Numel,3,Hoenn,Fuego / Tierra,,
+323,Camerupt,Camerupt,3,Hoenn,Fuego / Tierra,,Numel
+324,Torkoal,Torkoal,3,Hoenn,Fuego,,
+325,Spoink,Spoink,3,Hoenn,Psíquico,,
+326,Grumpig,Grumpig,3,Hoenn,Psíquico,,Spoink
+327,Spinda,Spinda,3,Hoenn,Normal,,
+328,Trapinch,Trapinch,3,Hoenn,Tierra,,
+329,Vibrava,Vibrava,3,Hoenn,Tierra / Dragón,,Trapinch
+330,Flygon,Flygon,3,Hoenn,Tierra / Dragón,,Vibrava
+331,Cacnea,Cacnea,3,Hoenn,Planta,,
+332,Cacturne,Cacturne,3,Hoenn,Planta / Siniestro,,Cacnea
+333,Swablu,Swablu,3,Hoenn,Normal / Volador,,
+334,Altaria,Altaria,3,Hoenn,Dragón / Volador,,Swablu
+335,Zangoose,Zangoose,3,Hoenn,Normal,,
+336,Seviper,Seviper,3,Hoenn,Veneno,,
+337,Lunatone,Lunatone,3,Hoenn,Roca / Psíquico,,
+338,Solrock,Solrock,3,Hoenn,Roca / Psíquico,,
+339,Barboach,Barboach,3,Hoenn,Agua / Tierra,,
+340,Whiscash,Whiscash,3,Hoenn,Agua / Tierra,,Barboach
+341,Corphish,Corphish,3,Hoenn,Agua,,
+342,Crawdaunt,Crawdaunt,3,Hoenn,Agua / Siniestro,,Corphish
+343,Baltoy,Baltoy,3,Hoenn,Tierra / Psíquico,,
+344,Claydol,Claydol,3,Hoenn,Tierra / Psíquico,,Baltoy
+345,Lileep,Lileep,3,Hoenn,Roca / Planta,,
+346,Cradily,Cradily,3,Hoenn,Roca / Planta,,Lileep
+347,Anorith,Anorith,3,Hoenn,Roca / Bicho,,
+348,Armaldo,Armaldo,3,Hoenn,Roca / Bicho,,Anorith
+349,Feebas,Feebas,3,Hoenn,Agua,,
+350,Milotic,Milotic,3,Hoenn,Agua,,Feebas
+351,Castform,Castform,3,Hoenn,Normal,,
+352,Kecleon,Kecleon,3,Hoenn,Normal,,
+353,Shuppet,Shuppet,3,Hoenn,Fantasma,,
+354,Banette,Banette,3,Hoenn,Fantasma,,Shuppet
+355,Duskull,Duskull,3,Hoenn,Fantasma,,
+356,Dusclops,Dusclops,3,Hoenn,Fantasma,,Duskull
+357,Tropius,Tropius,3,Hoenn,Planta / Volador,,
+358,Chimecho,Chimecho,3,Hoenn,Psíquico,,Chingling
+359,Absol,Absol,3,Hoenn,Siniestro,,
+360,Wynaut,Wynaut,3,Hoenn,Psíquico,,
+361,Snorunt,Snorunt,3,Hoenn,Hielo,,
+362,Glalie,Glalie,3,Hoenn,Hielo,,Snorunt
+363,Spheal,Spheal,3,Hoenn,Hielo / Agua,,
+364,Sealeo,Sealeo,3,Hoenn,Hielo / Agua,,Spheal
+365,Walrein,Walrein,3,Hoenn,Hielo / Agua,,Sealeo
+366,Clamperl,Clamperl,3,Hoenn,Agua,,
+367,Huntail,Huntail,3,Hoenn,Agua,,Clamperl
+368,Gorebyss,Gorebyss,3,Hoenn,Agua,,Clamperl
+369,Relicanth,Relicanth,3,Hoenn,Agua / Roca,,
+370,Luvdisc,Luvdisc,3,Hoenn,Agua,,
+371,Bagon,Bagon,3,Hoenn,Dragón,,
+372,Shelgon,Shelgon,3,Hoenn,Dragón,,Bagon
+373,Salamence,Salamence,3,Hoenn,Dragón / Volador,,Shelgon
+374,Beldum,Beldum,3,Hoenn,Acero / Psíquico,,
+375,Metang,Metang,3,Hoenn,Acero / Psíquico,,Beldum
+376,Metagross,Metagross,3,Hoenn,Acero / Psíquico,,Metang
+377,Regirock,Regirock,3,Hoenn,Roca,Legendario,
+378,Regice,Regice,3,Hoenn,Hielo,Legendario,
+379,Registeel,Registeel,3,Hoenn,Acero,Legendario,
+380,Latias,Latias,3,Hoenn,Dragón / Psíquico,Legendario,
+381,Latios,Latios,3,Hoenn,Dragón / Psíquico,Legendario,
+382,Kyogre,Kyogre,3,Hoenn,Agua,Legendario,
+383,Groudon,Groudon,3,Hoenn,Tierra,Legendario,
+384,Rayquaza,Rayquaza,3,Hoenn,Dragón / Volador,Legendario,
+385,Jirachi,Jirachi,3,Hoenn,Acero / Psíquico,Mítico,
+386,Deoxys,Deoxys,3,Hoenn,Psíquico,Mítico,
+387,Turtwig,Turtwig,4,Sinnoh,Planta,,
+388,Grotle,Grotle,4,Sinnoh,Planta,,Turtwig
+389,Torterra,Torterra,4,Sinnoh,Planta / Tierra,,Grotle
+390,Chimchar,Chimchar,4,Sinnoh,Fuego,,
+391,Monferno,Monferno,4,Sinnoh,Fuego / Lucha,,Chimchar
+392,Infernape,Infernape,4,Sinnoh,Fuego / Lucha,,Monferno
+393,Piplup,Piplup,4,Sinnoh,Agua,,
+394,Prinplup,Prinplup,4,Sinnoh,Agua,,Piplup
+395,Empoleon,Empoleon,4,Sinnoh,Agua / Acero,,Prinplup
+396,Starly,Starly,4,Sinnoh,Normal / Volador,,
+397,Staravia,Staravia,4,Sinnoh,Normal / Volador,,Starly
+398,Staraptor,Staraptor,4,Sinnoh,Normal / Volador,,Staravia
+399,Bidoof,Bidoof,4,Sinnoh,Normal,,
+400,Bibarel,Bibarel,4,Sinnoh,Normal / Agua,,Bidoof
+401,Kricketot,Kricketot,4,Sinnoh,Bicho,,
+402,Kricketune,Kricketune,4,Sinnoh,Bicho,,Kricketot
+403,Shinx,Shinx,4,Sinnoh,Eléctrico,,
+404,Luxio,Luxio,4,Sinnoh,Eléctrico,,Shinx
+405,Luxray,Luxray,4,Sinnoh,Eléctrico,,Luxio
+406,Budew,Budew,4,Sinnoh,Planta / Veneno,,
+407,Roserade,Roserade,4,Sinnoh,Planta / Veneno,,Roselia
+408,Cranidos,Cranidos,4,Sinnoh,Roca,,
+409,Rampardos,Rampardos,4,Sinnoh,Roca,,Cranidos
+410,Shieldon,Shieldon,4,Sinnoh,Roca / Acero,,
+411,Bastiodon,Bastiodon,4,Sinnoh,Roca / Acero,,Shieldon
+412,Burmy,Burmy,4,Sinnoh,Bicho,,
+413,Wormadam,Wormadam,4,Sinnoh,Bicho / Planta,,Burmy
+414,Mothim,Mothim,4,Sinnoh,Bicho / Volador,,Burmy
+415,Combee,Combee,4,Sinnoh,Bicho / Volador,,
+416,Vespiquen,Vespiquen,4,Sinnoh,Bicho / Volador,,Combee
+417,Pachirisu,Pachirisu,4,Sinnoh,Eléctrico,,
+418,Buizel,Buizel,4,Sinnoh,Agua,,
+419,Floatzel,Floatzel,4,Sinnoh,Agua,,Buizel
+420,Cherubi,Cherubi,4,Sinnoh,Planta,,
+421,Cherrim,Cherrim,4,Sinnoh,Planta,,Cherubi
+422,Shellos,Shellos,4,Sinnoh,Agua,,
+423,Gastrodon,Gastrodon,4,Sinnoh,Agua / Tierra,,Shellos
+424,Ambipom,Ambipom,4,Sinnoh,Normal,,Aipom
+425,Drifloon,Drifloon,4,Sinnoh,Fantasma / Volador,,
+426,Drifblim,Drifblim,4,Sinnoh,Fantasma / Volador,,Drifloon
+427,Buneary,Buneary,4,Sinnoh,Normal,,
+428,Lopunny,Lopunny,4,Sinnoh,Normal,,Buneary
+429,Mismagius,Mismagius,4,Sinnoh,Fantasma,,Misdreavus
+430,Honchkrow,Honchkrow,4,Sinnoh,Siniestro / Volador,,Murkrow
+431,Glameow,Glameow,4,Sinnoh,Normal,,
+432,Purugly,Purugly,4,Sinnoh,Normal,,Glameow
+433,Chingling,Chingling,4,Sinnoh,Psíquico,,
+434,Stunky,Stunky,4,Sinnoh,Veneno / Siniestro,,
+435,Skuntank,Skuntank,4,Sinnoh,Veneno / Siniestro,,Stunky
+436,Bronzor,Bronzor,4,Sinnoh,Acero / Psíquico,,
+437,Bronzong,Bronzong,4,Sinnoh,Acero / Psíquico,,Bronzor
+438,Bonsly,Bonsly,4,Sinnoh,Roca,,
+439,Mime Jr.,Mime Jr.,4,Sinnoh,Psíquico / Hada,,
+440,Happiny,Happiny,4,Sinnoh,Normal,,
+441,Chatot,Chatot,4,Sinnoh,Normal / Volador,,
+442,Spiritomb,Spiritomb,4,Sinnoh,Fantasma / Siniestro,,
+443,Gible,Gible,4,Sinnoh,Dragón / Tierra,,
+444,Gabite,Gabite,4,Sinnoh,Dragón / Tierra,,Gible
+445,Garchomp,Garchomp,4,Sinnoh,Dragón / Tierra,,Gabite
+446,Munchlax,Munchlax,4,Sinnoh,Normal,,
+447,Riolu,Riolu,4,Sinnoh,Lucha,,
+448,Lucario,Lucario,4,Sinnoh,Lucha / Acero,,Riolu
+449,Hippopotas,Hippopotas,4,Sinnoh,Tierra,,
+450,Hippowdon,Hippowdon,4,Sinnoh,Tierra,,Hippopotas
+451,Skorupi,Skorupi,4,Sinnoh,Veneno / Bicho,,
+452,Drapion,Drapion,4,Sinnoh,Veneno / Siniestro,,Skorupi
+453,Croagunk,Croagunk,4,Sinnoh,Veneno / Lucha,,
+454,Toxicroak,Toxicroak,4,Sinnoh,Veneno / Lucha,,Croagunk
+455,Carnivine,Carnivine,4,Sinnoh,Planta,,
+456,Finneon,Finneon,4,Sinnoh,Agua,,
+457,Lumineon,Lumineon,4,Sinnoh,Agua,,Finneon
+458,Mantyke,Mantyke,4,Sinnoh,Agua / Volador,,
+459,Snover,Snover,4,Sinnoh,Planta / Hielo,,
+460,Abomasnow,Abomasnow,4,Sinnoh,Planta / Hielo,,Snover
+461,Weavile,Weavile,4,Sinnoh,Siniestro / Hielo,,Sneasel
+462,Magnezone,Magnezone,4,Sinnoh,Eléctrico / Acero,,Magneton
+463,Lickilicky,Lickilicky,4,Sinnoh,Normal,,Lickitung
+464,Rhyperior,Rhyperior,4,Sinnoh,Tierra / Roca,,Rhydon
+465,Tangrowth,Tangrowth,4,Sinnoh,Planta,,Tangela
+466,Electivire,Electivire,4,Sinnoh,Eléctrico,,Electabuzz
+467,Magmortar,Magmortar,4,Sinnoh,Fuego,,Magmar
+468,Togekiss,Togekiss,4,Sinnoh,Hada / Volador,,Togetic
+469,Yanmega,Yanmega,4,Sinnoh,Bicho / Volador,,Yanma
+470,Leafeon,Leafeon,4,Sinnoh,Planta,,Eevee
+471,Glaceon,Glaceon,4,Sinnoh,Hielo,,Eevee
+472,Gliscor,Gliscor,4,Sinnoh,Tierra / Volador,,Gligar
+473,Mamoswine,Mamoswine,4,Sinnoh,Hielo / Tierra,,Piloswine
+474,Porygon-Z,Porygon-Z,4,Sinnoh,Normal,,Porygon2
+475,Gallade,Gallade,4,Sinnoh,Psíquico / Lucha,,Kirlia
+476,Probopass,Probopass,4,Sinnoh,Roca / Acero,,Nosepass
+477,Dusknoir,Dusknoir,4,Sinnoh,Fantasma,,Dusclops
+478,Froslass,Froslass,4,Sinnoh,Hielo / Fantasma,,Snorunt
+479,Rotom,Rotom,4,Sinnoh,Eléctrico / Fantasma,,
+480,Uxie,Uxie,4,Sinnoh,Psíquico,Legendario,
+481,Mesprit,Mesprit,4,Sinnoh,Psíquico,Legendario,
+482,Azelf,Azelf,4,Sinnoh,Psíquico,Legendario,
+483,Dialga,Dialga,4,Sinnoh,Acero / Dragón,Legendario,
+484,Palkia,Palkia,4,Sinnoh,Agua / Dragón,Legendario,
+485,Heatran,Heatran,4,Sinnoh,Fuego / Acero,Legendario,
+486,Regigigas,Regigigas,4,Sinnoh,Normal,Legendario,
+487,Giratina,Giratina,4,Sinnoh,Fantasma / Dragón,Legendario,
+488,Cresselia,Cresselia,4,Sinnoh,Psíquico,Legendario,
+489,Phione,Phione,4,Sinnoh,Agua,Mítico,
+490,Manaphy,Manaphy,4,Sinnoh,Agua,Mítico,
+491,Darkrai,Darkrai,4,Sinnoh,Siniestro,Mítico,
+492,Shaymin,Shaymin,4,Sinnoh,Planta,Mítico,
+493,Arceus,Arceus,4,Sinnoh,Normal,Mítico,
+494,Victini,Victini,5,Teselia (Unova),Psíquico / Fuego,Mítico,
+495,Snivy,Snivy,5,Teselia (Unova),Planta,,
+496,Servine,Servine,5,Teselia (Unova),Planta,,Snivy
+497,Serperior,Serperior,5,Teselia (Unova),Planta,,Servine
+498,Tepig,Tepig,5,Teselia (Unova),Fuego,,
+499,Pignite,Pignite,5,Teselia (Unova),Fuego / Lucha,,Tepig
+500,Emboar,Emboar,5,Teselia (Unova),Fuego / Lucha,,Pignite
+501,Oshawott,Oshawott,5,Teselia (Unova),Agua,,
+502,Dewott,Dewott,5,Teselia (Unova),Agua,,Oshawott
+503,Samurott,Samurott,5,Teselia (Unova),Agua,,Dewott
+504,Patrat,Patrat,5,Teselia (Unova),Normal,,
+505,Watchog,Watchog,5,Teselia (Unova),Normal,,Patrat
+506,Lillipup,Lillipup,5,Teselia (Unova),Normal,,
+507,Herdier,Herdier,5,Teselia (Unova),Normal,,Lillipup
+508,Stoutland,Stoutland,5,Teselia (Unova),Normal,,Herdier
+509,Purrloin,Purrloin,5,Teselia (Unova),Siniestro,,
+510,Liepard,Liepard,5,Teselia (Unova),Siniestro,,Purrloin
+511,Pansage,Pansage,5,Teselia (Unova),Planta,,
+512,Simisage,Simisage,5,Teselia (Unova),Planta,,Pansage
+513,Pansear,Pansear,5,Teselia (Unova),Fuego,,
+514,Simisear,Simisear,5,Teselia (Unova),Fuego,,Pansear
+515,Panpour,Panpour,5,Teselia (Unova),Agua,,
+516,Simipour,Simipour,5,Teselia (Unova),Agua,,Panpour
+517,Munna,Munna,5,Teselia (Unova),Psíquico,,
+518,Musharna,Musharna,5,Teselia (Unova),Psíquico,,Munna
+519,Pidove,Pidove,5,Teselia (Unova),Normal / Volador,,
+520,Tranquill,Tranquill,5,Teselia (Unova),Normal / Volador,,Pidove
+521,Unfezant,Unfezant,5,Teselia (Unova),Normal / Volador,,Tranquill
+522,Blitzle,Blitzle,5,Teselia (Unova),Eléctrico,,
+523,Zebstrika,Zebstrika,5,Teselia (Unova),Eléctrico,,Blitzle
+524,Roggenrola,Roggenrola,5,Teselia (Unova),Roca,,
+525,Boldore,Boldore,5,Teselia (Unova),Roca,,Roggenrola
+526,Gigalith,Gigalith,5,Teselia (Unova),Roca,,Boldore
+527,Woobat,Woobat,5,Teselia (Unova),Psíquico / Volador,,
+528,Swoobat,Swoobat,5,Teselia (Unova),Psíquico / Volador,,Woobat
+529,Drilbur,Drilbur,5,Teselia (Unova),Tierra,,
+530,Excadrill,Excadrill,5,Teselia (Unova),Tierra / Acero,,Drilbur
+531,Audino,Audino,5,Teselia (Unova),Normal,,
+532,Timburr,Timburr,5,Teselia (Unova),Lucha,,
+533,Gurdurr,Gurdurr,5,Teselia (Unova),Lucha,,Timburr
+534,Conkeldurr,Conkeldurr,5,Teselia (Unova),Lucha,,Gurdurr
+535,Tympole,Tympole,5,Teselia (Unova),Agua,,
+536,Palpitoad,Palpitoad,5,Teselia (Unova),Agua / Tierra,,Tympole
+537,Seismitoad,Seismitoad,5,Teselia (Unova),Agua / Tierra,,Palpitoad
+538,Throh,Throh,5,Teselia (Unova),Lucha,,
+539,Sawk,Sawk,5,Teselia (Unova),Lucha,,
+540,Sewaddle,Sewaddle,5,Teselia (Unova),Bicho / Planta,,
+541,Swadloon,Swadloon,5,Teselia (Unova),Bicho / Planta,,Sewaddle
+542,Leavanny,Leavanny,5,Teselia (Unova),Bicho / Planta,,Swadloon
+543,Venipede,Venipede,5,Teselia (Unova),Bicho / Veneno,,
+544,Whirlipede,Whirlipede,5,Teselia (Unova),Bicho / Veneno,,Venipede
+545,Scolipede,Scolipede,5,Teselia (Unova),Bicho / Veneno,,Whirlipede
+546,Cottonee,Cottonee,5,Teselia (Unova),Planta / Hada,,
+547,Whimsicott,Whimsicott,5,Teselia (Unova),Planta / Hada,,Cottonee
+548,Petilil,Petilil,5,Teselia (Unova),Planta,,
+549,Lilligant,Lilligant,5,Teselia (Unova),Planta,,Petilil
+550,Basculin,Basculin,5,Teselia (Unova),Agua,,
+551,Sandile,Sandile,5,Teselia (Unova),Tierra / Siniestro,,
+552,Krokorok,Krokorok,5,Teselia (Unova),Tierra / Siniestro,,Sandile
+553,Krookodile,Krookodile,5,Teselia (Unova),Tierra / Siniestro,,Krokorok
+554,Darumaka,Darumaka,5,Teselia (Unova),Fuego,,
+555,Darmanitan,Darmanitan,5,Teselia (Unova),Fuego,,Darumaka
+556,Maractus,Maractus,5,Teselia (Unova),Planta,,
+557,Dwebble,Dwebble,5,Teselia (Unova),Bicho / Roca,,
+558,Crustle,Crustle,5,Teselia (Unova),Bicho / Roca,,Dwebble
+559,Scraggy,Scraggy,5,Teselia (Unova),Siniestro / Lucha,,
+560,Scrafty,Scrafty,5,Teselia (Unova),Siniestro / Lucha,,Scraggy
+561,Sigilyph,Sigilyph,5,Teselia (Unova),Psíquico / Volador,,
+562,Yamask,Yamask,5,Teselia (Unova),Fantasma,,
+563,Cofagrigus,Cofagrigus,5,Teselia (Unova),Fantasma,,Yamask
+564,Tirtouga,Tirtouga,5,Teselia (Unova),Agua / Roca,,
+565,Carracosta,Carracosta,5,Teselia (Unova),Agua / Roca,,Tirtouga
+566,Archen,Archen,5,Teselia (Unova),Roca / Volador,,
+567,Archeops,Archeops,5,Teselia (Unova),Roca / Volador,,Archen
+568,Trubbish,Trubbish,5,Teselia (Unova),Veneno,,
+569,Garbodor,Garbodor,5,Teselia (Unova),Veneno,,Trubbish
+570,Zorua,Zorua,5,Teselia (Unova),Siniestro,,
+571,Zoroark,Zoroark,5,Teselia (Unova),Siniestro,,Zorua
+572,Minccino,Minccino,5,Teselia (Unova),Normal,,
+573,Cinccino,Cinccino,5,Teselia (Unova),Normal,,Minccino
+574,Gothita,Gothita,5,Teselia (Unova),Psíquico,,
+575,Gothorita,Gothorita,5,Teselia (Unova),Psíquico,,Gothita
+576,Gothitelle,Gothitelle,5,Teselia (Unova),Psíquico,,Gothorita
+577,Solosis,Solosis,5,Teselia (Unova),Psíquico,,
+578,Duosion,Duosion,5,Teselia (Unova),Psíquico,,Solosis
+579,Reuniclus,Reuniclus,5,Teselia (Unova),Psíquico,,Duosion
+580,Ducklett,Ducklett,5,Teselia (Unova),Agua / Volador,,
+581,Swanna,Swanna,5,Teselia (Unova),Agua / Volador,,Ducklett
+582,Vanillite,Vanillite,5,Teselia (Unova),Hielo,,
+583,Vanillish,Vanillish,5,Teselia (Unova),Hielo,,Vanillite
+584,Vanilluxe,Vanilluxe,5,Teselia (Unova),Hielo,,Vanillish
+585,Deerling,Deerling,5,Teselia (Unova),Normal / Planta,,
+586,Sawsbuck,Sawsbuck,5,Teselia (Unova),Normal / Planta,,Deerling
+587,Emolga,Emolga,5,Teselia (Unova),Eléctrico / Volador,,
+588,Karrablast,Karrablast,5,Teselia (Unova),Bicho,,
+589,Escavalier,Escavalier,5,Teselia (Unova),Bicho / Acero,,Karrablast
+590,Foongus,Foongus,5,Teselia (Unova),Planta / Veneno,,
+591,Amoonguss,Amoonguss,5,Teselia (Unova),Planta / Veneno,,Foongus
+592,Frillish,Frillish,5,Teselia (Unova),Agua / Fantasma,,
+593,Jellicent,Jellicent,5,Teselia (Unova),Agua / Fantasma,,Frillish
+594,Alomomola,Alomomola,5,Teselia (Unova),Agua,,
+595,Joltik,Joltik,5,Teselia (Unova),Bicho / Eléctrico,,
+596,Galvantula,Galvantula,5,Teselia (Unova),Bicho / Eléctrico,,Joltik
+597,Ferroseed,Ferroseed,5,Teselia (Unova),Planta / Acero,,
+598,Ferrothorn,Ferrothorn,5,Teselia (Unova),Planta / Acero,,Ferroseed
+599,Klink,Klink,5,Teselia (Unova),Acero,,
+600,Klang,Klang,5,Teselia (Unova),Acero,,Klink
+601,Klinklang,Klinklang,5,Teselia (Unova),Acero,,Klang
+602,Tynamo,Tynamo,5,Teselia (Unova),Eléctrico,,
+603,Eelektrik,Eelektrik,5,Teselia (Unova),Eléctrico,,Tynamo
+604,Eelektross,Eelektross,5,Teselia (Unova),Eléctrico,,Eelektrik
+605,Elgyem,Elgyem,5,Teselia (Unova),Psíquico,,
+606,Beheeyem,Beheeyem,5,Teselia (Unova),Psíquico,,Elgyem
+607,Litwick,Litwick,5,Teselia (Unova),Fantasma / Fuego,,
+608,Lampent,Lampent,5,Teselia (Unova),Fantasma / Fuego,,Litwick
+609,Chandelure,Chandelure,5,Teselia (Unova),Fantasma / Fuego,,Lampent
+610,Axew,Axew,5,Teselia (Unova),Dragón,,
+611,Fraxure,Fraxure,5,Teselia (Unova),Dragón,,Axew
+612,Haxorus,Haxorus,5,Teselia (Unova),Dragón,,Fraxure
+613,Cubchoo,Cubchoo,5,Teselia (Unova),Hielo,,
+614,Beartic,Beartic,5,Teselia (Unova),Hielo,,Cubchoo
+615,Cryogonal,Cryogonal,5,Teselia (Unova),Hielo,,
+616,Shelmet,Shelmet,5,Teselia (Unova),Bicho,,
+617,Accelgor,Accelgor,5,Teselia (Unova),Bicho,,Shelmet
+618,Stunfisk,Stunfisk,5,Teselia (Unova),Tierra / Eléctrico,,
+619,Mienfoo,Mienfoo,5,Teselia (Unova),Lucha,,
+620,Mienshao,Mienshao,5,Teselia (Unova),Lucha,,Mienfoo
+621,Druddigon,Druddigon,5,Teselia (Unova),Dragón,,
+622,Golett,Golett,5,Teselia (Unova),Tierra / Fantasma,,
+623,Golurk,Golurk,5,Teselia (Unova),Tierra / Fantasma,,Golett
+624,Pawniard,Pawniard,5,Teselia (Unova),Siniestro / Acero,,
+625,Bisharp,Bisharp,5,Teselia (Unova),Siniestro / Acero,,Pawniard
+626,Bouffalant,Bouffalant,5,Teselia (Unova),Normal,,
+627,Rufflet,Rufflet,5,Teselia (Unova),Normal / Volador,,
+628,Braviary,Braviary,5,Teselia (Unova),Normal / Volador,,Rufflet
+629,Vullaby,Vullaby,5,Teselia (Unova),Siniestro / Volador,,
+630,Mandibuzz,Mandibuzz,5,Teselia (Unova),Siniestro / Volador,,Vullaby
+631,Heatmor,Heatmor,5,Teselia (Unova),Fuego,,
+632,Durant,Durant,5,Teselia (Unova),Bicho / Acero,,
+633,Deino,Deino,5,Teselia (Unova),Siniestro / Dragón,,
+634,Zweilous,Zweilous,5,Teselia (Unova),Siniestro / Dragón,,Deino
+635,Hydreigon,Hydreigon,5,Teselia (Unova),Siniestro / Dragón,,Zweilous
+636,Larvesta,Larvesta,5,Teselia (Unova),Bicho / Fuego,,
+637,Volcarona,Volcarona,5,Teselia (Unova),Bicho / Fuego,,Larvesta
+638,Cobalion,Cobalion,5,Teselia (Unova),Acero / Lucha,Legendario,
+639,Terrakion,Terrakion,5,Teselia (Unova),Roca / Lucha,Legendario,
+640,Virizion,Virizion,5,Teselia (Unova),Planta / Lucha,Legendario,
+641,Tornadus,Tornadus,5,Teselia (Unova),Volador,Legendario,
+642,Thundurus,Thundurus,5,Teselia (Unova),Eléctrico / Volador,Legendario,
+643,Reshiram,Reshiram,5,Teselia (Unova),Dragón / Fuego,Legendario,
+644,Zekrom,Zekrom,5,Teselia (Unova),Dragón / Eléctrico,Legendario,
+645,Landorus,Landorus,5,Teselia (Unova),Tierra / Volador,Legendario,
+646,Kyurem,Kyurem,5,Teselia (Unova),Dragón / Hielo,Legendario,
+647,Keldeo,Keldeo,5,Teselia (Unova),Agua / Lucha,Mítico,
+648,Meloetta,Meloetta,5,Teselia (Unova),Normal / Psíquico,Mítico,
+649,Genesect,Genesect,5,Teselia (Unova),Bicho / Acero,Mítico,
+650,Chespin,Chespin,6,Kalos,Planta,,
+651,Quilladin,Quilladin,6,Kalos,Planta,,Chespin
+652,Chesnaught,Chesnaught,6,Kalos,Planta / Lucha,,Quilladin
+653,Fennekin,Fennekin,6,Kalos,Fuego,,
+654,Braixen,Braixen,6,Kalos,Fuego,,Fennekin
+655,Delphox,Delphox,6,Kalos,Fuego / Psíquico,,Braixen
+656,Froakie,Froakie,6,Kalos,Agua,,
+657,Frogadier,Frogadier,6,Kalos,Agua,,Froakie
+658,Greninja,Greninja,6,Kalos,Agua / Siniestro,,Frogadier
+659,Bunnelby,Bunnelby,6,Kalos,Normal,,
+660,Diggersby,Diggersby,6,Kalos,Normal / Tierra,,Bunnelby
+661,Fletchling,Fletchling,6,Kalos,Normal / Volador,,
+662,Fletchinder,Fletchinder,6,Kalos,Fuego / Volador,,Fletchling
+663,Talonflame,Talonflame,6,Kalos,Fuego / Volador,,Fletchinder
+664,Scatterbug,Scatterbug,6,Kalos,Bicho,,
+665,Spewpa,Spewpa,6,Kalos,Bicho,,Scatterbug
+666,Vivillon,Vivillon,6,Kalos,Bicho / Volador,,Spewpa
+667,Litleo,Litleo,6,Kalos,Fuego / Normal,,
+668,Pyroar,Pyroar,6,Kalos,Fuego / Normal,,Litleo
+669,Flabébé,Flabébé,6,Kalos,Hada,,
+670,Floette,Floette,6,Kalos,Hada,,Flabébé
+671,Florges,Florges,6,Kalos,Hada,,Floette
+672,Skiddo,Skiddo,6,Kalos,Planta,,
+673,Gogoat,Gogoat,6,Kalos,Planta,,Skiddo
+674,Pancham,Pancham,6,Kalos,Lucha,,
+675,Pangoro,Pangoro,6,Kalos,Lucha / Siniestro,,Pancham
+676,Furfrou,Furfrou,6,Kalos,Normal,,
+677,Espurr,Espurr,6,Kalos,Psíquico,,
+678,Meowstic,Meowstic,6,Kalos,Psíquico,,Espurr
+679,Honedge,Honedge,6,Kalos,Acero / Fantasma,,
+680,Doublade,Doublade,6,Kalos,Acero / Fantasma,,Honedge
+681,Aegislash,Aegislash,6,Kalos,Acero / Fantasma,,Doublade
+682,Spritzee,Spritzee,6,Kalos,Hada,,
+683,Aromatisse,Aromatisse,6,Kalos,Hada,,Spritzee
+684,Swirlix,Swirlix,6,Kalos,Hada,,
+685,Slurpuff,Slurpuff,6,Kalos,Hada,,Swirlix
+686,Inkay,Inkay,6,Kalos,Siniestro / Psíquico,,
+687,Malamar,Malamar,6,Kalos,Siniestro / Psíquico,,Inkay
+688,Binacle,Binacle,6,Kalos,Roca / Agua,,
+689,Barbaracle,Barbaracle,6,Kalos,Roca / Agua,,Binacle
+690,Skrelp,Skrelp,6,Kalos,Veneno / Agua,,
+691,Dragalge,Dragalge,6,Kalos,Veneno / Dragón,,Skrelp
+692,Clauncher,Clauncher,6,Kalos,Agua,,
+693,Clawitzer,Clawitzer,6,Kalos,Agua,,Clauncher
+694,Helioptile,Helioptile,6,Kalos,Eléctrico / Normal,,
+695,Heliolisk,Heliolisk,6,Kalos,Eléctrico / Normal,,Helioptile
+696,Tyrunt,Tyrunt,6,Kalos,Roca / Dragón,,
+697,Tyrantrum,Tyrantrum,6,Kalos,Roca / Dragón,,Tyrunt
+698,Amaura,Amaura,6,Kalos,Roca / Hielo,,
+699,Aurorus,Aurorus,6,Kalos,Roca / Hielo,,Amaura
+700,Sylveon,Sylveon,6,Kalos,Hada,,Eevee
+701,Hawlucha,Hawlucha,6,Kalos,Lucha / Volador,,
+702,Dedenne,Dedenne,6,Kalos,Eléctrico / Hada,,
+703,Carbink,Carbink,6,Kalos,Roca / Hada,,
+704,Goomy,Goomy,6,Kalos,Dragón,,
+705,Sliggoo,Sliggoo,6,Kalos,Dragón,,Goomy
+706,Goodra,Goodra,6,Kalos,Dragón,,Sliggoo
+707,Klefki,Klefki,6,Kalos,Acero / Hada,,
+708,Phantump,Phantump,6,Kalos,Fantasma / Planta,,
+709,Trevenant,Trevenant,6,Kalos,Fantasma / Planta,,Phantump
+710,Pumpkaboo,Pumpkaboo,6,Kalos,Fantasma / Planta,,
+711,Gourgeist,Gourgeist,6,Kalos,Fantasma / Planta,,Pumpkaboo
+712,Bergmite,Bergmite,6,Kalos,Hielo,,
+713,Avalugg,Avalugg,6,Kalos,Hielo,,Bergmite
+714,Noibat,Noibat,6,Kalos,Volador / Dragón,,
+715,Noivern,Noivern,6,Kalos,Volador / Dragón,,Noibat
+716,Xerneas,Xerneas,6,Kalos,Hada,Legendario,
+717,Yveltal,Yveltal,6,Kalos,Siniestro / Volador,Legendario,
+718,Zygarde,Zygarde,6,Kalos,Dragón / Tierra,Legendario,
+719,Diancie,Diancie,6,Kalos,Roca / Hada,Mítico,
+720,Hoopa,Hoopa,6,Kalos,Psíquico / Fantasma,Mítico,
+721,Volcanion,Volcanion,6,Kalos,Fuego / Agua,Mítico,
+722,Rowlet,Rowlet,7,Alola,Planta / Volador,,
+723,Dartrix,Dartrix,7,Alola,Planta / Volador,,Rowlet
+724,Decidueye,Decidueye,7,Alola,Planta / Fantasma,,Dartrix
+725,Litten,Litten,7,Alola,Fuego,,
+726,Torracat,Torracat,7,Alola,Fuego,,Litten
+727,Incineroar,Incineroar,7,Alola,Fuego / Siniestro,,Torracat
+728,Popplio,Popplio,7,Alola,Agua,,
+729,Brionne,Brionne,7,Alola,Agua,,Popplio
+730,Primarina,Primarina,7,Alola,Agua / Hada,,Brionne
+731,Pikipek,Pikipek,7,Alola,Normal / Volador,,
+732,Trumbeak,Trumbeak,7,Alola,Normal / Volador,,Pikipek
+733,Toucannon,Toucannon,7,Alola,Normal / Volador,,Trumbeak
+734,Yungoos,Yungoos,7,Alola,Normal,,
+735,Gumshoos,Gumshoos,7,Alola,Normal,,Yungoos
+736,Grubbin,Grubbin,7,Alola,Bicho,,
+737,Charjabug,Charjabug,7,Alola,Bicho / Eléctrico,,Grubbin
+738,Vikavolt,Vikavolt,7,Alola,Bicho / Eléctrico,,Charjabug
+739,Crabrawler,Crabrawler,7,Alola,Lucha,,
+740,Crabominable,Crabominable,7,Alola,Lucha / Hielo,,Crabrawler
+741,Oricorio,Oricorio,7,Alola,Fuego / Volador,,
+742,Cutiefly,Cutiefly,7,Alola,Bicho / Hada,,
+743,Ribombee,Ribombee,7,Alola,Bicho / Hada,,Cutiefly
+744,Rockruff,Rockruff,7,Alola,Roca,,
+745,Lycanroc,Lycanroc,7,Alola,Roca,,Rockruff
+746,Wishiwashi,Wishiwashi,7,Alola,Agua,,
+747,Mareanie,Mareanie,7,Alola,Veneno / Agua,,
+748,Toxapex,Toxapex,7,Alola,Veneno / Agua,,Mareanie
+749,Mudbray,Mudbray,7,Alola,Tierra,,
+750,Mudsdale,Mudsdale,7,Alola,Tierra,,Mudbray
+751,Dewpider,Dewpider,7,Alola,Agua / Bicho,,
+752,Araquanid,Araquanid,7,Alola,Agua / Bicho,,Dewpider
+753,Fomantis,Fomantis,7,Alola,Planta,,
+754,Lurantis,Lurantis,7,Alola,Planta,,Fomantis
+755,Morelull,Morelull,7,Alola,Planta / Hada,,
+756,Shiinotic,Shiinotic,7,Alola,Planta / Hada,,Morelull
+757,Salandit,Salandit,7,Alola,Veneno / Fuego,,
+758,Salazzle,Salazzle,7,Alola,Veneno / Fuego,,Salandit
+759,Stufful,Stufful,7,Alola,Normal / Lucha,,
+760,Bewear,Bewear,7,Alola,Normal / Lucha,,Stufful
+761,Bounsweet,Bounsweet,7,Alola,Planta,,
+762,Steenee,Steenee,7,Alola,Planta,,Bounsweet
+763,Tsareena,Tsareena,7,Alola,Planta,,Steenee
+764,Comfey,Comfey,7,Alola,Hada,,
+765,Oranguru,Oranguru,7,Alola,Normal / Psíquico,,
+766,Passimian,Passimian,7,Alola,Lucha,,
+767,Wimpod,Wimpod,7,Alola,Bicho / Agua,,
+768,Golisopod,Golisopod,7,Alola,Bicho / Agua,,Wimpod
+769,Sandygast,Sandygast,7,Alola,Fantasma / Tierra,,
+770,Palossand,Palossand,7,Alola,Fantasma / Tierra,,Sandygast
+771,Pyukumuku,Pyukumuku,7,Alola,Agua,,
+772,Código Cero,Type: Null,7,Alola,Normal,Legendario,
+773,Silvally,Silvally,7,Alola,Normal,Legendario,Código Cero
+774,Minior,Minior,7,Alola,Roca / Volador,,
+775,Komala,Komala,7,Alola,Normal,,
+776,Turtonator,Turtonator,7,Alola,Fuego / Dragón,,
+777,Togedemaru,Togedemaru,7,Alola,Eléctrico / Acero,,
+778,Mimikyu,Mimikyu,7,Alola,Fantasma / Hada,,
+779,Bruxish,Bruxish,7,Alola,Agua / Psíquico,,
+780,Drampa,Drampa,7,Alola,Normal / Dragón,,
+781,Dhelmise,Dhelmise,7,Alola,Fantasma / Planta,,
+782,Jangmo-o,Jangmo-o,7,Alola,Dragón,,
+783,Hakamo-o,Hakamo-o,7,Alola,Dragón / Lucha,,Jangmo-o
+784,Kommo-o,Kommo-o,7,Alola,Dragón / Lucha,,Hakamo-o
+785,Tapu Koko,Tapu Koko,7,Alola,Eléctrico / Hada,Legendario,
+786,Tapu Lele,Tapu Lele,7,Alola,Psíquico / Hada,Legendario,
+787,Tapu Bulu,Tapu Bulu,7,Alola,Planta / Hada,Legendario,
+788,Tapu Fini,Tapu Fini,7,Alola,Agua / Hada,Legendario,
+789,Cosmog,Cosmog,7,Alola,Psíquico,Legendario,
+790,Cosmoem,Cosmoem,7,Alola,Psíquico,Legendario,Cosmog
+791,Solgaleo,Solgaleo,7,Alola,Psíquico / Acero,Legendario,Cosmoem
+792,Lunala,Lunala,7,Alola,Psíquico / Fantasma,Legendario,Cosmoem
+793,Nihilego,Nihilego,7,Alola,Roca / Veneno,,
+794,Buzzwole,Buzzwole,7,Alola,Bicho / Lucha,,
+795,Pheromosa,Pheromosa,7,Alola,Bicho / Lucha,,
+796,Xurkitree,Xurkitree,7,Alola,Eléctrico,,
+797,Celesteela,Celesteela,7,Alola,Acero / Volador,,
+798,Kartana,Kartana,7,Alola,Planta / Acero,,
+799,Guzzlord,Guzzlord,7,Alola,Siniestro / Dragón,,
+800,Necrozma,Necrozma,7,Alola,Psíquico,Legendario,
+801,Magearna,Magearna,7,Alola,Acero / Hada,Mítico,
+802,Marshadow,Marshadow,7,Alola,Lucha / Fantasma,Mítico,
+803,Poipole,Poipole,7,Alola,Veneno,,
+804,Naganadel,Naganadel,7,Alola,Veneno / Dragón,,Poipole
+805,Stakataka,Stakataka,7,Alola,Roca / Acero,,
+806,Blacephalon,Blacephalon,7,Alola,Fuego / Fantasma,,
+807,Zeraora,Zeraora,7,Alola,Eléctrico,Mítico,
+808,Meltan,Meltan,7,Alola,Acero,Mítico,
+809,Melmetal,Melmetal,7,Alola,Acero,Mítico,Meltan
+810,Grookey,Grookey,8,Galar e Hisui,Planta,,
+811,Thwackey,Thwackey,8,Galar e Hisui,Planta,,Grookey
+812,Rillaboom,Rillaboom,8,Galar e Hisui,Planta,,Thwackey
+813,Scorbunny,Scorbunny,8,Galar e Hisui,Fuego,,
+814,Raboot,Raboot,8,Galar e Hisui,Fuego,,Scorbunny
+815,Cinderace,Cinderace,8,Galar e Hisui,Fuego,,Raboot
+816,Sobble,Sobble,8,Galar e Hisui,Agua,,
+817,Drizzile,Drizzile,8,Galar e Hisui,Agua,,Sobble
+818,Inteleon,Inteleon,8,Galar e Hisui,Agua,,Drizzile
+819,Skwovet,Skwovet,8,Galar e Hisui,Normal,,
+820,Greedent,Greedent,8,Galar e Hisui,Normal,,Skwovet
+821,Rookidee,Rookidee,8,Galar e Hisui,Volador,,
+822,Corvisquire,Corvisquire,8,Galar e Hisui,Volador,,Rookidee
+823,Corviknight,Corviknight,8,Galar e Hisui,Volador / Acero,,Corvisquire
+824,Blipbug,Blipbug,8,Galar e Hisui,Bicho,,
+825,Dottler,Dottler,8,Galar e Hisui,Bicho / Psíquico,,Blipbug
+826,Orbeetle,Orbeetle,8,Galar e Hisui,Bicho / Psíquico,,Dottler
+827,Nickit,Nickit,8,Galar e Hisui,Siniestro,,
+828,Thievul,Thievul,8,Galar e Hisui,Siniestro,,Nickit
+829,Gossifleur,Gossifleur,8,Galar e Hisui,Planta,,
+830,Eldegoss,Eldegoss,8,Galar e Hisui,Planta,,Gossifleur
+831,Wooloo,Wooloo,8,Galar e Hisui,Normal,,
+832,Dubwool,Dubwool,8,Galar e Hisui,Normal,,Wooloo
+833,Chewtle,Chewtle,8,Galar e Hisui,Agua,,
+834,Drednaw,Drednaw,8,Galar e Hisui,Agua / Roca,,Chewtle
+835,Yamper,Yamper,8,Galar e Hisui,Eléctrico,,
+836,Boltund,Boltund,8,Galar e Hisui,Eléctrico,,Yamper
+837,Rolycoly,Rolycoly,8,Galar e Hisui,Roca,,
+838,Carkol,Carkol,8,Galar e Hisui,Roca / Fuego,,Rolycoly
+839,Coalossal,Coalossal,8,Galar e Hisui,Roca / Fuego,,Carkol
+840,Applin,Applin,8,Galar e Hisui,Planta / Dragón,,
+841,Flapple,Flapple,8,Galar e Hisui,Planta / Dragón,,Applin
+842,Appletun,Appletun,8,Galar e Hisui,Planta / Dragón,,Applin
+843,Silicobra,Silicobra,8,Galar e Hisui,Tierra,,
+844,Sandaconda,Sandaconda,8,Galar e Hisui,Tierra,,Silicobra
+845,Cramorant,Cramorant,8,Galar e Hisui,Volador / Agua,,
+846,Arrokuda,Arrokuda,8,Galar e Hisui,Agua,,
+847,Barraskewda,Barraskewda,8,Galar e Hisui,Agua,,Arrokuda
+848,Toxel,Toxel,8,Galar e Hisui,Eléctrico / Veneno,,
+849,Toxtricity,Toxtricity,8,Galar e Hisui,Eléctrico / Veneno,,Toxel
+850,Sizzlipede,Sizzlipede,8,Galar e Hisui,Fuego / Bicho,,
+851,Centiskorch,Centiskorch,8,Galar e Hisui,Fuego / Bicho,,Sizzlipede
+852,Clobbopus,Clobbopus,8,Galar e Hisui,Lucha,,
+853,Grapploct,Grapploct,8,Galar e Hisui,Lucha,,Clobbopus
+854,Sinistea,Sinistea,8,Galar e Hisui,Fantasma,,
+855,Polteageist,Polteageist,8,Galar e Hisui,Fantasma,,Sinistea
+856,Hatenna,Hatenna,8,Galar e Hisui,Psíquico,,
+857,Hattrem,Hattrem,8,Galar e Hisui,Psíquico,,Hatenna
+858,Hatterene,Hatterene,8,Galar e Hisui,Psíquico / Hada,,Hattrem
+859,Impidimp,Impidimp,8,Galar e Hisui,Siniestro / Hada,,
+860,Morgrem,Morgrem,8,Galar e Hisui,Siniestro / Hada,,Impidimp
+861,Grimmsnarl,Grimmsnarl,8,Galar e Hisui,Siniestro / Hada,,Morgrem
+862,Obstagoon,Obstagoon,8,Galar e Hisui,Siniestro / Normal,,Linoone
+863,Perrserker,Perrserker,8,Galar e Hisui,Acero,,Meowth
+864,Cursola,Cursola,8,Galar e Hisui,Fantasma,,Corsola
+865,Sirfetch’d,Sirfetch’d,8,Galar e Hisui,Lucha,,Farfetch’d
+866,Mr. Rime,Mr. Rime,8,Galar e Hisui,Hielo / Psíquico,,Mr. Mime
+867,Runerigus,Runerigus,8,Galar e Hisui,Tierra / Fantasma,,Yamask
+868,Milcery,Milcery,8,Galar e Hisui,Hada,,
+869,Alcremie,Alcremie,8,Galar e Hisui,Hada,,Milcery
+870,Falinks,Falinks,8,Galar e Hisui,Lucha,,
+871,Pincurchin,Pincurchin,8,Galar e Hisui,Eléctrico,,
+872,Snom,Snom,8,Galar e Hisui,Hielo / Bicho,,
+873,Frosmoth,Frosmoth,8,Galar e Hisui,Hielo / Bicho,,Snom
+874,Stonjourner,Stonjourner,8,Galar e Hisui,Roca,,
+875,Eiscue,Eiscue,8,Galar e Hisui,Hielo,,
+876,Indeedee,Indeedee,8,Galar e Hisui,Psíquico / Normal,,
+877,Morpeko,Morpeko,8,Galar e Hisui,Eléctrico / Siniestro,,
+878,Cufant,Cufant,8,Galar e Hisui,Acero,,
+879,Copperajah,Copperajah,8,Galar e Hisui,Acero,,Cufant
+880,Dracozolt,Dracozolt,8,Galar e Hisui,Eléctrico / Dragón,,
+881,Arctozolt,Arctozolt,8,Galar e Hisui,Eléctrico / Hielo,,
+882,Dracovish,Dracovish,8,Galar e Hisui,Agua / Dragón,,
+883,Arctovish,Arctovish,8,Galar e Hisui,Agua / Hielo,,
+884,Duraludon,Duraludon,8,Galar e Hisui,Acero / Dragón,,
+885,Dreepy,Dreepy,8,Galar e Hisui,Dragón / Fantasma,,
+886,Drakloak,Drakloak,8,Galar e Hisui,Dragón / Fantasma,,Dreepy
+887,Dragapult,Dragapult,8,Galar e Hisui,Dragón / Fantasma,,Drakloak
+888,Zacian,Zacian,8,Galar e Hisui,Hada,Legendario,
+889,Zamazenta,Zamazenta,8,Galar e Hisui,Lucha,Legendario,
+890,Eternatus,Eternatus,8,Galar e Hisui,Veneno / Dragón,Legendario,
+891,Kubfu,Kubfu,8,Galar e Hisui,Lucha,Legendario,
+892,Urshifu,Urshifu,8,Galar e Hisui,Lucha / Siniestro,Legendario,Kubfu
+893,Zarude,Zarude,8,Galar e Hisui,Siniestro / Planta,Mítico,
+894,Regieleki,Regieleki,8,Galar e Hisui,Eléctrico,Legendario,
+895,Regidrago,Regidrago,8,Galar e Hisui,Dragón,Legendario,
+896,Glastrier,Glastrier,8,Galar e Hisui,Hielo,Legendario,
+897,Spectrier,Spectrier,8,Galar e Hisui,Fantasma,Legendario,
+898,Calyrex,Calyrex,8,Galar e Hisui,Psíquico / Planta,Legendario,
+899,Wyrdeer,Wyrdeer,8,Galar e Hisui,Normal / Psíquico,,Stantler
+900,Kleavor,Kleavor,8,Galar e Hisui,Bicho / Roca,,Scyther
+901,Ursaluna,Ursaluna,8,Galar e Hisui,Tierra / Normal,,Ursaring
+902,Basculegion,Basculegion,8,Galar e Hisui,Agua / Fantasma,,Basculin
+903,Sneasler,Sneasler,8,Galar e Hisui,Lucha / Veneno,,Sneasel
+904,Overqwil,Overqwil,8,Galar e Hisui,Siniestro / Veneno,,Qwilfish
+905,Enamorus,Enamorus,8,Galar e Hisui,Hada / Volador,Legendario,
+906,Sprigatito,Sprigatito,9,Paldea,Planta,,
+907,Floragato,Floragato,9,Paldea,Planta,,Sprigatito
+908,Meowscarada,Meowscarada,9,Paldea,Planta / Siniestro,,Floragato
+909,Fuecoco,Fuecoco,9,Paldea,Fuego,,
+910,Crocalor,Crocalor,9,Paldea,Fuego,,Fuecoco
+911,Skeledirge,Skeledirge,9,Paldea,Fuego / Fantasma,,Crocalor
+912,Quaxly,Quaxly,9,Paldea,Agua,,
+913,Quaxwell,Quaxwell,9,Paldea,Agua,,Quaxly
+914,Quaquaval,Quaquaval,9,Paldea,Agua / Lucha,,Quaxwell
+915,Lechonk,Lechonk,9,Paldea,Normal,,
+916,Oinkologne,Oinkologne,9,Paldea,Normal,,Lechonk
+917,Tarountula,Tarountula,9,Paldea,Bicho,,
+918,Spidops,Spidops,9,Paldea,Bicho,,Tarountula
+919,Nymble,Nymble,9,Paldea,Bicho,,
+920,Lokix,Lokix,9,Paldea,Bicho / Siniestro,,Nymble
+921,Pawmi,Pawmi,9,Paldea,Eléctrico,,
+922,Pawmo,Pawmo,9,Paldea,Eléctrico / Lucha,,Pawmi
+923,Pawmot,Pawmot,9,Paldea,Eléctrico / Lucha,,Pawmo
+924,Tandemaus,Tandemaus,9,Paldea,Normal,,
+925,Maushold,Maushold,9,Paldea,Normal,,Tandemaus
+926,Fidough,Fidough,9,Paldea,Hada,,
+927,Dachsbun,Dachsbun,9,Paldea,Hada,,Fidough
+928,Smoliv,Smoliv,9,Paldea,Planta / Normal,,
+929,Dolliv,Dolliv,9,Paldea,Planta / Normal,,Smoliv
+930,Arboliva,Arboliva,9,Paldea,Planta / Normal,,Dolliv
+931,Squawkabilly,Squawkabilly,9,Paldea,Normal / Volador,,
+932,Nacli,Nacli,9,Paldea,Roca,,
+933,Naclstack,Naclstack,9,Paldea,Roca,,Nacli
+934,Garganacl,Garganacl,9,Paldea,Roca,,Naclstack
+935,Charcadet,Charcadet,9,Paldea,Fuego,,
+936,Armarouge,Armarouge,9,Paldea,Fuego / Psíquico,,Charcadet
+937,Ceruledge,Ceruledge,9,Paldea,Fuego / Fantasma,,Charcadet
+938,Tadbulb,Tadbulb,9,Paldea,Eléctrico,,
+939,Bellibolt,Bellibolt,9,Paldea,Eléctrico,,Tadbulb
+940,Wattrel,Wattrel,9,Paldea,Eléctrico / Volador,,
+941,Kilowattrel,Kilowattrel,9,Paldea,Eléctrico / Volador,,Wattrel
+942,Maschiff,Maschiff,9,Paldea,Siniestro,,
+943,Mabosstiff,Mabosstiff,9,Paldea,Siniestro,,Maschiff
+944,Shroodle,Shroodle,9,Paldea,Veneno / Normal,,
+945,Grafaiai,Grafaiai,9,Paldea,Veneno / Normal,,Shroodle
+946,Bramblin,Bramblin,9,Paldea,Planta / Fantasma,,
+947,Brambleghast,Brambleghast,9,Paldea,Planta / Fantasma,,Bramblin
+948,Toedscool,Toedscool,9,Paldea,Tierra / Planta,,
+949,Toedscruel,Toedscruel,9,Paldea,Tierra / Planta,,Toedscool
+950,Klawf,Klawf,9,Paldea,Roca,,
+951,Capsakid,Capsakid,9,Paldea,Planta,,
+952,Scovillain,Scovillain,9,Paldea,Planta / Fuego,,Capsakid
+953,Rellor,Rellor,9,Paldea,Bicho,,
+954,Rabsca,Rabsca,9,Paldea,Bicho / Psíquico,,Rellor
+955,Flittle,Flittle,9,Paldea,Psíquico,,
+956,Espathra,Espathra,9,Paldea,Psíquico,,Flittle
+957,Tinkatink,Tinkatink,9,Paldea,Hada / Acero,,
+958,Tinkatuff,Tinkatuff,9,Paldea,Hada / Acero,,Tinkatink
+959,Tinkaton,Tinkaton,9,Paldea,Hada / Acero,,Tinkatuff
+960,Wiglett,Wiglett,9,Paldea,Agua,,
+961,Wugtrio,Wugtrio,9,Paldea,Agua,,Wiglett
+962,Bombirdier,Bombirdier,9,Paldea,Volador / Siniestro,,
+963,Finizen,Finizen,9,Paldea,Agua,,
+964,Palafin,Palafin,9,Paldea,Agua,,Finizen
+965,Varoom,Varoom,9,Paldea,Acero / Veneno,,
+966,Revavroom,Revavroom,9,Paldea,Acero / Veneno,,Varoom
+967,Cyclizar,Cyclizar,9,Paldea,Dragón / Normal,,
+968,Orthworm,Orthworm,9,Paldea,Acero,,
+969,Glimmet,Glimmet,9,Paldea,Roca / Veneno,,
+970,Glimmora,Glimmora,9,Paldea,Roca / Veneno,,Glimmet
+971,Greavard,Greavard,9,Paldea,Fantasma,,
+972,Houndstone,Houndstone,9,Paldea,Fantasma,,Greavard
+973,Flamigo,Flamigo,9,Paldea,Volador / Lucha,,
+974,Cetoddle,Cetoddle,9,Paldea,Hielo,,
+975,Cetitan,Cetitan,9,Paldea,Hielo,,Cetoddle
+976,Veluza,Veluza,9,Paldea,Agua / Psíquico,,
+977,Dondozo,Dondozo,9,Paldea,Agua,,
+978,Tatsugiri,Tatsugiri,9,Paldea,Dragón / Agua,,
+979,Annihilape,Annihilape,9,Paldea,Lucha / Fantasma,,Primeape
+980,Clodsire,Clodsire,9,Paldea,Veneno / Tierra,,Wooper
+981,Farigiraf,Farigiraf,9,Paldea,Normal / Psíquico,,Girafarig
+982,Dudunsparce,Dudunsparce,9,Paldea,Normal,,Dunsparce
+983,Kingambit,Kingambit,9,Paldea,Siniestro / Acero,,Bisharp
+984,Colmilargo,Great Tusk,9,Paldea,Tierra / Lucha,,
+985,Colagrito,Scream Tail,9,Paldea,Hada / Psíquico,,
+986,Furioseta,Brute Bonnet,9,Paldea,Planta / Siniestro,,
+987,Melenaleteo,Flutter Mane,9,Paldea,Fantasma / Hada,,
+988,Reptalada,Slither Wing,9,Paldea,Bicho / Lucha,,
+989,Pelarena,Sandy Shocks,9,Paldea,Eléctrico / Tierra,,
+990,Ferrodada,Iron Treads,9,Paldea,Tierra / Acero,,
+991,Ferrosaco,Iron Bundle,9,Paldea,Hielo / Agua,,
+992,Ferropalmas,Iron Hands,9,Paldea,Lucha / Eléctrico,,
+993,Ferrocuello,Iron Jugulis,9,Paldea,Siniestro / Volador,,
+994,Ferropolilla,Iron Moth,9,Paldea,Fuego / Veneno,,
+995,Ferropúas,Iron Thorns,9,Paldea,Roca / Eléctrico,,
+996,Frigibax,Frigibax,9,Paldea,Dragón / Hielo,,
+997,Arctibax,Arctibax,9,Paldea,Dragón / Hielo,,Frigibax
+998,Baxcalibur,Baxcalibur,9,Paldea,Dragón / Hielo,,Arctibax
+999,Gimmighoul,Gimmighoul,9,Paldea,Fantasma,,
+1000,Gholdengo,Gholdengo,9,Paldea,Acero / Fantasma,,Gimmighoul
+1001,Wo-Chien,Wo-Chien,9,Paldea,Siniestro / Planta,Legendario,
+1002,Chien-Pao,Chien-Pao,9,Paldea,Siniestro / Hielo,Legendario,
+1003,Ting-Lu,Ting-Lu,9,Paldea,Siniestro / Tierra,Legendario,
+1004,Chi-Yu,Chi-Yu,9,Paldea,Siniestro / Fuego,Legendario,
+1005,Bramaluna,Roaring Moon,9,Paldea,Dragón / Siniestro,,
+1006,Ferropaladín,Iron Valiant,9,Paldea,Hada / Lucha,,
+1007,Koraidon,Koraidon,9,Paldea,Lucha / Dragón,Legendario,
+1008,Miraidon,Miraidon,9,Paldea,Eléctrico / Dragón,Legendario,
+1009,Ondulagua,Walking Wake,9,Paldea,Agua / Dragón,,
+1010,Ferroverdor,Iron Leaves,9,Paldea,Planta / Psíquico,,
+1011,Dipplin,Dipplin,9,Paldea,Planta / Dragón,,Applin
+1012,Poltchageist,Poltchageist,9,Paldea,Planta / Fantasma,,
+1013,Sinistcha,Sinistcha,9,Paldea,Planta / Fantasma,,Poltchageist
+1014,Okidogi,Okidogi,9,Paldea,Veneno / Lucha,Legendario,
+1015,Munkidori,Munkidori,9,Paldea,Veneno / Psíquico,Legendario,
+1016,Fezandipiti,Fezandipiti,9,Paldea,Veneno / Hada,Legendario,
+1017,Ogerpon,Ogerpon,9,Paldea,Planta,Legendario,
+1018,Archaludon,Archaludon,9,Paldea,Acero / Dragón,,Duraludon
+1019,Hydrapple,Hydrapple,9,Paldea,Planta / Dragón,,Dipplin
+1020,Flamariete,Gouging Fire,9,Paldea,Fuego / Dragón,,
+1021,Electrofuria,Raging Bolt,9,Paldea,Eléctrico / Dragón,,
+1022,Ferromole,Iron Boulder,9,Paldea,Roca / Psíquico,,
+1023,Ferrotesta,Iron Crown,9,Paldea,Acero / Psíquico,,
+1024,Terapagos,Terapagos,9,Paldea,Normal,Legendario,
+1025,Pecharunt,Pecharunt,9,Paldea,Veneno / Fantasma,Mítico,
