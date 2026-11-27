@@ -126,7 +126,20 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
   - Se muestran como parte del análisis: la imagen siempre va con su precio, la fuente y el comentario del narrador.
   - Se guarda de dónde sale cada imagen (URL y fecha) en la carpeta del vídeo.
 
-## 12. Riesgos a vigilar
+## 12. Miniaturas y títulos
+
+### Miniaturas
+- Para cada vídeo se proponen **3 opciones** y Vicente elige:
+  - **2 realistas**, a partir de un fotograma tipo clip de Higgsfield con el Pokémon realista;
+  - **1 mixta**, con Pokémon realista y elementos o texto en crayón, o mitad crayón y mitad realista.
+- **Texto:** de 2 a 4 palabras muy grandes que provoquen curiosidad ("¿POR QUÉ ES TAN CARO?", "EL ORIGEN SECRETO").
+- Cada miniatura se hace **en los dos idiomas**: misma imagen, texto traducido o adaptado.
+
+### Títulos
+- **Gancho variable:** cada título busca la curiosidad más potente de ese Pokémon ("El Pokémon que casi fue la mascota de Pokémon").
+- Se proponen **3 opciones** por vídeo y Vicente elige. Se adaptan a cada idioma, no se traducen palabra por palabra.
+
+## 13. Riesgos a vigilar
 
 - **Política de contenido "no auténtico" de YouTube**: hay que evitar los vídeos repetitivos o de poco valor. El valor lo aportan un buen guion, un estilo propio y una revisión de calidad.
 - **Propiedad intelectual de Pokémon**: no usar material oficial (arte, capturas o fragmentos del anime) sin criterio. Hay que cuidar que los diseños generados no sean copias de los oficiales.
@@ -143,5 +156,5 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 - [x] Voces (ES y EN)
 - [x] Música y efectos (criterios)
 - [x] Estilo de montaje en Remotion (rótulos en crayón, subtítulos aparte, transiciones)
-- [ ] Miniaturas y títulos
+- [x] Miniaturas y títulos
 - [ ] Nombres de los canales
