@@ -74,7 +74,14 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
   - **Cuando el flujo esté afinado (opción B):** se pasa directamente de la investigación al guion, y solo se revisa el guion.
   - ⏰ **Recordatorio:** proponer el paso de A a B cuando los vídeos salgan con pocas correcciones de forma constante.
 
-## 8. Riesgos a vigilar
+## 8. Guion y narrador
+
+- **Narrador cercano y con personalidad.** Habla directamente al espectador ("¿Sabías que…?", "Seguro que tú también…"), con algún comentario u opinión propia. No es un personaje con nombre propio.
+- **Humor:** toques puntuales, sin forzarlo. El tono de fondo es el de un fan adulto que sabe mucho y lo cuenta con ganas.
+- **Sin frases fijas:** no hay saludo ni despedida repetidos. Cada vídeo empieza directamente con su gancho y termina con un cierre propio.
+- **Sin intro ni pantalla final fijas:** no hay cabecera con logo ni end screen predefinida. El adelanto del siguiente Pokémon y la llamada a suscribirse van dentro de la narración del cierre.
+
+## 9. Riesgos a vigilar
 
 - **Política de contenido "no auténtico" de YouTube**: hay que evitar los vídeos repetitivos o de poco valor. El valor lo aportan un buen guion, un estilo propio y una revisión de calidad.
 - **Propiedad intelectual de Pokémon**: no usar material oficial (arte, capturas o fragmentos del anime) sin criterio. Hay que cuidar que los diseños generados no sean copias de los oficiales.
@@ -85,7 +92,7 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 
 - [x] Fuentes de información y verificación de datos
 - [x] Fuente de precios de cartas
-- [ ] Estilo del guion y del narrador
+- [x] Estilo del guion y del narrador
 - [ ] Diseño de las plantillas 2D estilo crayón
 - [ ] Referencia del estilo realista de Higgsfield
 - [ ] Voces (ES y EN), música y efectos
