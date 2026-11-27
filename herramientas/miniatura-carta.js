@@ -1,20 +1,24 @@
+// Miniatura: Pokémon realista a la derecha + foto REAL de la carta a la izquierda + precio con flecha.
+// Uso: node herramientas/miniatura-carta.js <fondo.jpg> <carta.png> <carpeta_salida> <prefijo> "<precio_es>" "<precio_en>"
 const { chromium } = require('playwright'); const fs=require('fs'); const path=require('path');
-const S=process.argv[2], out=process.argv[3];
-const bg='data:image/jpeg;base64,'+fs.readFileSync(path.join(S,'r1.jpg')).toString('base64');
-const card='data:image/png;base64,'+fs.readFileSync(path.join(S,'snap_crop_x2.png')).toString('base64');
-const L={es:{top:['POR ESTA','CARTA'],price:'809.943 $'},en:{top:['FOR THIS','CARD'],price:'$809,943'}};
+const [bgF,cardF,out,prefix,pES,pEN]=process.argv.slice(2);
+const b64=(f,t)=>`data:image/${t};base64,`+fs.readFileSync(f).toString('base64');
+const bg=b64(bgF,'jpeg'), card=b64(cardF,'png');
 const css=`@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-*{margin:0;box-sizing:border-box}body{width:1280px;height:720px;overflow:hidden;background:#000;position:relative}
-.bg{position:absolute;inset:0;background:#05090a url('${bg}') 170px 50%/auto 100% no-repeat;filter:saturate(1.1)}
-.shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.8) 0%,rgba(0,0,0,.45) 45%,rgba(0,0,0,0) 62%)}
-.card{position:absolute;left:52px;top:96px;height:540px;transform:rotate(-6deg);border-radius:10px;
- box-shadow:0 30px 60px rgba(0,0,0,.85),0 0 60px rgba(255,200,40,.55)}
-.txt{position:absolute;left:400px;top:120px;font-family:Anton,Impact,sans-serif;text-transform:uppercase;line-height:.95}
-.top{color:#fff;font-size:84px;-webkit-text-stroke:3px #000;paint-order:stroke fill;text-shadow:0 6px 0 #000}
-.price{position:absolute;left:392px;top:318px;font-family:Anton,Impact,sans-serif;font-size:112px;color:#ffd21f;
- -webkit-text-stroke:5px #000;paint-order:stroke fill;text-shadow:0 8px 0 #000,0 0 50px rgba(255,190,0,.6);transform:rotate(-3deg)}`;
-(async()=>{const b=await chromium.launch();const p=await b.newPage({viewport:{width:1280,height:720}});
-for(const lang of ['es','en']){const t=L[lang];
-await p.setContent(`<style>${css}</style><div class="bg"></div><div class="shade"></div><img class="card" src="${card}"><div class="txt">${t.top.map(x=>`<div class="top">${x}</div>`).join('')}</div><div class="price">${t.price}</div>`);
-await p.waitForTimeout(1200);await p.screenshot({path:path.join(out,`m3card_${lang}.jpg`),type:'jpeg',quality:92});}
-await b.close();})();
+*{margin:0;box-sizing:border-box}body{width:1280px;height:720px;overflow:hidden;background:#05090a;position:relative}
+.bg{position:absolute;inset:0;background:#05090a url('${bg}') 200px 50%/auto 104% no-repeat;filter:saturate(1.12) contrast(1.05)}
+.shade{position:absolute;inset:0;background:linear-gradient(90deg,rgba(0,0,0,.85) 0%,rgba(0,0,0,.5) 38%,rgba(0,0,0,0) 58%)}
+.glow{position:absolute;left:-40px;top:40px;width:620px;height:660px;background:radial-gradient(closest-side,rgba(255,150,20,.75),rgba(255,110,0,.25) 60%,transparent);filter:blur(10px)}
+.card{position:absolute;left:78px;top:58px;height:612px;transform:rotate(-5deg);border-radius:14px;
+ outline:7px solid #ffb21f;outline-offset:-2px;box-shadow:0 0 0 3px #000,0 30px 60px rgba(0,0,0,.9),0 0 70px rgba(255,170,30,.9)}
+.price{position:absolute;left:470px;top:40px;font-family:Anton,Impact,sans-serif;font-size:132px;line-height:1;color:#ffd21f;white-space:nowrap;
+ -webkit-text-stroke:6px #000;paint-order:stroke fill;text-shadow:0 8px 0 #000,0 0 50px rgba(255,190,0,.65);transform:rotate(-4deg)}
+svg{position:absolute;left:0;top:0}`;
+const arrow=`<svg width="1280" height="720" viewBox="0 0 1280 720"><defs><marker id="h" viewBox="0 0 10 10" refX="5" refY="5" markerWidth="4.2" markerHeight="4.2" orient="auto-start-reverse"><path d="M0,0 L10,5 L0,10 z" fill="#ffd21f" stroke="#000" stroke-width="1.2"/></marker></defs>
+<path d="M640 205 C 640 330, 560 390, 455 395" fill="none" stroke="#000" stroke-width="26" stroke-linecap="round"/>
+<path d="M640 205 C 640 330, 560 390, 455 395" fill="none" stroke="#ffd21f" stroke-width="15" stroke-linecap="round" marker-end="url(#h)"/></svg>`;
+(async()=>{const br=await chromium.launch();const p=await br.newPage({viewport:{width:1280,height:720}});
+for(const [lang,price] of [['es',pES],['en',pEN]]){
+await p.setContent(`<style>${css}</style><div class="bg"></div><div class="shade"></div><div class="glow"></div><img class="card" src="${card}">${arrow}<div class="price">${price}</div>`);
+await p.waitForTimeout(1200);await p.screenshot({path:path.join(out,`${prefix}_${lang}.jpg`),type:'jpeg',quality:92});}
+await br.close();})();

@@ -20,7 +20,7 @@
 ### 1.2 · El precio
 - **Visual:** `CARTA`: foto real del Snap Bulbasaur en su funda PSA 8 (venta de Goldin). Entra con giro 3D y brillo.
 - **Cámara:** acercamiento lento a la carta; el precio sube como un contador.
-- **Rótulo:** ES "809.943 $ · unos 700.000 €" / EN "$809,943"
+- **Rótulo:** ES "809.943$ · unos 700.000€" / EN "$809,943"
 - **Sonido:** golpe grave de impacto cuando el contador llega a la cifra final. Arranca la música épica.
 
 **ES:** En agosto de 2026, esa foto, convertida en carta, se vendió en subasta por 809.943 dólares. Unos 700.000 euros. Por una foto de un Bulbasaur. Es la carta de Bulbasaur más cara de la historia… y al final del vídeo te cuento cómo pasó. Pero antes, déjame presentarte como se merece al Pokémon número uno.
@@ -222,7 +222,7 @@
 ### 6.2 · La primera de la historia
 - **Visual:** `CARTA`: Bulbasaur japonés del Expansion Pack, 1996, "No Rarity" (foto real).
 - **Cámara:** animación de carta: giro 3D, brillo y contador de precio.
-- **Rótulo:** ES "Japón 1996 · PSA 10 ≈ 3.000 €" / EN "Japan 1996 · PSA 10 ≈ $3,500"
+- **Rótulo:** ES "Japón 1996 · PSA 10 ≈ 3.000€" / EN "Japan 1996 · PSA 10 ≈ $3,500"
 - **Sonido:** "whoosh" de carta; clic del contador.
 
 **ES:** Empecemos por el principio. La primera carta de Bulbasaur de la historia salió en Japón en 1996, en el primer set del juego. Esa primera tirada no llevaba símbolo de rareza, y por eso los coleccionistas la llaman "No Rarity". En perfecto estado, con la nota máxima de PSA, un diez, ronda los 3.000 euros.
@@ -232,7 +232,7 @@
 ### 6.3 · El Base Set: miles de veces más cara
 - **Visual:** `CARTA`: Bulbasaur #44 del Base Set (foto real), primero la versión normal y después la 1ª edición al lado.
 - **Cámara:** las dos cartas lado a lado; el contador de la 1ª edición se dispara.
-- **Rótulo:** ES "Normal ≈ 3 € → 1ª edición PSA 10 ≈ 7.500 €" / EN "Unlimited ≈ $3 → 1st Edition PSA 10 ≈ $8,700"
+- **Rótulo:** ES "Normal ≈ 3€ → 1ª edición PSA 10 ≈ 7.500€" / EN "Unlimited ≈ $3 → 1st Edition PSA 10 ≈ $8,700"
 - **Sonido:** dos golpes; "ka-ching" al final.
 
 **ES:** En inglés, la primera es la del Base Set de 1999, la número 44. Y aquí viene un dato que demuestra lo loco que es este mundo: la versión normal de esa carta vale unos tres euros. Pero la misma carta, con el sello de primera edición y en un PSA 10, ronda los 7.500 euros. Misma ilustración, mismo Bulbasaur… y miles de veces más cara.
@@ -242,7 +242,7 @@
 ### 6.4 · La común de 16.000 dólares
 - **Visual:** `CARTA`: Bulbasaur #68 reverse holo de Legendary Collection (foto real), con su brillo de "fuegos artificiales".
 - **Cámara:** giro lento para lucir el brillo; contador.
-- **Rótulo:** ES "Legendary Collection 2002 · PSA 10 ≈ 14.500 €" / EN "Legendary Collection 2002 · PSA 10 ≈ $16,700"
+- **Rótulo:** ES "Legendary Collection 2002 · PSA 10 ≈ 14.500€" / EN "Legendary Collection 2002 · PSA 10 ≈ $16,700"
 - **Sonido:** destellos del brillo holográfico.
 
 **ES:** Pero la que más sorprende es esta: la Bulbasaur de Legendary Collection, de 2002. Era una carta común, de las que salían en cualquier sobre. Pero su versión reverse holo, con ese brillo de fuegos artificiales, es muy difícil de encontrar en perfecto estado. Y en PSA 10 ronda los 14.500 euros. Por una carta común.
@@ -252,7 +252,7 @@
 ### 6.5 · Las promos japonesas
 - **Visual:** `CARTA`: Erika's Bulbasaur, promo CoroCoro (foto real).
 - **Cámara:** entrada lateral rápida.
-- **Rótulo:** ES "Promo CoroCoro · PSA 10 ≈ 7.500 €" / EN "CoroCoro promo · PSA 10 ≈ $8,500"
+- **Rótulo:** ES "Promo CoroCoro · PSA 10 ≈ 7.500€" / EN "CoroCoro promo · PSA 10 ≈ $8,500"
 - **Sonido:** "whoosh".
 
 **ES:** También están las promos japonesas, como la Bulbasaur de Erika que regalaba la revista CoroCoro, que en PSA 10 ronda los 7.500 euros. Y luego… está la carta de la que te hablaba al principio.
@@ -271,8 +271,8 @@
 
 ### 6.7 · El récord
 - **Visual:** `CARTA`: Snap Bulbasaur (foto real de la venta) y, encima, una línea de tiempo en crayón con las tres ventas.
-- **Cámara:** contador por pasos: 80.520 $ → 200.000 $ → 809.943 $.
-- **Rótulo:** ES "2023: ≈70.000 € · 2025: ≈175.000 € · 2026: 809.943 $ ≈ 700.000 €" / EN "2023: $80,520 · 2025: $200,000 · 2026: $809,943"
+- **Cámara:** contador por pasos: 80.520$ → 200.000$ → 809.943$.
+- **Rótulo:** ES "2023: ≈70.000€ · 2025: ≈175.000€ · 2026: 809.943$ ≈ 700.000€" / EN "2023: $80,520 · 2025: $200,000 · 2026: $809,943"
 - **Sonido:** tres golpes que van subiendo; el último, enorme. La música épica llega a su punto más alto.
 
 **ES:** En noviembre de 2023, una copia en PSA 9 se vendió por unos 70.000 euros. En julio de 2025, otra PSA 9 subió hasta los 175.000. Y en agosto de 2026, en la subasta de verano de Goldin, una copia en PSA 8, que ni siquiera es la nota más alta, se fue hasta los 809.943 dólares tras 49 pujas. Unos 700.000 euros. Es el récord absoluto de una carta de Bulbasaur, más de 600.000 dólares por encima del anterior.
