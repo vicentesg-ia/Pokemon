@@ -89,7 +89,7 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 ## 8. Guion y narrador
 
 - **Narrador cercano y con personalidad.** Habla directamente al espectador ("¿Sabías que…?", "Seguro que tú también…"), con algún comentario u opinión propia. No es un personaje con nombre propio.
-- **Humor:** toques puntuales, sin forzarlo. El tono de fondo es el de un fan adulto que sabe mucho y lo cuenta con ganas.
+- **Humor:** toques puntuales, sin forzarlo. **Calibrado con #001:** el humor es sutil, con ironía suave y complicidad de fan ("si alguna vez sufriste contra Brock con un Charmander…"). **Nada de chistes de meme ni de jerga** ("Un ídolo", "Goals"): rompen el tono documental del canal. Ante la duda, mejor una frase con encanto que una broma. El tono de fondo es el de un fan adulto que sabe mucho y lo cuenta con ganas.
 - **Sin frases fijas:** no hay saludo ni despedida repetidos. Cada vídeo empieza directamente con su gancho y termina con un cierre propio.
 - **Sin intro ni pantalla final fijas:** no hay cabecera con logo ni end screen predefinida. El adelanto del siguiente Pokémon y la llamada a suscribirse van dentro de la narración del cierre.
 

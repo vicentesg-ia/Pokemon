@@ -26,7 +26,7 @@ Sirve a la vez de texto para la voz (ElevenLabs) y de plan de escenas para las f
 ## Reglas de estilo (narrador, BIBLIA §8)
 - **Visuales sin personas:** nada de niños ni jugadores; las escenas se centran en Pokémon (BIBLIA §5).
 - Narrador **cercano**: habla al espectador ("¿sabías que…?", "si alguna vez…"). Es un fan adulto que sabe mucho y lo cuenta con ganas.
-- **Humor puntual**: 1 o 2 guiños por bloque como mucho, nunca forzados.
+- **Humor puntual y sutil**: 1 o 2 guiños por bloque como mucho, con ironía suave. **Nada de chistes de meme ni de jerga** ("Un ídolo", "Goals"): no encajan con el tono documental (ver BIBLIA §8).
 - **Sin frases fijas** de saludo ni despedida. Se empieza directamente con el gancho.
 - Frases cortas, fáciles de decir en voz alta. Nada de paréntesis ni listas: es texto hablado.
 - Los números se escriben como se dicen cuando haya duda ("809.943 dólares", "unos 700.000 euros").

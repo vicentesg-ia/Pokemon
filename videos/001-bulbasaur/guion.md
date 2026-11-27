@@ -1,6 +1,6 @@
 # Guion · #001 Bulbasaur
 
-> **Estado: en revisión por Vicente** (escena 6.6 ya cambiada: sin personas, todo centrado en Pokémon) · Escrito el 2026-11-27
+> **Estado: ✅ aprobado por Vicente el 2026-11-27** (cambios: escenas 6.6/6.8 sin personas; quitada la broma de la siesta en 2.4) · Escrito el 2026-11-27
 > Tipo de cambio usado: **1 € ≈ 1,15 $** (orientativo: las fuentes del 27-11-2026 dan entre 1,12 y 1,16; ⚠️ repasar antes de grabar la voz)
 > Duración estimada: **ES ~10-11 min** (~1.530 palabras) · **EN ~9,5-10 min** (~1.440 palabras). Las pausas, la música y los clips añaden ~30-60 s.
 
@@ -65,9 +65,9 @@
 - **Cámara:** parallax suave; partículas de polvo en la luz.
 - **Sonido:** respiración tranquila, pájaros lejanos.
 
-**ES:** Según la Pokédex, nace con una semilla rara plantada en el lomo, y esa planta crece con él. Y le encanta echarse la siesta al sol, porque así la semilla absorbe los rayos y se hace más grande. O sea, Bulbasaur es básicamente un Pokémon que crece durmiendo la siesta. Un ídolo.
+**ES:** Según la Pokédex, nace con una semilla rara plantada en el lomo, y esa planta crece con él. Y le encanta echarse la siesta al sol, porque así la semilla absorbe los rayos y se hace más grande. Por eso es tan fácil encontrarlo tumbado al sol: para Bulbasaur, descansar es crecer.
 
-**EN:** According to the Pokédex, it's born with a rare seed planted on its back, and that plant grows along with it. It also loves napping in the sun, because that's how the seed soaks up sunlight and gets bigger. So basically, Bulbasaur levels up by taking naps. Honestly? Goals.
+**EN:** According to the Pokédex, it's born with a rare seed planted on its back, and that plant grows along with it. It also loves napping in the sun, because that's how the seed soaks up sunlight and gets bigger. That's why you'll so often find it lying in the sun: for Bulbasaur, resting is growing.
 
 ---
 
