@@ -1,6 +1,6 @@
 import React from 'react';
 import {AbsoluteFill, Audio, Sequence, interpolate, staticFile, useVideoConfig} from 'remotion';
-import {FiltrosCrayon} from './estilo';
+import {FiltrosCrayon, FuentesCrayon} from './estilo';
 import {Blanco, Clip, EscenaCarta, EscenaRecord, Grafico, Ilustracion, Lang, Rotulo} from './componentes';
 
 // ---------- Tipos del plan (videos/<NNN>/montaje/plan.json + duraciones) ----------
@@ -73,6 +73,7 @@ export const VideoCronica: React.FC<{plan: Plan; lang: Lang}> = ({plan, lang}) =
 
 	return (
 		<AbsoluteFill style={{backgroundColor: '#000'}}>
+			<FuentesCrayon />
 			<FiltrosCrayon />
 			{tramos.map(({e, from, dur}) => (
 				<Sequence key={e.id} from={from} durationInFrames={dur} name={`Escena ${e.id}`}>

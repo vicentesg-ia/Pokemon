@@ -3,27 +3,29 @@ import {continueRender, delayRender} from 'remotion';
 import {CABIN_SKETCH_B64, GOCHI_HAND_B64} from './fuentes-b64';
 
 // Estilo del canal: rótulos en crayón (BIBLIA §11).
-// El navegador de render no puede bajar las fuentes de Google Fonts: van incrustadas en el código.
+// El navegador de render no puede bajar las fuentes de Google Fonts: van incrustadas en el código (fuentes-b64.ts).
 export const FUENTE_CRAYON = 'CabinSketchLocal';
 export const FUENTE_MANO = 'GochiHandLocal';
-const b64ABuffer = (b64: string) => {
-	const bin = atob(b64);
-	const out = new Uint8Array(bin.length);
-	for (let i = 0; i < bin.length; i++) out[i] = bin.charCodeAt(i);
-	return out.buffer;
+// Las fuentes se declaran con @font-face y data URI (sin red). <FuentesCrayon/> espera a que estén listas,
+// pero con una salida de seguridad de 5 s: nunca bloquea el render (lección de #001).
+const CSS_FUENTES = `
+@font-face { font-family: '${FUENTE_CRAYON}'; font-weight: 700; font-display: block; src: url(data:font/woff2;base64,${CABIN_SKETCH_B64}) format('woff2'); }
+@font-face { font-family: '${FUENTE_MANO}'; font-display: block; src: url(data:font/woff2;base64,${GOCHI_HAND_B64}) format('woff2'); }
+`;
+export const FuentesCrayon: React.FC = () => {
+	const [h] = React.useState(() => delayRender('Fuentes crayón', {timeoutInMilliseconds: 30000}));
+	React.useEffect(() => {
+		let hecho = false;
+		const fin = () => { if (!hecho) { hecho = true; continueRender(h); } };
+		const seguridad = setTimeout(fin, 5000);
+		Promise.all([
+			(document as any).fonts.load(`700 40px '${FUENTE_CRAYON}'`),
+			(document as any).fonts.load(`40px '${FUENTE_MANO}'`),
+		]).then(fin, fin);
+		return () => clearTimeout(seguridad);
+	}, [h]);
+	return <style>{CSS_FUENTES}</style>;
 };
-if (typeof window !== 'undefined' && typeof FontFace !== 'undefined') {
-	// Las fuentes van incrustadas (fuentes-b64.ts): se cargan desde memoria, sin peticiones de red.
-	const fuentes = [
-		new FontFace(FUENTE_CRAYON, b64ABuffer(CABIN_SKETCH_B64), {weight: '700'}),
-		new FontFace(FUENTE_MANO, b64ABuffer(GOCHI_HAND_B64)),
-	];
-	fuentes.forEach((f) => (document as any).fonts.add(f));
-	const h = delayRender('Cargando fuentes', {timeoutInMilliseconds: 60000});
-	Promise.all(fuentes.map((f) => f.load()))
-		.catch((e) => console.error('Fuentes', e))
-		.finally(() => continueRender(h));
-}
 
 export const C = {
 	papel: '#fbf6e6',
