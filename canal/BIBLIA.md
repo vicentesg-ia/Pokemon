@@ -139,7 +139,16 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 - **Gancho variable:** cada título busca la curiosidad más potente de ese Pokémon ("El Pokémon que casi fue la mascota de Pokémon").
 - Se proponen **3 opciones** por vídeo y Vicente elige. Se adaptan a cada idioma, no se traducen palabra por palabra.
 
-## 13. Riesgos a vigilar
+## 13. Nombre de los canales
+
+- **Español:** Crónicas del Entrenador · identificador propuesto `@CronicasDelEntrenador`
+- **Inglés:** Trainer Chronicles · identificador propuesto `@TrainerChronicles`
+- Cada vídeo es la "crónica" de un Pokémon. Se puede usar como serie: "Crónica #001: Bulbasaur".
+- **Logo:** el nombre escrito a mano en crayón sobre la tapa de un cuaderno gastado. Une la épica del nombre con el estilo visual. *(Diseño pendiente.)*
+- **Nunca** poner "Poké" delante ni imitar la tipografía o los colores del logo oficial (existió una serie oficial llamada "Pokémon Chronicles").
+- La disponibilidad está comprobada a grandes rasgos; se confirmará al crear los canales.
+
+## 14. Riesgos a vigilar
 
 - **Política de contenido "no auténtico" de YouTube**: hay que evitar los vídeos repetitivos o de poco valor. El valor lo aportan un buen guion, un estilo propio y una revisión de calidad.
 - **Propiedad intelectual de Pokémon**: no usar material oficial (arte, capturas o fragmentos del anime) sin criterio. Hay que cuidar que los diseños generados no sean copias de los oficiales.
@@ -157,4 +166,4 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 - [x] Música y efectos (criterios)
 - [x] Estilo de montaje en Remotion (rótulos en crayón, subtítulos aparte, transiciones)
 - [x] Miniaturas y títulos
-- [ ] Nombres de los canales
+- [x] Nombres de los canales
