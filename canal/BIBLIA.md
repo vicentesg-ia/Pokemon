@@ -47,7 +47,15 @@ Los últimos minutos se dedican a sus **cartas más famosas y más caras** del m
 
 Se mezclan dos estilos:
 
-1. **Ilustraciones 2D estilo crayón**: son la base de la narración. Hay plantillas, unas estáticas y otras con movimientos sutiles. *(Diseño pendiente de definir.)*
+1. **Ilustraciones 2D estilo crayón**: son la base de la narración. Unas son estáticas y otras tienen movimientos sutiles.
+   - **No hay plantillas fijas.** Cada Pokémon tiene escenas propias según su historia y su hábitat: un bosque si vive en el bosque, el mar si es acuático, etc.
+   - **Estilo:** crayón o pastel de ilustrador, con textura pero dibujo cuidado (opción B), o mezcla de Pokémon cuidado con fondo más suelto (opción C). Nunca un dibujo infantil. *(Estilo final pendiente de elegir.)*
+   - **Requisitos de calidad en todas las imágenes:**
+     - **Sombras coherentes** del Pokémon y de los objetos, según la fuente de luz.
+     - **Huellas y rastros** cuando el Pokémon camina o pisa: barro, tierra, nieve, arena…
+     - **La iluminación cambia según la escena:** sol alto, sol bajo, atardecer, nublado, luz filtrada por los árboles… La dirección y la longitud de las sombras tienen que coincidir con esa luz.
+     - **Colores vivos y saturados** que llamen la atención.
+   - **Modelo de imagen:** Nano Banana 2 (Higgsfield). GPT Image bloquea a los personajes de Pokémon por propiedad intelectual.
 2. **Clips realistas generados con Higgsfield**: Pokémon con aspecto realista en momentos clave (evoluciones, planos espectaculares). *(Referencia visual pendiente: capturas o descripción.)*
 
 **Uso de los clips realistas:** no tienen una posición fija. Se colocan donde aporten más.
