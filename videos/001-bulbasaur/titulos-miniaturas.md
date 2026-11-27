@@ -18,6 +18,10 @@
 | M2 | Realista | ¿PLANTA O ANIMAL? | PLANT OR ANIMAL? | `miniaturas/r2_es.jpg`, `r2_en.jpg` | `9c835680-3884-478d-a3b2-02b5b5ee8df8` |
 | M3 | Mixta (crayón + realista) | LA FOTO DE 800.000 $ | A $800K PHOTO | `miniaturas/m3_es.jpg`, `m3_en.jpg` | `0b3204f8-f573-4594-81b6-217a4027b983` |
 
+| ⭐ **M3-carta** | Realista + **foto real de la carta** (pedida por Vicente) | POR ESTA CARTA · 809.943 $ | FOR THIS CARD · $809,943 | `miniaturas/m3card_es.jpg`, `m3card_en.jpg` | Fondo: `22ca8a92…` + carta real |
+
+**Foto de la carta:** recortada de la captura de 130point de Vicente (foto de la venta en Goldin, PSA 8, cert. 165286175), guardada en `cartas/snap-bulbasaur-psa8.png`. Tiene poca resolución (200×330 px, ampliada ×2). ⚠️ Si se consigue una foto en alta resolución de Goldin, se vuelve a renderizar con `herramientas/miniatura-carta.js`.
+
 - El texto se añade con `herramientas/miniaturas.js` (Playwright, 1280×720), sin IA, para que sea exacto en los dos idiomas.
 - Combinaciones que encajan: T1 + M1 o M3 (la foto de 809.943 $) · T2 + M2 (el misterio) · T3 + M1 o M3.
 - Coste: 3 imágenes base, unos 4,5 créditos de Higgsfield.
