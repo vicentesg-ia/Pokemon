@@ -1,6 +1,6 @@
 # Guion · #001 Bulbasaur
 
-> **Estado: ✅ aprobado por Vicente el 2026-11-27** (con el cambio de la escena 6.6: sin personas, todo centrado en Pokémon) · Escrito el 2026-11-27
+> **Estado: en revisión por Vicente** (escena 6.6 ya cambiada: sin personas, todo centrado en Pokémon) · Escrito el 2026-11-27
 > Tipo de cambio usado: **1 € ≈ 1,15 $** (orientativo: las fuentes del 27-11-2026 dan entre 1,12 y 1,16; ⚠️ repasar antes de grabar la voz)
 > Duración estimada: **ES ~10-11 min** (~1.530 palabras) · **EN ~9,5-10 min** (~1.440 palabras). Las pausas, la música y los clips añaden ~30-60 s.
 
