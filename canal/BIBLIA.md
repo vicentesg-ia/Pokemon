@@ -88,8 +88,8 @@ Si es lo que más llama la atención de ese Pokémon, se abre el vídeo con uno 
 - **Las dos voces son masculinas y maduras** (35-45 años): cálidas, como un fan veterano.
 - **No es la misma persona** en los dos idiomas. Se elige la mejor voz para cada uno.
 - Modelo: `eleven_v4`.
-- Voz elegida ES: *(pendiente de elegir entre las muestras)*
-- Voz elegida EN: *(pendiente de elegir entre las muestras)*
+- **Voz elegida ES:** Jose – Narrativo y Natural (`voice_id: C12mZePhNoo0RoTXhSFV`)
+- Voz elegida EN: *(pendiente; favorita por ahora: Christian – Warm Documentary Narrator, `voice_id: KMLpM4tgKxYUlv81Ue0p`)*
 
 ## 10. Riesgos a vigilar
 
